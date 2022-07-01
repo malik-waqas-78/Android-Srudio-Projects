@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="#FFFFFF"
+    android:backgroundTint="@color/white"
+    android:checkable="false"
+    android:elevation="2dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/white">
+
+        <TextView
+            android:id="@+id/tv_data_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Data Title"
+            android:textColor="#000000"
+            app:layout_constraintStart_toEndOf="@+id/iv_data"
+            app:layout_constraintTop_toBottomOf="@+id/cb_data_select" />
+
+        <TextView
+            android:id="@+id/tv_data_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Items,  Size"
+            android:textSize="10sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/tv_pbar_percent"
+            app:layout_constraintStart_toEndOf="@+id/iv_data"
+            app:layout_constraintTop_toBottomOf="@+id/tv_data_title" />
+
+        <ImageView
+            android:id="@+id/iv_data"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_data_info"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_data_title"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <CheckBox
+            android:id="@+id/cb_data_select"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:button="@drawable/drawable_checkbox"
+            android:checked="false"
+            android:clickable="false"
+            android:textColor="@android:color/transparent"
+            android:textColorHighlight="@android:color/transparent"
+            android:textColorHint="@android:color/transparent"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:useMaterialThemeColors="false" />
+
+        <ProgressBar
+            android:id="@+id/pbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/tv_pbar_percent"
+            app:layout_constraintStart_toStartOf="@+id/iv_data"
+            app:layout_constraintTop_toBottomOf="@+id/tv_data_info" />
+
+        <TextView
+            android:id="@+id/tv_pbar_percent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="100%"
+            android:textColor="@color/green"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_2sdp"
+    android:layout_marginBottom="@dimen/_3sdp"
+    android:id="@+id/ll_subchannel_layout">
+
+    // Ide set krny se Episode me List Ka Size Chota ya bara hoga jis me Image Majood hota hai //
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_channel_layout"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+// idr se image k aas paas border set hoga //
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:scaleType="fitXY"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/img_channel_show"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <com.niazitvpro.official.customview.RalewayBoldTextViewPrimaryDark
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Channel Name"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:id="@+id/tv_channel_name"
+                android:focusable="false"
+                android:textSize="@dimen/_11sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/icon_download"
+                android:padding="@dimen/_2sdp"
+                android:id="@+id/img_download"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

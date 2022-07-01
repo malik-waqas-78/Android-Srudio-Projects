@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Cool Door Lock</string>
+    <string name="start">Start</string>
+    <string name="exit_dialog_title">Are you sure to exit?</string>
+    <string name="exit_dialog_desc">Please give your valuable feedback</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="settings">Settings</string>
+    <string name="select_background">Select Background</string>
+    <string name="confirm">Confirm</string>
+    <string name="title_dot_lock">Please Enter Your New Lock Combination</string>
+    <string name="ok">Ok</string>
+
+    <string-array name="intro_titles">
+        <item>@string/app_name</item>
+        <item>New Combination</item>
+        <item>Select Favourite Theme</item>
+    </string-array>
+
+    <string-array name="intro_descriptions">
+        <item>Secure your smartphone with realistic door lock theme. Just click on
+        Enable Lock button set secret password, you can also enable sound effects on
+        unlock.</item>
+        <item>Select your secret password and Click OK button to lock screen
+        with door lock screen.</item>
+        <item>Choose latest theme of Awesome door locks, So that screen locks with your
+        selected theme</item>
+    </string-array>
+
+    <string name="oneMoreLock">One More Lock?</string>
+    <string name="oneMoreLockDesc">You already have setup the System Screen Lock
+    that can\'t be disabled. You will need to unlock the phone twice if you setup
+    Awesome Door Lock Screen.</string>
+    <string name="continueAnyway">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="full_screen_title">Great! One more step disable your system lock</string>
+    <string name="full_screen_desc">So you don\'t need to unlock your phone twice. It\'s safe and easy</string>
+    <string name="no_keep_it">No, I\'ll keep it</string>
+    <string name="ok_disable_it">Ok, Disable it</string>
+
+    <!-- Tell a friend Text-->
+    <string name="initialText">Share this incredible app with your friends and family.
+    Enjoy phone security with a new fancy look</string>
+    <string name="share_subject">Tell a Friend</string>
+    <string name="feedback_hint">Add you valuable feedback here</string>
+    <string name="submit">Submit</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="close">Close</string>
+    <string name="install">Install</string>
+</resources>

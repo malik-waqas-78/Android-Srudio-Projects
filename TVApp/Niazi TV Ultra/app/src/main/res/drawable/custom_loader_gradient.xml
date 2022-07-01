@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<rotate xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:pivotX="50%" android:pivotY="50%" android:fromDegrees="270"-->
+<!--    android:toDegrees="1270"-->
+<!--    android:repeatCount="1000"-->
+<!--    android:fillAfter="true">-->
+
+<!--    <shape android:shape="ring" android:innerRadius="14dp"-->
+<!--        android:thickness="3dp" android:useLevel="false"-->
+<!--        >-->
+
+<!--        <solid android:color="@color/gray"/>-->
+
+<!--        <size android:width="@dimen/_100sdp" android:height="@dimen/_100sdp" />-->
+
+<!--        <gradient android:type="sweep" android:useLevel="false"-->
+<!--            android:startColor="@android:color/transparent" android:centerColor="@color/red_dark"-->
+<!--            android:endColor="@color/red_dark" />-->
+
+<!--    </shape>-->
+
+<!--</rotate>-->
+
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:shape="ring"-->
+<!--android:innerRadiusRatio="2.5"-->
+<!--android:thickness="4dp"-->
+<!--android:useLevel="true">-->
+
+<!--    <size android:width="@dimen/_100sdp" android:height="@dimen/_100sdp" />-->
+
+
+<!--<solid android:color="@color/red_dark"/>-->
+
+<!--</shape>-->
+<!--            <gradient android:type="sweep" android:useLevel="false"-->
+<!--                android:startColor="@android:color/transparent" android:centerColor="@android:color/transparent"-->
+<!--                android:endColor="@color/red_dark" />-->
+
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:pivotX="50%" android:pivotY="50%" android:fromDegrees="270"
+        android:toDegrees="1500"
+        android:repeatCount="1000"
+        android:fillAfter="false">
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadiusRatio="3.5"
+            android:thickness="4dp" android:useLevel="false">
+
+            <solid android:color="@color/gray"/>
+
+            <size android:width="@dimen/_100sdp" android:height="@dimen/_100sdp" />
+
+
+
+    <gradient android:startColor="@color/red_dark"
+        android:centerColor="@color/red_dark"
+        android:type="sweep"
+        android:endColor="@android:color/transparent" />
+
+        </shape>
+
+</rotate>

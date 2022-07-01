@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_menu_item_category_list"
+    android:clickable="true"
+    android:fillViewport="true"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".fragment.MenuCategoryItemsFragment">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:id="@+id/menu_category_item_list"/>
+
+<!--            <com.futuremind.recyclerviewfastscroll.FastScroller-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="end"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_gravity="end"-->
+<!--                android:id="@+id/fast_scroll"/>-->
+
+            <com.niazitvpro.official.customview.RalewayBoldTextViewGray
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone"
+                android:textSize="@dimen/_12sdp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:id="@+id/tv_no_channel"/>
+
+            <ProgressBar
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:indeterminateTint="@color/red_dark"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:id="@+id/progress_home"
+                android:indeterminateDrawable="@drawable/custom_loader_gradient"
+                android:visibility="visible"/>
+
+        </FrameLayout>
+
+</androidx.core.widget.NestedScrollView>

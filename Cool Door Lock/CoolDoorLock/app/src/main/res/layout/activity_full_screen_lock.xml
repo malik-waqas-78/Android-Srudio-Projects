@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/full_screen_lock_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Locks.FullScreenLock">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTimeDate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/door_left_side"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/door_1_1" />
+
+        <RelativeLayout
+            android:id="@+id/door_right_side"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/door_1_2" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/top_simpleLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#373535"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_banner" />
+
+    <RelativeLayout
+        android:id="@+id/time_date_relative_layout"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/metal_bg"
+        android:paddingTop="@dimen/_5sdp"
+        app:layout_constraintBottom_toTopOf="@id/door_handle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_simpleLine">
+
+        <TextClock
+            android:id="@+id/clock_door_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold"
+            tools:text="12:15 PM" />
+
+        <TextView
+            android:id="@+id/date_door_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/clock_door_lock"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            tools:text="17/05/2021" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/door_handle"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/door_handle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutLockPattern"
+        android:layout_width="@dimen/_210sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/metal_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginEnd="@dimen/_3sdp"
+        android:weightSum="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/door_handle"
+        app:layout_constraintVertical_bias="0.80">
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seek_bar_1_lock"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_back_seekbar"
+            android:max="3"
+            android:progress="0"
+            android:progressBackgroundTint="#00000000"
+            android:progressTint="#00000000"
+            android:thumb="@drawable/ic_seekbar_thumb"
+            android:thumbOffset="@dimen/_15sdp" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seek_bar_2_lock"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_back_seekbar"
+            android:max="3"
+            android:progress="0"
+            android:progressBackgroundTint="#00000000"
+            android:progressTint="#00000000"
+
+            android:thumb="@drawable/ic_seekbar_thumb"
+            android:thumbOffset="@dimen/_15sdp" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seek_bar_3_lock"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_back_seekbar"
+            android:max="3"
+            android:progress="0"
+            android:progressBackgroundTint="#00000000"
+            android:progressTint="#00000000"
+            android:thumb="@drawable/ic_seekbar_thumb"
+            android:thumbOffset="@dimen/_15sdp" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seek_bar_4_lock"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_back_seekbar"
+            android:max="3"
+            android:progress="0"
+            android:progressBackgroundTint="#00000000"
+            android:progressTint="#00000000"
+            android:thumb="@drawable/ic_seekbar_thumb"
+            android:thumbOffset="@dimen/_15sdp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/access_denied"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutLockPattern"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/door_handle"
+        app:srcCompat="@drawable/access_denied" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

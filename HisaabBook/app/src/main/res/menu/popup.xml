@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/allTime"
+        android:title="@string/All" />
+    <item android:id="@+id/today"
+        android:title="@string/today" />
+    <item android:id="@+id/lastDay"
+        android:title="@string/Lastday"/>
+    <item android:id="@+id/prsentmonth"
+        android:title="@string/presentmonth" />
+    <item android:id="@+id/previosmonth"
+        android:title="@string/previousmonth" />
+    <item android:id="@+id/presentyear"
+        android:title="@string/presentYear" />
+    <item android:id="@+id/pastyear"
+        android:title="@string/previousYear" />
+</menu>

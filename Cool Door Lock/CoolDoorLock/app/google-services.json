@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "412434345014",
+    "project_id": "cooldoorlock",
+    "storage_bucket": "cooldoorlock.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412434345014:android:126bb3c7892159d274bc97",
+        "android_client_info": {
+          "package_name": "com.ash360.cool.steel.door.lock.screen.free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412434345014-tplfnn80tv33mdhe2mjta8kjihvtof6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDoQyBhx71ii-6L-oLw82Jbb6bF6mwWdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412434345014-tplfnn80tv33mdhe2mjta8kjihvtof6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

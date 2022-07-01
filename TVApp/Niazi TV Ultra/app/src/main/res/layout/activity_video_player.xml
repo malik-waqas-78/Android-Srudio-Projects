@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    tools:context=".activity.VideoPlayerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll_toolbar"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_video_back"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/icon_arrow_back"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:id="@+id/rl_video_view"
+            android:layout_height="@dimen/_300sdp">
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/show_downloaded_video"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:controller_layout_id="@layout/controller_view"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:visibility="visible" />
+
+        <ProgressBar
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:indeterminateDrawable="@drawable/custom_loader_gradient"
+            android:indeterminateTint="@color/red_dark"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/video_progress"
+            android:visibility="gone"/>
+
+
+
+        </RelativeLayout>
+
+        <ToggleButton
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_margin="@dimen/_16sdp"
+            android:textOn=""
+            android:textOff=""
+            android:layout_alignParentEnd="true"
+            android:id="@+id/img_video_full_screen"
+            android:visibility="visible"
+            android:background="@drawable/full_screen_toogle"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rl_ad_layout">
+
+        <LinearLayout
+            android:id="@+id/adView_admob_banner"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_facebook_banner"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

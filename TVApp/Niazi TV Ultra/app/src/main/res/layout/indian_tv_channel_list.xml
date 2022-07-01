@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="@dimen/_2sdp"
+    app:cardPreventCornerOverlap="false"
+    android:background="@color/gray">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_indian_channel_layout"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+
+        <com.niazitvpro.official.utils.RoundRectCornerImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:id="@+id/img_tv_channel"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical">
+
+            <com.niazitvpro.official.customview.RalewayBoldTextViewPrimaryDark
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Channel Name"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:id="@+id/tv_channel_name"
+                android:focusable="false"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

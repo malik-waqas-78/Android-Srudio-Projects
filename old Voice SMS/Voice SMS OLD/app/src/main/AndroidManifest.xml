@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.speak.to">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.speak.to.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VoiceSMS"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.speak.to.Activities.WebViewActivity" />
+        <activity
+            android:name="com.speak.to.Activities.VoiceSearchActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.speak.to.Activities.SearchOptionsList" />
+        <activity android:name="com.speak.to.Activities.VoiceSearchSelectorActivity" />
+        <activity android:name="com.speak.to.Activities.FileViewActivity" />
+        <activity android:name="com.speak.to.Activities.ImageViewActivity" />
+        <activity android:name="com.speak.to.Activities.OpenMessagesActivity" />
+        <activity android:name="com.speak.to.Activities.RecordingActivity" />
+        <activity android:name="com.speak.to.Activities.RecordingListActivity" />
+        <activity android:name="com.speak.to.Activities.PlayAudio" />
+        <activity android:name="com.speak.to.Activities.SelectionActivity" />
+        <activity android:name="com.speak.to.Activities.SendMessageActivity" />
+        <activity android:name="com.speak.to.Activities.SMSActivity" />
+        <activity
+            android:name="com.speak.to.Activities.SplashActivity"
+            android:configChanges="locale|layoutDirection">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.AdActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.speak.to.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

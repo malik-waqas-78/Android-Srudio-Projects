@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="50dp"
+    android:layout_height="230dp"
+    android:background="@android:color/transparent"
+    android:padding="3dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="0dp">
+
+        <TextView
+            android:id="@+id/tv_dataused"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="0.00 kb"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/pbar_dataused"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/pbar_dataused"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="20dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:foregroundGravity="center"
+            android:max="100"
+            android:progressDrawable="@drawable/custom_verticle_progressbar"
+            app:layout_constraintBottom_toTopOf="@+id/iv_appicon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dataused" />
+
+        <ImageView
+            android:id="@+id/iv_appicon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pbar_dataused"
+            app:srcCompat="@drawable/icon_usage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

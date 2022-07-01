@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Check Data Usage</string>
+    <string name="privacy_text">Privacy Policy</string>
+    <string name="privacy_text1">These are the Terms of Service and Privacy Policy of This application. This application which provides you with the Data Usage Monitoring. This privacy policy provides an overview about how we process personal data about users of our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2">Our Privacy Commitment</string>
+    <string name="privacy_text3">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4">Information We Collect</string>
+    <string name="privacy_text5">Permissions in this Application are the Following</string>
+    <string name="privacy_text6">Read Phone State\nAccess Your Internet\nLocation Permissions</string>
+    <string name="privacy_text7">Changes to this Privacy Policy</string>
+    <string name="privacy_text8">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9">Third-party links</string>
+    <string name="privacy_text10">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11">Childrens Privacy</string>
+    <string name="privacy_text12">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13">Contact Us</string>
+    <string name="privacy_text14">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="admob_app_id">ca-app-pub-8860144838332741~5939864807</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.voicesms.voice">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.voicesms.voice.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VoiceSMS"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.voicesms.voice.Activities.WebViewActivity_VS" />
+        <activity
+            android:name="com.voicesms.voice.Activities.VoiceSearchActivity_VS"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.voicesms.voice.Activities.SearchOptionsList_VS" />
+        <activity android:name="com.voicesms.voice.Activities.VoiceSearchSelectorActivity_VS" />
+        <activity android:name="com.voicesms.voice.Activities.FileViewActivity_VS" />
+        <activity android:name="com.voicesms.voice.Activities.ImageViewActivity_VS" />
+        <activity android:name="com.voicesms.voice.Activities.OpenMessagesActivity_VS" />
+        <activity android:name="com.voicesms.voice.Activities.RecordingActivity_VS" />
+        <activity android:name="com.voicesms.voice.Activities.RecordingListActivity_VS" />
+        <activity android:name="com.voicesms.voice.Activities.PlayAudio_VS" />
+        <activity android:name="com.voicesms.voice.Activities.SelectionActivity_VS" />
+        <activity android:name="com.voicesms.voice.Activities.SendMessageActivity_VS" />
+        <activity android:name="com.voicesms.voice.Activities.SMSActivity_VS" />
+        <activity
+            android:name="com.voicesms.voice.Activities.SplashActivity_VS"
+            android:configChanges="locale|layoutDirection">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.voicesms.voice.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

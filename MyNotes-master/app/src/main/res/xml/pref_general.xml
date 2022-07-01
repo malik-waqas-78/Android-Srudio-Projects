@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Delete notes"
+        android:key="delete_notes"
+        android:summary="Delete all your notes. This action is irreversible."/>
+
+    <Preference android:title="Generate notes"
+        android:key="generate_notes"
+        android:summary="This will generate fake notes to show you how the application works."/>
+</PreferenceScreen>

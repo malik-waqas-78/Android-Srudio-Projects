@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="#000">
+
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/main_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:id="@+id/button_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/button_share"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:padding="7dp"
+            android:background="#fff"
+            android:src="@drawable/ic_share" />
+
+        <ImageButton
+
+            android:id="@+id/repost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/button_share"
+            android:padding="7dp"
+         />
+
+        <ImageButton
+
+            android:id="@+id/button_save"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:padding="7dp"
+            android:src="@drawable/ic_downward" />
+
+
+        <ImageButton
+            android:id="@+id/button_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/button_share"
+            android:padding="7dp"
+
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

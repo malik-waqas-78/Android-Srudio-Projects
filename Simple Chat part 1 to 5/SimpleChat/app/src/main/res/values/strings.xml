@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Simple Chat</string>
+    <string name="facebook_application_id">424025142706376</string>
+    <string name="fb_login_protocol_scheme">fb424025142706376</string>
+</resources>

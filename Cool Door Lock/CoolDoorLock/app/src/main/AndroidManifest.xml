@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ash360.cool">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.ash360.cool.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoolDoorLock">
+        <activity
+            android:name="com.ash360.cool.Locks.FullScreenLock"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.CoolDoorLock.fullscreen" />
+        <activity android:name="com.ash360.cool.Locks.DotLock" />
+        <activity android:name=".Activities.AdActivity" />
+        <activity android:name="com.ash360.cool.Activities.DoorSelectionActivity" />
+        <activity android:name="com.ash360.cool.Activities.Settings_DoorLock" />
+        <activity android:name="com.ash360.cool.Activities.IntroSliderActivity_LockScreen" />
+        <activity android:name="com.ash360.cool.Activities.SplashScreen_DoorLock">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.ash360.cool.Services.LockListenerService_DoorLock"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.ash360.cool.Services.BroadCastReceiver_DoorLock"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

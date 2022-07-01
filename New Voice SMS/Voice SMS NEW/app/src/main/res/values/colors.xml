@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#ff3c78dc</color>
+    <color name="purple_700">#ff004daa</color>
+    <color name="teal_200">#ffef295d</color>
+    <color name="teal_700">#BC1C46</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_1">#8383EA</color>
+    <color name="color_2">@color/purple_500</color>
+    <color name="color_3">#ef295d</color>
+    <color name="grad_start">@color/purple_500</color>
+    <color name="grad_end">#3ca5bc</color>
+    <color name="grey">#949494</color>
+</resources>

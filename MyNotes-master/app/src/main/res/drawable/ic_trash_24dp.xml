@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#000"
+        android:name="trash-can-27"
+        android:pathData="m14 2v1h-4v-1zm-4.5 -2c-0.827 0 -1.5 0.673 -1.5 1.5v1.5h-6v2h20v-2h-6v-1.5c0 -0.829 -0.675 -1.5 -1.5 -1.5zm-0.5 9c0.552 0 1 0.448 1 1v9c0 0.552 -0.448 1 -1 1c-0.552 0 -1 -0.448 -1 -1v-9c0 -0.552 0.448 -1 1 -1zm6 0c0.552 0 1 0.448 1 1v9c0 0.552 -0.448 1 -1 1c-0.552 0 -1 -0.448 -1 -1v-9c0 -0.552 0.448 -1 1 -1zm-12 -3v16c0 1.104 0.896 2 2 2h14c1.104 0 2 -0.896 2 -2v-16z" />
+</vector>

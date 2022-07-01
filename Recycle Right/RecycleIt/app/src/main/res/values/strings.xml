@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Recycle Right</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoiZmxhc2gtNDUiLCJhIjoiY2wxeG0wbHY1MDQwdjNqbnJ1NXRobzl6eSJ9.iboxVxfrHV_zCISrwEiW3Q</string>
+    <string name="download_read">sk.eyJ1IjoiZmxhc2gtNDUiLCJhIjoiY2wxbnM1YWNqMHNzcTNjcXIydGh2bnluZCJ9
+        .gzBjqWZn_E2jbDEKHHyGcw</string>
+    <string name="you_have_submitted_following_info">You have submitted following info.</string>
+    <string name="done">Done</string>
+    <string name="total_points">Total Points</string>
+    <string name="your_total_points_are">Your total points are </string>
+    <string name="see_you_soon">See you Soon!</string>
+    <string name="_10_00_11_00_am">10:00-11:00 AM</string>
+    <string name="_02_00_03_00_pm">02:00-03:00 PM</string>
+    <string name="next">Next</string>
+    <string name="what_will_we_be_collecting">What will we be collecting?</string>
+    <string name="paper">Paper</string>
+    <string name="plastic">Plastic</string>
+    <string name="cans">Cans</string>
+    <string name="how_many_bags_nwill_we_be_collecting">How many bags \nwill we be collecting?</string>
+    <string name="get_started">Get Started</string>
+    <string name="ok">ok</string>
+</resources>

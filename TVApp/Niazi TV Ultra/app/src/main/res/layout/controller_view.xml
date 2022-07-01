@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+    android:background="#6A070707"
+    android:id="@+id/controp-l_panel"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:orientation="horizontal">
+
+            <TextView android:id="@id/exo_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingRight="5dp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="0:00"
+                android:includeFontPadding="false"
+                android:textColor="@color/white"
+                android:layout_marginBottom="@dimen/_5sdp"/>
+
+            <com.google.android.exoplayer2.ui.DefaultTimeBar
+                android:id="@id/exo_progress"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                app:scrubber_drawable="@drawable/circle_white"
+                app:scrubber_color="@color/white"
+                app:played_color="@android:color/holo_red_dark"
+                app:unplayed_color="@color/gray"
+                app:buffered_color="@color/light_pink"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_5sdp"/>
+
+            <TextView android:id="@id/exo_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="0:00"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:includeFontPadding="false"
+                android:textColor="@color/white"
+                android:layout_marginBottom="@dimen/_5sdp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1">
+
+            <ImageButton android:id="@+id/exo_rew"
+                android:src="@drawable/icon_fast_backward"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:layout_marginRight="@dimen/_50sdp"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton android:id="@+id/exo_play"
+                    android:src="@drawable/icon_play"
+                    android:scaleType="fitCenter"
+                    android:background="@null"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp" />
+
+                <ImageButton android:id="@+id/exo_pause"
+                    android:src="@drawable/icon_pause"
+                    android:scaleType="fitCenter"
+                    android:background="@null"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp" />
+
+            </LinearLayout>
+
+            <ImageButton android:id="@+id/exo_ffwd"
+                android:src="@drawable/icon_fast_foward"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

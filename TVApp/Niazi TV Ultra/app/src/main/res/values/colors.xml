@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A9A9A9</color>
+    <color name="colorPrimaryDark">#FF2B2A2A</color>
+    <color name="colorAccent">#A9A9A9</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="black">#A9A9A9</color>
+    <color name="gray">#F4F4F4</color>
+    <color name="white">#FEFEFE</color>
+    <color name="myWindowBackground">#EEEEEE</color>
+    <color name="light_gray">#dedede</color>
+    <color name="light_pink">#FF767B</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="red_dark">#990000</color>
+</resources>

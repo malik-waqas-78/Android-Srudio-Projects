@@ -1,0 +1,20 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="fr.colourz.mynotes.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings_general" />
+
+    <header
+        android:fragment="fr.colourz.mynotes.SettingsActivity$DesignPreferenceFragment"
+        android:icon="@drawable/ic_format_color_text_black_24dp"
+        android:title="@string/settings_appearance" />
+
+    <header
+        android:fragment="fr.colourz.mynotes.SettingsActivity$InfoPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/settings_info" />
+
+</preference-headers>

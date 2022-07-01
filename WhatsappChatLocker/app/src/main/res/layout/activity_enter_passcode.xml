@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#008577"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Password"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:gravity="center">
+        <com.andrognito.pinlockview.IndicatorDots
+            android:id="@+id/indicator_dots"
+            app:pinLength="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:dotEmptyBackground="@drawable/unchecked"
+            app:dotFilledBackground="@drawable/checked"
+        />
+    </LinearLayout>
+
+
+    <com.andrognito.pinlockview.PinLockView
+        android:id="@+id/pin_lock_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:pinLength="4"
+        app:keypadTextColor="#FAF9FC"
+        app:keypadTextSize="20dp"
+        app:keypadButtonSize="80dp"
+        app:keypadVerticalSpacing="04dp"
+        app:keypadHorizontalSpacing="10dp"
+        app:keypadDeleteButtonSize="16dp"
+        app:keypadDeleteButtonDrawable="@drawable/ic_backspace_dp"
+        app:keypadShowDeleteButton="true"
+        app:keypadDeleteButtonPressedColor="#B93B3B"
+
+        app:dotDiameter="12dp"
+        app:dotSpacing="16dp"
+        app:indicatorType="fillWithAnimation"/>
+
+</LinearLayout>

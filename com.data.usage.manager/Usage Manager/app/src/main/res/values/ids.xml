@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_txt_speed" type="id" />
+    <item name="nav_ic_speed" type="id" />
+</resources>

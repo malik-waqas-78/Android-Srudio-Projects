@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF7A7F;}
+	.st1{fill:#FFFFFF;}
+</style>
+<g>
+	<circle class="st0" cx="256" cy="256" r="256"/>
+	<g id="Page-1_1_">
+		
+			<image style="overflow:visible;opacity:0.2;enable-background:new    ;" width="252" height="252" xlink:href="FCC3344B.png"  transform="matrix(1 0 0 1 130 133)">
+		</image>
+		<g>
+			<g>
+				<g id="_x30_12---media-grid_10_">
+					<g id="Rectangle-path_44_">
+						<path class="st1" d="M161.5,136.9H219c13.6,0,24.6,11,24.6,24.6V219c0,13.6-11,24.6-24.6,24.6h-57.5
+							c-13.6,0-24.6-11-24.6-24.6v-57.5C136.9,147.9,147.9,136.9,161.5,136.9z"/>
+					</g>
+					<g id="Rectangle-path_43_">
+						<path class="st1" d="M293,136.9h57.5c13.6,0,24.6,11,24.6,24.6V219c0,13.6-11,24.6-24.6,24.6H293c-13.6,0-24.6-11-24.6-24.6
+							v-57.5C268.3,147.9,279.4,136.9,293,136.9z"/>
+					</g>
+					<g id="Rectangle-path_42_">
+						<path class="st1" d="M161.5,268.3H219c13.6,0,24.6,11,24.6,24.6v57.5c0,13.6-11,24.6-24.6,24.6h-57.5
+							c-13.6,0-24.6-11-24.6-24.6V293C136.9,279.4,147.9,268.3,161.5,268.3z"/>
+					</g>
+					<g id="Rectangle-path_41_">
+						<path class="st1" d="M293,268.3h57.5c13.6,0,24.6,11,24.6,24.6v57.5c0,13.6-11,24.6-24.6,24.6H293c-13.6,0-24.6-11-24.6-24.6
+							V293C268.3,279.4,279.4,268.3,293,268.3z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

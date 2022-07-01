@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:id="@+id/ll_native"
+            android:orientation="vertical" />
+
+
+        <com.facebook.ads.NativeAdLayout
+            android:id="@+id/native_banner_ad_container"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_height="@dimen/_120sdp">
+        </com.facebook.ads.NativeAdLayout>
+
+
+</RelativeLayout>

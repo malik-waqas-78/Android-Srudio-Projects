@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="10dp"
+        android:id="@+id/ll_card"
+        android:background="@drawable/toolbar_background"
+        card_view:cardPreventCornerOverlap="false">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toolbar_background">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_drawer_menu"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:src="@drawable/icon_menu" />
+
+                <ImageView
+                    android:id="@+id/img_drawer_back"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:src="@drawable/icon_arrow_back"
+                    android:visibility="gone" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/_7sdp"
+                android:paddingRight="@dimen/_7sdp"
+                android:paddingBottom="@dimen/_7sdp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_menu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <com.niazitvpro.official.customview.RalewayBoldTextViewWhite
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:text=" NIAZI TV"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <com.niazitvpro.official.customview.RalewayBoldTextViewWhite
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/_7sdp"
+                            android:paddingRight="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_7sdp"
+                            android:text="   "
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_11sdp"
+                            android:textStyle="italic"
+                            android:visibility="visible" />
+
+
+                    </LinearLayout>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/et_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_7sdp"
+                        android:background="@drawable/tv_background"
+                        android:drawableLeft="@drawable/icon_search"
+                        android:drawablePadding="@dimen/_3sdp"
+                        android:hint="Search"
+                        android:imeOptions="actionSearch"
+                        android:padding="@dimen/_10sdp"
+                        android:singleLine="true"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="@dimen/_13sdp"
+                        android:visibility="gone" />
+
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/img_drawer_search"
+                    android:layout_width="@dimen/_36sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginRight="@dimen/_1sdp"
+                    android:src="@drawable/searchtv"
+                    android:visibility="visible"/>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_36sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginRight="@dimen/_1sdp">
+
+                    <ImageView
+                        android:id="@+id/img_drawer_notification"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/notifytv" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_notification_count"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="@dimen/_2sdp"
+                        android:background="@drawable/shape_notification"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_notification_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text=""
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/img_drawer_share"
+                    android:layout_width="@dimen/_36sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/sharetv" />
+
+                <ImageView
+                    android:id="@+id/icon_my_download"
+                    android:layout_width="@dimen/_36sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:padding="@dimen/_6sdp"
+                    android:src="@drawable/download" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </androidx.cardview.widget.CardView>
+
+
+    <FrameLayout
+        android:id="@+id/frame_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_card"
+        android:layout_marginTop="0dp" />
+
+
+    <ProgressBar
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:indeterminateDrawable="@drawable/custom_loader_gradient"
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminateTint="@color/red_dark"
+        android:id="@+id/home_progress"/>
+
+</RelativeLayout>

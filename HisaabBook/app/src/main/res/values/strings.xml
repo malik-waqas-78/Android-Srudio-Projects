@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HissabBookApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cash_in">+ Cash In</string>
+    <string name="cash_out">- Cash Out</string>
+    <string name="save">Save</string>
+    <string name="netBalance">Net Balance</string>
+    <string name="totalin">Total In +</string>
+    <string name="totalout">Total Out -</string>
+    <string name="hintSearch">Search By Remarks</string>
+    <string name="hintRemarks">Main Tag Remarks</string>
+    <string name="hintAmount">Amount</string>
+    <string name="update">Update</string>
+    <string name="addmore">Add Sub Record</string>
+    <string name="hinttextamount">Amount here</string>
+    <string name="addmorerec">Add Record </string>
+    <string name="hintRemarksSub">Sub Remarks</string>
+    <string name="filter">Filter</string>
+    <string name="alltime">Duration</string>
+    <string name="bycash_in">By Cash In</string>
+    <string name="bycash_out">By Cash Out</string>
+    <string name="byNone">Select None</string>
+    <string name="filterByInstr">How do you want to filter. Kindly Select one of the following</string>
+    <string name="today">Today</string>
+    <string name="presentmonth">Present Month</string>
+    <string name="previousmonth">Previous Month</string>
+    <string name="presentYear">Present Year</string>
+    <string name="previousYear">Previous Year</string>
+    <string name="All">All Time</string>
+    <string name="Lastday">Yesterday</string>
+</resources>

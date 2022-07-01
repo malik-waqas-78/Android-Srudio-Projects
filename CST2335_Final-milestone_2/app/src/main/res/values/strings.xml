@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Guardian Search</string>
+    <string name="List">List</string>
+    <string name="search">Search</string>
+    <string name="textview">SearchBox</string>
+    <string name="searchFiler">Type Search Here</string>
+    <string name="guardianSearchBtn">Search Guardian News</string>
+    <string name="deleteSearchSB">Delete</string>
+    <string name="searchItemAD">Details</string>
+    <string name="searchItemADTitle">Details</string>
+    <string name="searchAlertTitle">Search Details</string>
+    <string name="searchAlertMessage">Search Details:</string>
+    <string name="searchAlertDelete">Delete</string>
+    <string name="searchAlertDismiss">Dismiss</string>
+    <string name="searchItemTitle">Title</string>
+    <string name="app_logo">App Logo</string>
+    <string name="searchToast">Searching Guarding News</string>
+    <string name="searchItemSection">Section</string>
+    <string name="searchItemUrl">URL</string>
+
+
+</resources>

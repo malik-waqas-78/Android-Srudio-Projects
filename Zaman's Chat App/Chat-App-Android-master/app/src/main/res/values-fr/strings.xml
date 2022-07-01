@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chat App</string>
+    <string name="title_chats">Discussions</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_users">utilisateurs</string>
+    <string name="title_settings">Les paramètres</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_chat">Discuter</string>
+    <string name="user_image">Image de l\'utilisateur</string>
+    <string name="accept">J\'accepte</string>
+    <string name="decline">Déclin</string>
+    <string name="enter_message">Entrer un message</string>
+    <string name="send">ENVOYER</string>
+    <string name="create_a_new_account">créer un nouveau compte</string>
+    <string name="display_name">Afficher un nom</string>
+    <string name="email">E-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="create">Créer</string>
+    <string name="login_to_your_account">Connectez-vous à votre compte</string>
+    <string name="add_friend">Ajouter un ami</string>
+    <string name="remove_friend">supprimer un ami</string>
+    <string name="accept_friend_request">Accepter l\'invitation d\'un ami</string>
+    <string name="request_sent">Demande envoyée</string>
+    <string name="decline_friend_request">Refuser la demande d\'ami</string>
+    <string name="change_image">changer l\'image</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="change_status">Changer le statut</string>
+    <string name="create_account">créer un compte</string>
+    <string name="new_friend_request">Nouvelle demande d\'ami</string>
+    <string name="login">connexion</string>
+    <string name="welcome_to_quick_chat">Bienvenue sur le chat rapide</string>
+    <string name="login_or_create_an_account_to_get_started">Connectez-vous ou créez un compte pour commencer</string>
+    <string name="chat_icon">Icône de discussion</string>
+</resources>

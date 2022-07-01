@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_webpage"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context=".fragment.WebPageLoadFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+
+        <RelativeLayout
+            android:id="@+id/nonVideoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/refresh_webpage">
+
+
+                <com.niazitvpro.official.utils.VideoEnabledWebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/videoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- View that will be shown while the fullscreen video loads. For example you could include
+            a "Loading..." message. However, in this particular example this view is actually defined in
+            view_loading_video.xml and inflated programmatically in ExampleActivity.java. The reason for
+            this is to keep the main layout (this file) cleaner. -->
+            <!-- <View
+                android:id="@+id/videoLoading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="invisible" /> -->
+
+        </RelativeLayout>
+
+
+
+        <ProgressBar
+            android:id="@+id/google_progress"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:indeterminateDrawable="@drawable/custom_loader_gradient"
+            android:indeterminateTint="@color/red_dark"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_width="@dimen/_40sdp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_ad_layout"
+        android:background="@android:color/black">
+
+        <LinearLayout
+            android:id="@+id/adView_admob_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_facebook_banner"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

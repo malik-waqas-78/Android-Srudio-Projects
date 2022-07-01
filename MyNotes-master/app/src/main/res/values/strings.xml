@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">My Notes</string>
+
+    <!-- ACTIVITIES TITLES -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_add">New note</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+    <!-- MENU -->
+    <string name="action_settings">Settings</string>
+    <string name="action_order">Sort by</string>
+
+    <!-- HINTS -->
+    <string name="title_hint">Title</string>
+    <string name="content_hint">Content</string>
+
+    <!-- ALERT DIALOGS -->
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ignore">Ignore</string>
+    <string name="save">Save</string>
+    <string name="undo">Undo</string>
+    <string name="done">Done</string>
+
+    <!-- DATES -->
+    <string name="date_last_modification">Last modified on:</string>
+    <string name="date_creation">Created on:</string>
+
+    <!-- EDIT -->
+    <string name="edit_delete_confirm">Do you really want to delete this note?</string>
+    <string name="edit_save_confirm">Do you want to save this note?</string>
+    <string name="edit_note_saved">Note saved.</string>
+    <string name="edit_note_deleted">Note deleted.</string>
+    <string name="edit_note_exists">Another note with the same title already exists.</string>
+    <string name="edit_no_changes">No changes saved.</string>
+    <string name="edit_missing_title">You must give your note a title.</string>
+
+    <!-- MAIN SECTION -->
+    <string name="main_search">Explore all notes</string>
+
+    <!-- SETTINGS SECTION -->
+    <string name="settings_general">General</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_info">Info</string>
+    <string name="settings_delete_confirm">Do you really want to delete all your notes? This action is irreversible.</string>
+    <string name="settings_delete_confirmation">All notes have been successfully deleted.</string>
+    <string name="settings_generate_confirmation">Notes have been successfully generated.</string>
+    <string name="settings_dark_theme_switch">Go back to main activity to see changes.</string>
+
+</resources>

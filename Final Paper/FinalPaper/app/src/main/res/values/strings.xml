@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Final Paper</string>
+    <string-array name="ticket_type">
+        <item>Standard</item>
+        <item>Premium</item>
+    </string-array>
+</resources>

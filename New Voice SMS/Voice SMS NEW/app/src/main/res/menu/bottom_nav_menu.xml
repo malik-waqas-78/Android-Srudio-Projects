@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_nav_copy"
+        android:icon="@drawable/ic_copy"
+        android:iconTint="@color/color_2"
+        android:title="@string/menu_copy" />
+
+    <item
+        android:id="@+id/bottom_nav_image"
+        android:icon="@drawable/ic_image"
+        android:iconTint="@color/color_2"
+        android:title="@string/menu_image" />
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/bottom_nav_documents"
+        android:icon="@drawable/ic_documents"
+        android:iconTint="@color/color_2"
+        android:title="@string/menu_documents" />
+
+    <item
+        android:id="@+id/bottom_nav_save"
+        android:icon="@drawable/ic_save"
+        android:iconTint="@color/color_2"
+        android:title="@string/menu_save" />
+
+</menu>

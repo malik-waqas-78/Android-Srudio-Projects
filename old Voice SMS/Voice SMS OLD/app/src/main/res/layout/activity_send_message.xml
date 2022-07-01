@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activities.SendMessageActivity">
+
+    <RelativeLayout
+        android:id="@+id/top_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/top_simpleLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#373535"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_banner" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_simpleLine">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/gradient_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/ic_back_arrow"
+            app:popupTheme="@style/Theme.Navigation_drawer_test.PopupOverlay"
+            app:title="@string/share_to"
+            app:titleTextColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/img_send_activity"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:srcCompat="@drawable/send_messages_activity_image" />
+
+        <Button
+            android:id="@+id/whatsapp_button"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:elevation="@dimen/_4sdp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:padding="0dp"
+            android:stateListAnimator="@null"
+            android:translationZ="@dimen/_4sdp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_whatsapp"
+            app:iconGravity="textTop"
+            app:iconPadding="0dp"
+            app:iconSize="@dimen/_32sdp"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toBottomOf="@+id/insta_button"
+            app:layout_constraintEnd_toStartOf="@+id/insta_button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/insta_button"
+            app:layout_constraintVertical_bias="0.0"
+            app:shapeAppearanceOverlay="@style/Widget.MaterialComponents.Button.Icon" />
+
+        <TextView
+            android:id="@+id/text_whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/app_whatsapp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="@+id/whatsapp_button"
+            app:layout_constraintStart_toStartOf="@+id/whatsapp_button"
+            app:layout_constraintTop_toBottomOf="@+id/whatsapp_button" />
+
+        <Button
+            android:id="@+id/insta_button"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:elevation="@dimen/_4sdp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:padding="0dp"
+            android:stateListAnimator="@null"
+            android:translationZ="@dimen/_4sdp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_instagram"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="@dimen/_32sdp"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toTopOf="@+id/viber_button"
+            app:layout_constraintEnd_toStartOf="@+id/twitter_button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/whatsapp_button"
+            app:layout_constraintTop_toBottomOf="@+id/img_send_activity"
+            app:shapeAppearanceOverlay="@style/Widget.MaterialComponents.Button.Icon" />
+
+        <TextView
+            android:id="@+id/text_instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/app_instagram"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="@+id/insta_button"
+            app:layout_constraintStart_toStartOf="@+id/insta_button"
+            app:layout_constraintTop_toBottomOf="@+id/insta_button" />
+
+        <Button
+            android:id="@+id/twitter_button"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:elevation="@dimen/_4sdp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:padding="0dp"
+            android:stateListAnimator="@null"
+            android:translationZ="@dimen/_4sdp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_twitter"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="@dimen/_32sdp"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toBottomOf="@+id/insta_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/insta_button"
+            app:layout_constraintTop_toTopOf="@+id/insta_button"
+            app:shapeAppearanceOverlay="@style/Widget.MaterialComponents.Button.Icon" />
+
+        <TextView
+            android:id="@+id/text_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/app_twitter"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="@+id/twitter_button"
+            app:layout_constraintStart_toStartOf="@+id/twitter_button"
+            app:layout_constraintTop_toBottomOf="@+id/twitter_button" />
+
+        <Button
+            android:id="@+id/messenger_button"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:elevation="@dimen/_4sdp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:padding="0dp"
+            android:stateListAnimator="@null"
+            android:translationZ="@dimen/_4sdp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_messenger"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="@dimen/_32sdp"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toBottomOf="@+id/viber_button"
+            app:layout_constraintEnd_toStartOf="@+id/viber_button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/viber_button"
+            app:shapeAppearanceOverlay="@style/Widget.MaterialComponents.Button.Icon" />
+
+        <TextView
+            android:id="@+id/text_messenger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/app_messenger"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="@+id/messenger_button"
+            app:layout_constraintStart_toStartOf="@+id/messenger_button"
+            app:layout_constraintTop_toBottomOf="@+id/messenger_button" />
+
+        <Button
+            android:id="@+id/viber_button"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:elevation="@dimen/_4sdp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:padding="0dp"
+            android:stateListAnimator="@null"
+            android:translationZ="@dimen/_4sdp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_viber"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="@dimen/_32sdp"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/messages_button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/messenger_button"
+            app:layout_constraintTop_toBottomOf="@+id/insta_button"
+            app:shapeAppearanceOverlay="@style/Widget.MaterialComponents.Button.Icon" />
+
+        <TextView
+            android:id="@+id/text_viber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/app_viber"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="@+id/viber_button"
+            app:layout_constraintStart_toStartOf="@+id/viber_button"
+            app:layout_constraintTop_toBottomOf="@+id/viber_button" />
+
+        <Button
+            android:id="@+id/messages_button"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:elevation="@dimen/_4sdp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:padding="0dp"
+            android:stateListAnimator="@null"
+            android:translationZ="@dimen/_4sdp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_messages"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toBottomOf="@+id/viber_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/viber_button"
+            app:layout_constraintTop_toTopOf="@+id/viber_button"
+            app:shapeAppearanceOverlay="@style/Widget.MaterialComponents.Button.Icon" />
+
+        <TextView
+            android:id="@+id/text_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/app_messages"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="@+id/messages_button"
+            app:layout_constraintStart_toStartOf="@+id/messages_button"
+            app:layout_constraintTop_toBottomOf="@+id/messages_button" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

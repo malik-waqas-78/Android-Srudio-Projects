@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
+
+    <RelativeLayout
+        android:id="@+id/bannerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fragments_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bannerContainer">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/nav_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/nav_txt_wifi"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="30dp"
+                android:gravity="center"
+                android:text="WIFI"
+                android:textAlignment="center"
+                android:textColor="@color/dark_orange"
+                android:textSize="12sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nav_txt_mobile"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <ImageView
+                android:id="@+id/nav_ic_wifi"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nav_ic_mobile"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_wifi_nav" />
+            <TextView
+                android:id="@+id/nav_txt_mobile"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="MOBILE"
+                android:textAlignment="center"
+                android:textColor="@color/dark_orange"
+                android:textSize="12sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nav_txt_plan"
+                app:layout_constraintStart_toEndOf="@+id/nav_txt_wifi"
+                app:layout_constraintTop_toTopOf="parent" />
+            <ImageView
+                android:id="@+id/nav_ic_mobile"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nav_ic_dataplan"
+                app:layout_constraintStart_toEndOf="@+id/nav_ic_wifi"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_mobile" />
+
+            <TextView
+                android:id="@+id/nav_txt_plan"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="PLAN"
+                android:textAlignment="center"
+                android:textColor="@color/dark_orange"
+                android:textSize="12sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/nav_txt_speed"
+                app:layout_constraintStart_toEndOf="@+id/nav_txt_mobile"
+                app:layout_constraintTop_toTopOf="parent" />
+            <ImageView
+                android:id="@+id/nav_ic_dataplan"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/nav_ic_mobile"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/nav_ic_speed"
+                app:srcCompat="@drawable/ic_plan" />
+            <TextView
+                android:id="@+id/nav_txt_speed"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:text="SPEED"
+                android:textAlignment="center"
+                android:textColor="@color/dark_orange"
+                android:textSize="12sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/nav_txt_plan"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/nav_ic_speed"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="22dp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/nav_ic_dataplan"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_speedtest" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--
+<ScrollView
+android:id="@+id/scrollView2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:paddingBottom="50dp"
+app:layout_constraintBottom_toTopOf="@+id/tv_msg"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent">
+
+<com.facebook.ads.NativeAdLayout
+    android:id="@+id/native_ad_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" />
+
+</ScrollView>-->

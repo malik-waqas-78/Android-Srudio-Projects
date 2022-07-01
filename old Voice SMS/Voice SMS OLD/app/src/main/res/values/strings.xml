@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">VoiceSMS</string>
+    <string name="menu_new">New</string>
+    <string name="menu_open_message">Open Message</string>
+    <string name="menu_save_message">Save Message</string>
+    <string name="menu_delete_all">Delete All</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_rate_us">Rate Us</string>
+    <string name="privacypolicy_text"><u><b>Privacy Policy</b></u></string>
+    <string name="start">Start</string>
+    <string name="result_textView">Speak to Add text here</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_image">Image</string>
+    <string name="menu_documents">Documents</string>
+    <string name="menu_save">Save</string>
+
+
+    <!--  Sting Values for General Dialog Box  -->
+    <!--  New Drawer Dialog Box  -->
+    <string name="nav_new_title">Create New Voice SMS</string>
+    <string name="nav_new_desc">Do you want to create new sms? Your current progress will be lost.</string>
+
+
+    <!--  Delete Drawer Dialog Box  -->
+    <string name="nav_delete_title">Delete all</string>
+    <string name="nav_delete_desc">Do you want to delete all your saved messages?</string>
+
+    <!--  Clear Home Dialog Box  -->
+    <string name="main_clear_text_title">Clear Text/Images</string>
+    <string name="main_clear_text_desc">Do you want to clear the Text/Images?</string>
+
+    <!--  Send Message Dialog  -->
+
+    <!--  SExit Dialog  -->
+    <string name="exit_dialog_desc">Do you want to exit "VoiceSMS"?</string>
+
+    <!-- General String   -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+
+    <!-- Privacy Policy -->
+    <string name="privacy_text">Privacy Policy</string>
+    <string name="privacy_text1">These are the Terms of Service and Privacy Policy of This application.
+        This application provides with Voice Messaging feature with speech-to-text support.
+        This privacy policy provides an overview about how we process personal data of our application users.
+        We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2">Our Privacy Commitment</string>
+    <string name="privacy_text3">This application respects your right to privacy.
+        Your ability to make informed choices about the use of your information is important to us.
+        We collect several different types of information for various purposes to provide and
+        improve our Services to you. </string>
+    <string name="privacy_text4">Information We Collect</string>
+    <string name="privacy_text5">This application requires following permissions to work properly</string>
+    <string name="privacy_text6">Microphone \n Storage</string>
+    <string name="privacy_text7">Changes to Privacy Policy</string>
+    <string name="privacy_text8">We may change this privacy policy from time to time by posting the
+        most current privacy policy and its effective date.
+        In case we change this privacy policy substantially,
+        we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9">Third-party links</string>
+    <string name="privacy_text10">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11">Children\'s Privacy</string>
+    <string name="privacy_text12">Our Service does not address anyone under the age of 18 ("Children").
+        We do not knowingly collect personally identifiable information from anyone under the age of 18.
+        If you are a parent or guardian and you are aware that your Children has provided us with Personal Data,
+        please contact us. If we become aware that we have collected Personal Data from children without
+        verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13">Contact Us</string>
+    <string name="privacy_text14">If you have any questions about this Privacy Policy, please contact us.</string>
+    <string name="accept_and_continue">Accept and Continue</string>
+
+    <!-- Recording List Screen-->
+    <string name="recording_item_menu_option_rename">Rename</string>
+    <string name="recording_item_menu_option_delete">Delete</string>
+    <string name="recording_item_menu_option_share">Share</string>
+    <string name="no_item_in_recording_list">No recordings found</string>
+    <string name="enter_new_name">Enter new file name</string>
+    <string name="file_extension">.mp3</string>
+    <string name="tap_to_stop">Tap to Stop Recording</string>
+    <string name="tap_to_start">Tap to Start Recording</string>
+
+    <!-- Permission Handlers-->
+
+    <!-- Tell a friend Text-->
+    <string name="initialText">Share this incredible app with your friends and family and enjoy the leisure of typing with voice.</string>
+    <string name="share_subject">Tell a Friend</string>
+
+    <!-- App Names-->
+    <string name="app_instagram">Instagram</string>
+    <string name="app_whatsapp">Whatsapp</string>
+    <string name="app_twitter">Twitter</string>
+    <string name="app_messenger">Messenger</string>
+    <string name="app_viber">Viber</string>
+    <string name="app_messages">Messages</string>
+
+    <!-- Recording List -->
+    <string name="no_item_in_saved_messages_list">No saved messages found</string>
+    <string name="share_to">Share</string>
+
+    <!-- Clear Text/Images -->
+    <string name="clear_images">Images</string>
+    <string name="clear_text">Text</string>
+    <string name="clear_both">Both</string>
+
+    <string name="delete_title">Delete Recording File?</string>
+    <string name="delete_desc">This will delete the file permanently and you won\'t be able to recover it.</string>
+    <string name="delete">Delete</string>
+
+    <!--  Play Activity  -->
+    <string name="time">00:00:00</string>
+    <string name="voice_search_shopping">Shopping</string>
+    <string name="vocie_search">Voice Search</string>
+    <string name="voice_search_others">Others</string>
+    <string name="voice_search_sengine">Search Engine</string>
+    <string name="voice_search_social">Social Apps</string>
+    <string name="voice_search_comms">Communications</string>
+
+    <!--  Shopping  -->
+    <string name="amazon">Amazon</string>
+    <string name="alibaba">Alibaba</string>
+    <string name="daraz">Daraz.pk</string>
+    <string name="olx">Olx</string>
+    <string name="ebay">Ebay</string>
+    <string name="aliexpress">AliExpress</string>
+
+    <!--  Search Engines  -->
+    <string name="google">Google</string>
+    <string name="bing">Bing</string>
+    <string name="duckduckgo">Duck Duck Go</string>
+    <string name="yahoo">Yahoo</string>
+    <string name="wikipedia">Wikipedia</string>
+
+    <!--  Community  -->
+    <string name="reddit">Reddit</string>
+    <string name="quora">Quora</string>
+    <string name="flipboard">Flipboard</string>
+    <string name="msn">MSN</string>
+
+    <!--  Social Media Apps  -->
+    <string name="facebook">Facebook</string>
+    <string name="youtube">Youtube</string>
+    <string name="tiktok">TikTok</string>
+    <string name="pinterest">Pinterest</string>
+
+    <!--  Others  -->
+    <string name="medium">Medium</string>
+    <string name="stack_overflow">Stack Overflow</string>
+    <string name="imdb">IMDB</string>
+    <string name="maps">Google Maps</string>
+
+    <!--  Voice Search Activity  -->
+    <string name="voice_search">Voice Search</string>
+    <string name="clear_text_search">Clear Text?</string>
+    <string name="main_clear_text_desc_search">Do you want to clear the text?</string>
+    <string name="deleteMessage">Delete Message?</string>
+    <string name="deleteMessageDesc">This will delete the saved mesaage, Are you sure?</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_clear">Clear</string>
+    <string name="close">Close</string>
+    <string name="install">Install</string>
+
+</resources>

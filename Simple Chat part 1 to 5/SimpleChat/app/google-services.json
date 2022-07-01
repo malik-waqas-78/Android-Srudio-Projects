@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "376510574189",
+    "project_id": "messenger-560d3",
+    "storage_bucket": "messenger-560d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376510574189:android:eb56fbcde5128d81611964",
+        "android_client_info": {
+          "package_name": "com.example.simplechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376510574189-1jf6pv4raktp39b1llo0r3m7o2ul5v0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvkxgMt8hNLxJ7CSpZ0WnA6H9jQlJP6xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376510574189-1jf6pv4raktp39b1llo0r3m7o2ul5v0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

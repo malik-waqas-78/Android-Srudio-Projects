@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share_menu"
+        android:title="Share" />
+    <item
+        android:id="@+id/save_menu_btn"
+        android:title="Save"
+        android:icon="@drawable/ic_saved"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/open_file_menu"
+        android:title="Open File" />
+    <item
+        android:id="@+id/background_color_menu"
+        android:title="Change Background Color" />
+    <item
+        android:id="@+id/setting_menu"
+        android:title="Setting" />
+</menu>

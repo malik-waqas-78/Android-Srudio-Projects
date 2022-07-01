@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:selectable="false"
+        android:enabled="true"
+        android:key="nbNotes_key"
+        android:title="Notes"
+        android:summary="0 notes" />
+    <Preference
+        android:selectable="false"
+        android:enabled="true"
+        android:key="example_key"
+        android:title="Developer"
+        android:summary="Martin Marx" />
+    <Preference
+        android:selectable="false"
+        android:enabled="true"
+        android:key="example_key"
+        android:title="App version"
+        android:summary="v1.0" />
+    <Preference
+        android:selectable="false"
+        android:enabled="true"
+        android:key="example_key"
+        android:title="Special thanks"
+        android:summary="- Griffith College Cork\n- coolors.co\n- Stack Overflow\n- Android Developers" />
+</PreferenceScreen>

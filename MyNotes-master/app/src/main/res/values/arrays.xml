@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colors_array">
+        <item>Default</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+    </string-array>
+
+    <string-array name="order_by">
+        <item>Title (ascending)</item>
+        <item>Title (descending)</item>
+        <item>Date modified (ascending)</item>
+        <item>Date modified (descending)</item>
+        <item>Date created (ascending)</item>
+        <item>Date created (descending)</item>
+    </string-array>
+
+    <string-array name="pref_date_format_titles">
+        <item>dd/mm/yyyy</item>
+        <item>dd-Month-yyyy</item>
+        <item>mm-dd-yyyy</item>
+    </string-array>
+
+    <string-array name="pref_date_format_values">
+        <item>ddmmyyyy</item>
+        <item>ddmmmyyyy</item>
+        <item>mmddyyyy</item>
+    </string-array>
+
+    <string-array name="pref_notes_format_titles">
+        <item>Regular</item>
+        <item>Compact</item>
+    </string-array>
+
+    <string-array name="pref_notes_format_values">
+        <item>regular</item>
+        <item>compact</item>
+    </string-array>
+</resources>

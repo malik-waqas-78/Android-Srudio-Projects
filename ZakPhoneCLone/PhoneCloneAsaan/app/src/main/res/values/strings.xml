@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Phone Clone</string>
+    <string name="data_stored">Data Has Been Stored.</string>
+    <string name="privacy_text">Privacy Policy</string>
+
+    <string name="privacy_text1">These are the Terms of Service and Privacy Policy of This application. This application which provides you the service of cloning your phone. This privacy policy provides an overview about how we process personal data about users of our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+
+    <string name="privacy_text2">Our Privacy Commitment</string>
+
+    <string name="privacy_text3">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+
+    <string name="privacy_text4">Information We Collect</string>
+
+    <string name="privacy_text5">Permissions in this Application are the Following</string>
+
+    <string name="privacy_text6">Write External Storage \nRead External Storage \nRead\\Write Contacts \nCamera \nLocation \nRead\\Write call logs \nInstall Aplications</string>
+
+    <string name="privacy_text7">Changes to this Privacy Policy</string>
+
+    <string name="privacy_text8">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+
+    <string name="privacy_text9">Third-party links</string>
+
+    <string name="privacy_text10">We do not include or offer third-party products or services in  our application.</string>
+
+    <string name="privacy_text11">Children\'s Privacy</string>
+
+    <string name="privacy_text12">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+
+    <string name="privacy_text13">Contact Us</string>
+
+    <string name="privacy_text14">If you have any questions about this Privacy Policy, please contact us:</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="share_message">Hey check out this app to share data or to clone your new phone from your old phone.</string>
+    <string name="play_store_link">https://play.google.com/store/apps/details?id=</string>
+    <string name="update_title">Update Available</string>
+    <string name="update_msg">Please update app to get better performance.</string>
+    <string name="phone_data_clone">Phone Clone</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="transfer_data_from_old_to_new_device_in_easy_steps">The easiest way to transfer data to your new phone</string>
+    <string name="receive_data">Receive Data</string>
+    <string name="send_data">Send Data</string>
+    <string name="new_phone">New Phone</string>
+    <string name="old_phone">Old Phone</string>
+    <string name="_192_168_0_1">192.168.0.1</string>
+    <string name="device_name">Device Name</string>
+    <string name="searching_devices">Searching Devices</string>
+    <string name="please_tap_on_the_device_name_you_want_to_connect_to">Please tap on the device name you want to connect to.</string>
+    <string name="select_data_to_send">Select Data</string>
+    <string name="total_data_selected">0.00 Mb Selected Data</string>
+    <string name="text_view">text_view</string>
+    <string name="fetching_data">Retrieving Data To Share</string>
+    <string name="preparing_data">Please Wait\nGetting Data ready to send</string>
+    <string name="done">done</string>
+    <string name="save_contacts">Save Contacts</string>
+    <string name="select_the_contacts_which_you_want_to_save">Select the contacts which you want to save</string>
+    <string name="save">save</string>
+    <string name="next">Next</string>
+    <string name="title">Title</string>
+    <string name="message">message</string>
+    <string name="update">Update</string>
+    <string name="skip">Skip</string>
+    <string name="view_all">View All</string>
+    <string name="please_turn_off_hotspot_to_continue_nif_hotspot_is_off_than_plz_turn_it_on_and_off">Please Turn off Hotspot to continue.\nIf Hotspot is off than plz turn it on and off.</string>
+    <string name="no_thanks">NO,Thanks</string>
+    <string name="yes_sure">YES, SURE</string>
+    <string name="usable">usable</string>
+    <string name="install_apps">Install Apps</string>
+    <string name="install_applications_by_clicking_the_install_button">Install applications by clicking the install button</string>
+    <string name="transfer_has_been_completed_nplease_click_ok_to_start_saving_data_to_the_device">Transfer Has been Completed.\nPlease click ok to start saving data to the device.</string>
+    <string name="transfer_has_been_completed">Transfer Has been Completed.</string>
+
+    <string name="store_contacts">Store contacts</string>
+    <string name="if_you_want_to_store_contacts_please_click_next_and_select_contacts_you_want_to_store">If you want to store contacts please click nextand select contacts you want to store.</string>
+
+    <string name="cancel">cancel</string>
+    <string name="allow">Allow</string>
+    <string name="don_t_allow">Don\'t Allow</string>
+    <string name="exit">EXIT</string>
+    <string name="are_you_sure_you_want_to_exit">Are you sure you want to exit?</string>
+    <string name="rate_us">RATE US</string>
+    <string name="something_went_wrong_while_transfering_data">Something went wrong while transfering data.</string>
+    <string name="ok">ok</string>
+    <string name="decoding_data_please_wait">Decoding data please wait</string>
+    <string name="please_make_sure_that_you_have_saved_necessary_contacts_ndo_you_want_to_continue_saving_contacts">Please make sure that you have saved necessary contacts.\nDo you want to continue saving contacts?</string>
+    <string name="yes">Yes</string>
+    <string name="no">NO</string>
+    <string name="during_data_transfer_back_button_is_disabled_because_it_can_stop_data_transfer_nplease_wait_until_transfer_is_completed_thanks">During Data transfer Back button is disabled because it can stop data Transfer.\nPlease wait until transfer is completed. Thanks.</string>
+    <string name="please_make_sure_you_have_installed_all_the_applications_if_you_want_to_install_apps_latter_you_can_install_by_opening_hsfile_manager_n_phone_clone_ndo_you_want_to_continue_installing"><![CDATA[Please make sure you have installed all the applications. If you want to install apps latter you can install by opening HSFile manager\n->Phone Clone.\nDo you want to continue installing?]]></string>
+    <string name="install">Install</string>
+    <string name="saving_data_to_device">Saving data to device</string>
+    <string name="calendar">Calendar</string>
+    <string name="calllogs">CallLogs</string>
+    <string name="pictures">Pictures</string>
+    <string name="videos">Videos</string>
+    <string name="contacts">Contacts</string>
+    <string name="applications">Applications</string>
+    <string name="audios">Audios</string>
+    <string name="documents">Documents</string>
+    <string name="invite">Invite</string>
+    <string name="let_s_go">Let\'s Go</string>
+</resources>

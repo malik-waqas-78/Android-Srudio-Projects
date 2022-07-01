@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spinnerItems">
+        <item>GB</item>
+        <item>MB</item>
+    </array>
+    <array name="simitems">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </array>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/ll_subcat_main"
+    android:clickable="true"
+    tools:context=".fragment.ChannelSubcategoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_190sdp"
+                android:id="@+id/rl_videoview"
+                android:gravity="center_horizontal"
+                android:background="@android:color/black">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_190sdp"
+                    android:src="@drawable/player"
+                    android:id="@+id/img_preview"
+                    android:scaleType="fitXY"/>
+
+                <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+                    android:id="@+id/videoview_subchannel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    app:show_timeout="0"
+                    ads:controller_layout_id="@layout/controller_view"
+                    app:resize_mode="fill" />
+
+                <ProgressBar
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/progress_video"
+                    android:progress="50"
+                    android:visibility="gone"
+                    android:indeterminateDrawable="@drawable/custom_loader_gradient"
+                    android:indeterminateTint="@color/red_dark"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Name"
+                android:id="@+id/tv_show_name"
+                android:paddingTop="@dimen/_10sdp"
+                android:background="@android:color/black"
+                android:layout_below="@id/rl_videoview"
+                android:paddingBottom="@dimen/_10sdp"
+                android:textSize="@dimen/_14sdp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_below="@+id/tv_show_name"
+                android:visibility="visible"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:listSelector="@drawable/backgroud_selected_item"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:id="@+id/category_subchannel_list"/>
+
+<!--            <com.futuremind.recyclerviewfastscroll.FastScroller-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="end"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_below="@+id/tv_show_name"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_gravity="end"-->
+<!--                android:id="@+id/fast_scroll"/>-->
+
+            <ProgressBar
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/progress_load_data"
+                android:visibility="gone"
+                android:indeterminateDrawable="@drawable/custom_loader_gradient"
+                android:progress="50"
+                android:indeterminateTint="@color/red_dark" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_adview">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/adView_admob_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_facebook_banner"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:layout_margin="@dimen/_16sdp"
+        android:textOn=""
+        android:textOff=""
+        android:layout_alignParentEnd="true"
+        android:id="@+id/img_video_full_screen"
+        android:visibility="gone"
+        android:background="@drawable/full_screen_toogle"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:layout_margin="@dimen/_16sdp"
+        android:id="@+id/img_quality"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/icon_quality"
+        android:layout_alignParentStart="true"/>
+
+
+</RelativeLayout>

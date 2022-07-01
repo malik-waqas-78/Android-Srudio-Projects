@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="ddmmyyyy"
+        android:entries="@array/pref_date_format_titles"
+        android:entryValues="@array/pref_date_format_values"
+        android:key="date_format_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Date format" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="display_format_switch"
+        android:summary="Display your notes in a more compact way."
+        android:title="Compact format" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="draw_lines_switch"
+        android:summaryOff="Horizontal lines won't be display behind text while editing a note."
+        android:summaryOn="Horizontal lines will be display behind text while editing a note."
+        android:title="Display lines while editing" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="dark_theme_switch"
+        android:summary="Dark theme will replace white colors with black. Use it to save battery power."
+        android:title="Dark theme" />
+
+
+</PreferenceScreen>

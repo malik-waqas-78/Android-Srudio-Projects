@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activities.VoiceSearchSelectorActivity_VS">
+
+    <RelativeLayout
+        android:id="@+id/top_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/top_simpleLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#373535"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_banner" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_simpleLine">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_dummy"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:background="@drawable/layout_under_toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_search_selector_activity"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/gradient_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="@string/vocie_search"
+            app:titleTextColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_shopping"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:background="@drawable/gradient_background_no_corner"
+            android:text="@string/voice_search_shopping"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14sdp"
+            app:backgroundTint="@null"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_cart"
+            app:iconGravity="textTop"
+            app:iconSize="@dimen/_20sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_others"
+            app:layout_constraintEnd_toStartOf="@+id/btn_others"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_others" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_others"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:background="@drawable/gradient_background_no_corner"
+            android:text="@string/voice_search_others"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14sdp"
+            app:backgroundTint="@null"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_others"
+            app:iconGravity="textTop"
+            app:iconSize="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_shopping"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_dummy" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_search_engine"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:background="@drawable/gradient_background_no_corner"
+            android:text="@string/voice_search_sengine"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_12sdp"
+            app:backgroundTint="@null"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_web"
+            app:iconGravity="textTop"
+            app:iconSize="@dimen/_22sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_social_apps"
+            app:layout_constraintEnd_toStartOf="@+id/btn_social_apps"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_social_apps" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_social_apps"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/gradient_background_no_corner"
+            android:text="@string/voice_search_social"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14sdp"
+            app:backgroundTint="@null"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_social_apps"
+            app:iconGravity="textTop"
+            app:iconSize="@dimen/_22sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_search_engine"
+            app:layout_constraintTop_toBottomOf="@+id/btn_others" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_communications"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/gradient_background_no_corner"
+            android:text="@string/voice_search_comms"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_12sdp"
+            app:backgroundTint="@null"
+            app:cornerRadius="@dimen/_5sdp"
+            app:icon="@drawable/ic_communications"
+            app:iconGravity="textTop"
+            app:iconSize="@dimen/_22sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_social_apps"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"    android:orientation="vertical"
+    android:id="@+id/ll_notification_main"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.NotificationFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_10sdp"
+        android:id="@+id/ll_notification_cardview"
+        app:cardPreventCornerOverlap="false"
+        android:layout_margin="@dimen/_1sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/toolbar_background"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NOTIFICATIONS"
+            android:padding="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/icon_delete"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:id="@+id/img_delete_notification"/>
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_notification_cardview"
+        android:layout_weight="1">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/notification_list"/>
+
+        <ProgressBar
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:id="@+id/progress_notification"
+            android:visibility="gone"
+            android:indeterminateDrawable="@drawable/custom_loader_gradient"
+            android:indeterminateTint="@color/red_dark"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <com.niazitvpro.official.customview.RalewayBoldTextViewGray
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No notification Found"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:textSize="@dimen/_12sdp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:id="@+id/tv_no_notification"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/adView_admob_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_facebook_banner"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
