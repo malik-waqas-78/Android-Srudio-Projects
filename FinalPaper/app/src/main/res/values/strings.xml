@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Expo 2020</string>
+    <string-array name="type">
+        <item>Standard</item>
+        <item>Premium</item>
+    </string-array>
+</resources>

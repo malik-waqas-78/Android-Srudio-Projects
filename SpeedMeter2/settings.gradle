@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        jcenter()
+        google()
+        mavenCentral()
+        maven {
+            url 'https://microsoftmaps.jfrog.io/artifactory/Maven/'
+        }
+    }
+}
+rootProject.name = "SpeedMeter"
+include ':app'
