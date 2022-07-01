@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/malik-waqas/AndroidStudioProjects/JetpackComposeApp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-mk/values-mk.xml",
+            "map": [
+                {
+                    "source": "/home/malik-waqas/.gradle/caches/transforms-3/f4129e0fb526b07154586a971338cf64/transformed/jetified-ui-1.0.1/res/values-mk/values-mk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,299,395,472,579,671,755,826,896,968,1039",
+                        "endColumns": "103,89,95,76,106,91,83,70,69,71,70,120",
+                        "endOffsets": "204,294,390,467,574,666,750,821,891,963,1034,1155"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,299,395,472,579,671,755,826,896,1069,1140",
+                        "endColumns": "103,89,95,76,106,91,83,70,69,71,70,120",
+                        "endOffsets": "204,294,390,467,574,666,750,821,891,963,1135,1256"
+                    }
+                },
+                {
+                    "source": "/home/malik-waqas/.gradle/caches/transforms-3/52e177f8e05e59342503b705177f1f6c/transformed/core-1.6.0/res/values-mk/values-mk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "968",
+                        "endColumns": "100",
+                        "endOffsets": "1064"
+                    }
+                }
+            ]
+        }
+    ]
+}

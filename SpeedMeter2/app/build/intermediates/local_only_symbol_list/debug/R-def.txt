@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color green
+color purple_200
+color purple_500
+color purple_700
+color red
+color red_area
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable logo
+drawable red_marker
+id back
+id btn_done
+id btn_mark_area
+id btn_start
+id cardView
+id constraintLayout
+id et_speed
+id imageView
+id map_view_area
+id textView2
+id tv_hint
+layout activity_main
+layout activity_mark_area
+layout activity_splash_screen
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.SpeedMeter

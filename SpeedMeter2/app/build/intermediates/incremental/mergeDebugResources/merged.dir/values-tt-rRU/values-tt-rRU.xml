@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description_compass">Компас. Төймә. Төньяк өстә булсын өчен, картаны бора. Агымдагы күрсәтелеш - %1$s.</string>
+    <string name="accessibility_description_format_distance">%1$d %2$s</string>
+    <string name="accessibility_description_format_distance_ft">фут</string>
+    <string name="accessibility_description_format_distance_km">километр</string>
+    <string name="accessibility_description_format_distance_m">метрлар</string>
+    <string name="accessibility_description_format_distance_mi">миль</string>
+    <string name="accessibility_description_format_location_lat_north">төньякрак</string>
+    <string name="accessibility_description_format_location_lat_south">көньякрак</string>
+    <string name="accessibility_description_format_location_long_east">көнчыгышрак</string>
+    <string name="accessibility_description_format_location_long_west">көнбатышрак</string>
+    <string name="accessibility_description_format_orientation_east">көнчыгыш</string>
+    <string name="accessibility_description_format_orientation_nadir">%1$s өскә</string>
+    <string name="accessibility_description_format_orientation_north">төньяк</string>
+    <string name="accessibility_description_format_orientation_northeast">төньяк-көнчыгыш</string>
+    <string name="accessibility_description_format_orientation_northwest">төньяк-көнбатыш</string>
+    <string name="accessibility_description_format_orientation_oblique">%1$s карата</string>
+    <string name="accessibility_description_format_orientation_south">көньяк</string>
+    <string name="accessibility_description_format_orientation_southeast">көньяк-көнчыгыш</string>
+    <string name="accessibility_description_format_orientation_southwest">көньяк-көнбатыш</string>
+    <string name="accessibility_description_format_orientation_west">көнбатыш</string>
+    <string name="accessibility_description_format_tilt">өслеккә %1$d градус авышлык</string>
+    <string name="accessibility_description_map_view_at_latlong">Карта. %1$s күрсәтелеше %2$.3f градус %3$s киңлек һәм %4$.3f градус %5$s озынлык %6$s, %7$s.</string>
+    <string name="accessibility_description_map_view_of_location">Карта. %1$s %2$s күрсәтелеше %3$s, %4$s.</string>
+    <string name="accessibility_description_my_location">Минем урын. Төймә. Күрсәтелешне сезнең агымдагы урынга үзәкли.</string>
+    <string name="accessibility_description_tilt">Авышлык. Төймә. Карта күрсәтелешен авыштыра.</string>
+    <string name="accessibility_description_zoom_in">Зурайту. Төймә. Агымдагы карта күрсәтелешен зурайта.</string>
+    <string name="accessibility_description_zoom_out">Кечерәйтү. Төймә. Картаның агымдагы күрсәтелешен кечерәйтә.</string>
+    <string name="microsoft_bing_maps_aerial_style_label">Спутник</string>
+    <string name="microsoft_bing_maps_close_label">Закрыть</string>
+    <string name="microsoft_bing_maps_dark_style_label">Темное оформление</string>
+    <string name="microsoft_bing_maps_default_style_label">По умолчанию</string>
+    <string name="microsoft_bing_maps_invalid_credential">Дөрес түгел хисап язмасы мәгълүматы тәэмин ителгән. Төзүче хисап язмасы мәгълүматын алу өчен, %1$s төзүче буларак хисап язмасын теркәгез.</string>
+    <string name="microsoft_bing_maps_kill_switch_engaged">Әлеге карта бүтән кулланырлык түгел. Әлеге проблеманы чишүче потенциаль яңартулар булуын карау өчен, кушымта төзүчесенә мөрәҗәгать итегез.</string>
+    <string name="microsoft_bing_maps_revoked_credential">Төзүче хисап язмасы мәгълүматы әлеге карта өчен дөрес түгел. Яңартулар барлыгын белү өчен, тәэмин итүчегә мөрәҗәгать итегез.</string>
+    <string name="microsoft_bing_maps_style_picker_label">Стили карты</string>
+    <string name="microsoft_bing_maps_traffic_label">Показать пробки</string>
+    <string name="microsoft_bing_maps_traffic_legend_fast_label">Быстро</string>
+    <string name="microsoft_bing_maps_traffic_legend_slow_label">Медленно</string>
+    <string name="microsoft_bing_maps_user_location_signal_lost_dismiss_label">OK</string>
+</resources>

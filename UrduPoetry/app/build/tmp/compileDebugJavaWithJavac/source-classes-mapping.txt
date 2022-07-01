@@ -1,0 +1,10 @@
+com/example/urdupoetry/databinding/ActivityViewPoetryBinding.java
+ com.example.urdupoetry.databinding.ActivityViewPoetryBinding
+com/example/urdupoetry/databinding/RowCategoryAdapterBinding.java
+ com.example.urdupoetry.databinding.RowCategoryAdapterBinding
+com/example/urdupoetry/databinding/PoetryCategoriesBinding.java
+ com.example.urdupoetry.databinding.PoetryCategoriesBinding
+com/example/urdupoetry/databinding/RowPoetryAdapterBinding.java
+ com.example.urdupoetry.databinding.RowPoetryAdapterBinding
+com/example/urdupoetry/BuildConfig.java
+ com.example.urdupoetry.BuildConfig

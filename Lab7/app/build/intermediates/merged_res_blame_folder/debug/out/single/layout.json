@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/Lab7/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/second_acitvity.xml",
+        "source": "/home/malik-waqas/AndroidStudioProjects/Lab7/app/src/main/res/layout/second_acitvity.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/Lab7/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/main_activity.xml",
+        "source": "/home/malik-waqas/AndroidStudioProjects/Lab7/app/src/main/res/layout/main_activity.xml"
+    }
+]

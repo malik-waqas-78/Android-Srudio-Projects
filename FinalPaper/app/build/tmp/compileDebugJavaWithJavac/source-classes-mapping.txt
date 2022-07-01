@@ -1,0 +1,6 @@
+com/paper/Exams/MainActivity.java
+ com.paper.Exams.MainActivity
+com/paper/Exams/BuildConfig.java
+ com.paper.Exams.BuildConfig
+com/paper/Exams/Details.java
+ com.paper.Exams.Details

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/TestRoomApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_movie_by_string.xml",
+        "source": "/home/malik-waqas/AndroidStudioProjects/TestRoomApp/app/src/main/res/layout/activity_search_movie_by_string.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/TestRoomApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_for_actor.xml",
+        "source": "/home/malik-waqas/AndroidStudioProjects/TestRoomApp/app/src/main/res/layout/activity_search_for_actor.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/TestRoomApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/malik-waqas/AndroidStudioProjects/TestRoomApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/TestRoomApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_for_movie.xml",
+        "source": "/home/malik-waqas/AndroidStudioProjects/TestRoomApp/app/src/main/res/layout/activity_search_for_movie.xml"
+    }
+]

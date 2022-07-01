@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.test.moviesinfo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/a927d619ce56469f35da2fa2f2cd3b0b/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.MyApplication" >
+20-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:11:9-51
+21        <activity
+21-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:12:9-20:20
+22            android:name="com.test.moviesinfo.MainActivity"
+22-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:13:13-60
+23            android:exported="true" >
+23-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:14:13-36
+24            <intent-filter>
+24-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:16:17-69
+25-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:18:17-77
+27-->/home/malik-waqas/AndroidStudioProjects/MyApplication2/app/src/main/AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <service
+31-->[androidx.room:room-runtime:2.4.2] /home/malik-waqas/.gradle/caches/transforms-3/f86b8f094c2ebea1b64a8469acf9667a/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+32            android:name="androidx.room.MultiInstanceInvalidationService"
+32-->[androidx.room:room-runtime:2.4.2] /home/malik-waqas/.gradle/caches/transforms-3/f86b8f094c2ebea1b64a8469acf9667a/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+33            android:directBootAware="true"
+33-->[androidx.room:room-runtime:2.4.2] /home/malik-waqas/.gradle/caches/transforms-3/f86b8f094c2ebea1b64a8469acf9667a/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+34            android:exported="false" />
+34-->[androidx.room:room-runtime:2.4.2] /home/malik-waqas/.gradle/caches/transforms-3/f86b8f094c2ebea1b64a8469acf9667a/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+35
+36        <provider
+36-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e501fbc125b967976ed2a47954f25095/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+37            android:name="androidx.startup.InitializationProvider"
+37-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e501fbc125b967976ed2a47954f25095/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+38            android:authorities="com.test.moviesinfo.androidx-startup"
+38-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e501fbc125b967976ed2a47954f25095/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+39            android:exported="false" >
+39-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e501fbc125b967976ed2a47954f25095/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+40            <meta-data
+40-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e501fbc125b967976ed2a47954f25095/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+41                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+41-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e501fbc125b967976ed2a47954f25095/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+42                android:value="androidx.startup" />
+42-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e501fbc125b967976ed2a47954f25095/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+43            <meta-data
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/e355f95edd1b1b3c63cea57ba8ae1ff1/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/e355f95edd1b1b3c63cea57ba8ae1ff1/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+45                android:value="androidx.startup" />
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/e355f95edd1b1b3c63cea57ba8ae1ff1/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+46        </provider>
+47    </application>
+48
+49</manifest>

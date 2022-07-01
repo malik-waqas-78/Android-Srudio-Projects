@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_add_movies_to_db
+id btn_retrieve
+id btn_save
+id btn_search
+id btn_search_actor
+id btn_search_by_string
+id btn_search_movie
+id et_actor_name
+id et_movie_title
+id et_title_string
+id p_bar
+id tv_details
+id tv_movies
+layout activity_main
+layout activity_search_for_actor
+layout activity_search_for_movie
+layout activity_search_movie_by_string
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.TestRoomApp

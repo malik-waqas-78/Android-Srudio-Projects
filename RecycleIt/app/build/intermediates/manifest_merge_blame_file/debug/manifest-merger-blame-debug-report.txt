@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.test.recycleright"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:5:5-79
+11-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:6:5-81
+12-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.microsoft.maps:maps-sdk:1.2.0] /home/malik-waqas/.gradle/caches/transforms-3/fd06da080ad9276e030f4c389800c37c/transformed/maps-sdk-1.2.0/AndroidManifest.xml:9:5-67
+13-->[com.microsoft.maps:maps-sdk:1.2.0] /home/malik-waqas/.gradle/caches/transforms-3/fd06da080ad9276e030f4c389800c37c/transformed/maps-sdk-1.2.0/AndroidManifest.xml:9:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.microsoft.maps:maps-sdk:1.2.0] /home/malik-waqas/.gradle/caches/transforms-3/fd06da080ad9276e030f4c389800c37c/transformed/maps-sdk-1.2.0/AndroidManifest.xml:10:5-79
+14-->[com.microsoft.maps:maps-sdk:1.2.0] /home/malik-waqas/.gradle/caches/transforms-3/fd06da080ad9276e030f4c389800c37c/transformed/maps-sdk-1.2.0/AndroidManifest.xml:10:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:18.0.2] /home/malik-waqas/.gradle/caches/transforms-3/86925f5d04c8f11a2f73d159a0c852da/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:18.0.2] /home/malik-waqas/.gradle/caches/transforms-3/86925f5d04c8f11a2f73d159a0c852da/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:18.0.2] /home/malik-waqas/.gradle/caches/transforms-3/86925f5d04c8f11a2f73d159a0c852da/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:18.0.2] /home/malik-waqas/.gradle/caches/transforms-3/86925f5d04c8f11a2f73d159a0c852da/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:18.0.2] /home/malik-waqas/.gradle/caches/transforms-3/86925f5d04c8f11a2f73d159a0c852da/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:18.0.2] /home/malik-waqas/.gradle/caches/transforms-3/86925f5d04c8f11a2f73d159a0c852da/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <application
+26-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:7:5-42:19
+27        android:allowBackup="true"
+27-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:8:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/d79cd730aff89e16bbe6bbee05f6ceb1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@drawable/logotext"
+30-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:9:9-42
+31        android:label="@string/app_name"
+31-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:10:9-41
+32        android:supportsRtl="true"
+32-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:12:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.RecycleIt" >
+34-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:13:9-47
+35        <activity
+35-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:14:9-16:40
+36            android:name="com.test.recycleright.FinalActivity"
+36-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:15:13-42
+37            android:exported="false" />
+37-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:16:13-37
+38        <activity
+38-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:17:9-21:20
+39            android:name="com.test.recycleright.GetTimeAndDate"
+39-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:18:13-43
+40            android:exported="true" >
+40-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:19:13-36
+41        </activity>
+42        <activity
+42-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:22:9-26:20
+43            android:name="com.test.recycleright.InsertLocation"
+43-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:23:13-43
+44            android:exported="true" >
+44-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:24:13-36
+45        </activity>
+46        <activity
+46-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:27:9-29:40
+47            android:name="com.test.recycleright.QuantityInfo"
+47-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:28:13-41
+48            android:exported="false" />
+48-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:29:13-37
+49        <activity
+49-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:30:9-32:40
+50            android:name="com.test.recycleright.MaterialSelection"
+50-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:31:13-46
+51            android:exported="false" />
+51-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:32:13-37
+52        <activity
+52-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:33:9-41:20
+53            android:name="com.test.recycleright.SplashScreen"
+53-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:34:13-41
+54            android:exported="true" >
+54-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:35:13-36
+55            <intent-filter>
+55-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:36:13-40:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:37:17-69
+56-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:37:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:39:17-77
+58-->/home/malik-waqas/AndroidStudioProjects/RecycleIt/app/src/main/AndroidManifest.xml:39:27-74
+59            </intent-filter>
+60        </activity>
+61        <!-- Needs to be explicitly declared on P+ -->
+62        <uses-library
+62-->[com.google.android.gms:play-services-maps:18.0.2] /home/malik-waqas/.gradle/caches/transforms-3/86925f5d04c8f11a2f73d159a0c852da/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+63            android:name="org.apache.http.legacy"
+63-->[com.google.android.gms:play-services-maps:18.0.2] /home/malik-waqas/.gradle/caches/transforms-3/86925f5d04c8f11a2f73d159a0c852da/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+64            android:required="false" />
+64-->[com.google.android.gms:play-services-maps:18.0.2] /home/malik-waqas/.gradle/caches/transforms-3/86925f5d04c8f11a2f73d159a0c852da/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:18.0.1] /home/malik-waqas/.gradle/caches/transforms-3/406d39b4feb0ef8246fe24a47c4c0ac0/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:18.0.1] /home/malik-waqas/.gradle/caches/transforms-3/406d39b4feb0ef8246fe24a47c4c0ac0/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:18.0.1] /home/malik-waqas/.gradle/caches/transforms-3/406d39b4feb0ef8246fe24a47c4c0ac0/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:18.0.1] /home/malik-waqas/.gradle/caches/transforms-3/406d39b4feb0ef8246fe24a47c4c0ac0/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:18.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a3b73638c6737bdf215c9cc9818756c2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:18.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a3b73638c6737bdf215c9cc9818756c2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:18.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a3b73638c6737bdf215c9cc9818756c2/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/7a8fe7a0d27e6111d8f26a88e3f3f946/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/7a8fe7a0d27e6111d8f26a88e3f3f946/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+77            android:authorities="com.test.recycleright.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/7a8fe7a0d27e6111d8f26a88e3f3f946/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/7a8fe7a0d27e6111d8f26a88e3f3f946/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/7a8fe7a0d27e6111d8f26a88e3f3f946/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/7a8fe7a0d27e6111d8f26a88e3f3f946/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/7a8fe7a0d27e6111d8f26a88e3f3f946/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/7c2b991ffee7d4db452bfe70f5605b71/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/7c2b991ffee7d4db452bfe70f5605b71/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/7c2b991ffee7d4db452bfe70f5605b71/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+85        </provider>
+86    </application>
+87
+88</manifest>

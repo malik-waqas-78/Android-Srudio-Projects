@@ -1,0 +1,4 @@
+#Tue Jan 01 21:49:37 PKT 2019
+base.0=E\:\\Android\\MyNotes-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

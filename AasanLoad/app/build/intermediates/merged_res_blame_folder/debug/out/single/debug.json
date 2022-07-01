@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_activity_my_camera2.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/activity_my_camera2.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_rateus_back.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/rateus_back.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_ic_scan_bound.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/ic_scan_bound.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_activity_choose_network.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/activity_choose_network.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_custom_dialog.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_ic_sim_background.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/ic_sim_background.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_splacsh_back.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/splacsh_back.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_activity_camera_activiy.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/activity_camera_activiy.xml"
+    },
+    {
+        "merged": "com.test.aasanload.app-merged_res-34:/layout_activity_camera_activiy.xml.flat",
+        "source": "com.test.aasanload.app-main-36:/layout/activity_camera_activiy.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_activity_dilar.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/activity_dilar.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_picture_background.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/picture_background.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_ic__share.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/ic__share.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_card_icon.png.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/card_icon.png"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_db_exit.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/db_exit.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_ic_share_black.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/ic_share_black.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_ic_back_button.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/ic_back_button.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-pngs-29:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_activity_camerax.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/activity_camerax.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_db_rate_back.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/db_rate_back.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_ic_copy.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/ic_copy.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_row_code.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/row_code.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_db_permissions_rational.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/db_permissions_rational.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/layout_activity_splash_screen.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_ic_call.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/ic_call.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_btn_background.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/btn_background.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_share_background.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/share_background.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_ic_flash_on.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/ic_flash_on.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_ic_flash_off.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/ic_flash_off.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-merged_res-34:/drawable_call_background.xml.flat",
+        "source": "/home/malik-waqas/.gradle/daemon/7.3.3/com.test.aasanload.app-main-36:/drawable/call_background.xml"
+    }
+]

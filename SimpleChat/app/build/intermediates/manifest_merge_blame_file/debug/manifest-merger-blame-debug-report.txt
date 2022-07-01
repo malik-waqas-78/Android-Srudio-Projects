@@ -1,0 +1,513 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.simplechat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:5:5-72
+11-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:5:22-69
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:6:5-80
+12-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:7:5-66
+13-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:10:5-79
+14-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:10:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.android.installreferrer:installreferrer:1.0] /home/malik-waqas/.gradle/caches/transforms-3/b9342b23d7ac85e8edfb6ea2ee995580/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+15-->[com.android.installreferrer:installreferrer:1.0] /home/malik-waqas/.gradle/caches/transforms-3/b9342b23d7ac85e8edfb6ea2ee995580/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+16
+17    <application
+17-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:8:5-40:19
+18        android:allowBackup="true"
+18-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:9:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/9e0718e9520c6a8ba0f536d6c1d342d9/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:10:9-43
+22        android:label="@string/app_name"
+22-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:11:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:12:9-54
+24        android:supportsRtl="true"
+24-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:13:9-35
+25        android:theme="@style/Theme.SimpleChat" >
+25-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:14:9-48
+26        <activity
+26-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:15:9-23:20
+27            android:name="com.example.simplechat.activities.LoginActivity"
+27-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:16:13-53
+28            android:exported="true" >
+28-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:17:13-36
+29            <intent-filter>
+29-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:18:13-22:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:19:17-69
+30-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:19:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:21:17-77
+32-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:21:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:24:9-26:39
+36            android:name="com.example.simplechat.activities.GalleryActivity"
+36-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:25:13-55
+37            android:exported="true" />
+37-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:26:13-36
+38        <activity
+38-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:27:9-29:39
+39            android:name="com.example.simplechat.activities.ChatActivity"
+39-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:28:13-52
+40            android:exported="true" />
+40-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:29:13-36
+41        <activity
+41-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:30:9-33:20
+42            android:name="com.example.simplechat.activities.ContactsActivity"
+42-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:31:13-56
+43            android:exported="true" >
+43-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:32:13-36
+44        </activity>
+45        <activity
+45-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:34:9-37:48
+46            android:name="com.facebook.FacebookActivity"
+46-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:34:19-63
+47            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+47-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:35:13-113
+48            android:label="@string/app_name"
+48-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:37:13-45
+49            android:theme="@style/com_facebook_activity_theme" />
+49-->[com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
+50
+51        <meta-data
+51-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:38:9-39:62
+52            android:name="com.facebook.sdk.ApplicationId"
+52-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:38:20-65
+53            android:value="@string/facebook_application_id" />
+53-->/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:39:13-60
+54        <meta-data
+54-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:14:9-16:69
+55            android:name="com.google.android.gms.version"
+55-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:15:13-58
+56            android:value="@integer/google_play_services_version" />
+56-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:16:13-66
+57
+58        <activity
+58-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:21:9-25:61
+59            android:name="com.firebase.ui.auth.KickoffActivity"
+59-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:22:13-64
+60            android:exported="false"
+60-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:23:13-37
+61            android:label=""
+61-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:24:13-29
+62            android:theme="@style/FirebaseUI.Transparent" />
+62-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:25:13-58
+63        <activity
+63-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:26:9-30:61
+64            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+64-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:27:13-76
+65            android:exported="false"
+65-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:28:13-37
+66            android:label=""
+66-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:29:13-29
+67            android:theme="@style/FirebaseUI.Transparent" />
+67-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:30:13-58
+68        <activity
+68-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:31:9-35:61
+69            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+69-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:32:13-86
+70            android:exported="false"
+70-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:33:13-37
+71            android:label=""
+71-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:34:13-29
+72            android:theme="@style/FirebaseUI.Transparent" />
+72-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:35:13-58
+73        <activity
+73-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:36:9-40:58
+74            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+74-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:37:13-81
+75            android:exported="false"
+75-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:38:13-37
+76            android:label="@string/fui_title_recover_password_activity"
+76-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:39:13-72
+77            android:windowSoftInputMode="adjustResize" />
+77-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:40:13-55
+78        <activity
+78-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:41:9-45:58
+79            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+79-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:42:13-71
+80            android:exported="false"
+80-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:43:13-37
+81            android:label="@string/fui_sign_in_default"
+81-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:44:13-56
+82            android:windowSoftInputMode="adjustResize" />
+82-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:45:13-55
+83        <activity
+83-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:46:9-50:77
+84            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+84-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:47:13-71
+85            android:exported="false"
+85-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:48:13-37
+86            android:label="@string/fui_sign_in_with_phone_number"
+86-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:49:13-66
+87            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+87-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:50:13-74
+88        <activity
+88-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:51:9-55:58
+89            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+89-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:52:13-76
+90            android:exported="false"
+90-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:53:13-37
+91            android:label="@string/fui_title_welcome_back_idp_prompt"
+91-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:54:13-70
+92            android:windowSoftInputMode="adjustResize" />
+92-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:55:13-55
+93        <activity
+93-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:56:9-60:58
+94            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+94-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:57:13-83
+95            android:exported="false"
+95-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:58:13-37
+96            android:label="@string/fui_title_welcome_back_password_prompt"
+96-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:59:13-75
+97            android:windowSoftInputMode="adjustResize" />
+97-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:60:13-55
+98        <activity
+98-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:61:9-65:58
+99            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+99-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:62:13-84
+100            android:exported="false"
+100-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:63:13-37
+101            android:label="@string/fui_title_welcome_back_password_prompt"
+101-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:64:13-75
+102            android:windowSoftInputMode="adjustResize" />
+102-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:65:13-55
+103        <activity
+103-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:66:9-71:58
+104            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+104-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:67:13-82
+105            android:exported="false"
+105-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:68:13-37
+106            android:label=""
+106-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:69:13-29
+107            android:theme="@style/FirebaseUI.Transparent"
+107-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:70:13-58
+108            android:windowSoftInputMode="adjustResize" />
+108-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:71:13-55
+109        <activity
+109-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:72:9-76:58
+110            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+110-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:73:13-88
+111            android:exported="false"
+111-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:74:13-37
+112            android:label="@string/fui_sign_in_default"
+112-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:75:13-56
+113            android:windowSoftInputMode="adjustResize" />
+113-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:76:13-55
+114        <activity
+114-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:77:9-80:65
+115            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+115-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:78:13-80
+116            android:exported="false"
+116-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:79:13-37
+117            android:label="@string/fui_default_toolbar_title" />
+117-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:80:13-62
+118        <activity
+118-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:86:9-98:20
+119            android:name="com.facebook.CustomTabActivity"
+119-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:87:13-58
+120            android:exported="true" >
+120-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:88:13-36
+121            <intent-filter>
+121-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:90:13-97:29
+122                <action android:name="android.intent.action.VIEW" />
+122-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:91:17-69
+122-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:91:25-66
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:17-76
+124-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:27-73
+125                <category android:name="android.intent.category.BROWSABLE" />
+125-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:94:17-78
+125-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:94:27-75
+126
+127                <data android:scheme="@string/facebook_login_protocol_scheme" />
+127-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:96:17-81
+127-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:96:23-78
+128            </intent-filter>
+129            <intent-filter>
+129-->[com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+130                <action android:name="android.intent.action.VIEW" />
+130-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:91:17-69
+130-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:91:25-66
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:17-76
+132-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:94:17-78
+133-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:94:27-75
+134
+135                <data
+135-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:96:17-81
+136                    android:host="cct.com.example.simplechat"
+137                    android:scheme="fbconnect" />
+137-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:96:23-78
+138            </intent-filter>
+139        </activity>
+140
+141        <provider
+141-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:100:9-104:38
+142            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+142-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:101:13-79
+143            android:authorities="com.example.simplechat.authuiinitprovider"
+143-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:102:13-70
+144            android:exported="false"
+144-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:103:13-37
+145            android:initOrder="90" />
+145-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:104:13-35
+146
+147        <activity android:name="com.facebook.CustomTabMainActivity" />
+147-->[com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
+147-->[com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+148
+149        <service
+149-->[com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:8:9-14:19
+150            android:name="com.google.firebase.components.ComponentDiscoveryService"
+150-->[com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:9:13-84
+151            android:directBootAware="true"
+151-->[com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+152            android:exported="false" >
+152-->[com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:10:13-37
+153            <meta-data
+153-->[com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:11:13-13:85
+154                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+154-->[com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:12:17-116
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:13:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:15:13-17:85
+157                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+157-->[com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:16:17-126
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:17:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+160                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+160-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+163                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+163-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:20:13-22:85
+166                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+166-->[com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:21:17-111
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:22:17-82
+168        </service>
+169
+170        <activity
+170-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+171            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+171-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+172            android:excludeFromRecents="true"
+172-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+173            android:exported="true"
+173-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+174            android:launchMode="singleTask"
+174-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+175            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+175-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+176            <intent-filter>
+176-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+177                <action android:name="android.intent.action.VIEW" />
+177-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:91:17-69
+177-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:91:25-66
+178
+179                <category android:name="android.intent.category.DEFAULT" />
+179-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:17-76
+179-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:27-73
+180                <category android:name="android.intent.category.BROWSABLE" />
+180-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:94:17-78
+180-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:94:27-75
+181
+182                <data
+182-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:96:17-81
+183                    android:host="firebase.auth"
+184                    android:path="/"
+185                    android:scheme="genericidp" />
+185-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:96:23-78
+186            </intent-filter>
+187        </activity>
+188        <activity
+188-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+189            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+189-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+190            android:excludeFromRecents="true"
+190-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+191            android:exported="true"
+191-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+192            android:launchMode="singleTask"
+192-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+193-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+194            <intent-filter>
+194-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+195                <action android:name="android.intent.action.VIEW" />
+195-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:91:17-69
+195-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:91:25-66
+196
+197                <category android:name="android.intent.category.DEFAULT" />
+197-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:17-76
+197-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:27-73
+198                <category android:name="android.intent.category.BROWSABLE" />
+198-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:94:17-78
+198-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:94:27-75
+199
+200                <data
+200-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:96:17-81
+201                    android:host="firebase.auth"
+202                    android:path="/"
+203                    android:scheme="recaptcha" />
+203-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:96:23-78
+204            </intent-filter>
+205        </activity>
+206
+207        <service
+207-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+208            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+208-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+209            android:enabled="true"
+209-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+210            android:exported="false" >
+210-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+211            <intent-filter>
+211-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+212                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+212-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+212-->[com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+213
+214                <category android:name="android.intent.category.DEFAULT" />
+214-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:17-76
+214-->[com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:27-73
+215            </intent-filter>
+216        </service>
+217
+218        <provider
+218-->[com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+219            android:name="com.google.firebase.provider.FirebaseInitProvider"
+219-->[com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+220            android:authorities="com.example.simplechat.firebaseinitprovider"
+220-->[com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+221            android:directBootAware="true"
+221-->[com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+222            android:exported="false"
+222-->[com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+223            android:initOrder="100" />
+223-->[com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+224
+225        <activity
+225-->[com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+226            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+226-->[com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+227            android:excludeFromRecents="true"
+227-->[com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+228            android:exported="false"
+228-->[com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+229            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+229-->[com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+230        <!--
+231            Service handling Google Sign-In user revocation. For apps that do not integrate with
+232            Google Sign-In, this service will never be started.
+233        -->
+234        <service
+234-->[com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+235            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+235-->[com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+236            android:exported="true"
+236-->[com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+237            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+237-->[com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+238            android:visibleToInstantApps="true" />
+238-->[com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+239
+240        <activity
+240-->[com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+241            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+241-->[com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+242            android:exported="false"
+242-->[com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+243            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+243-->[com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+244
+245        <provider
+245-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+246            android:name="androidx.startup.InitializationProvider"
+246-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+247            android:authorities="com.example.simplechat.androidx-startup"
+247-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+248            android:exported="false" >
+248-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+249            <meta-data
+249-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+250                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+250-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+251                android:value="androidx.startup" />
+251-->[androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+252            <meta-data
+252-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+253                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+253-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+254                android:value="androidx.startup" />
+254-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+255        </provider>
+256        <!--
+257         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+258         with the application context. This config is merged in with the host app's manifest,
+259         but there can only be one provider with the same authority activated at any given
+260         point; so if the end user has two or more different apps that use Facebook SDK, only the
+261         first one will be able to use the provider. To work around this problem, we use the
+262         following placeholder in the authority to identify each host application as if it was
+263         a completely different provider.
+264        -->
+265        <provider
+265-->[com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
+266            android:name="com.facebook.internal.FacebookInitProvider"
+266-->[com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
+267            android:authorities="com.example.simplechat.FacebookInitProvider"
+267-->[com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
+268            android:exported="false" />
+268-->[com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
+269
+270        <receiver
+270-->[com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
+271            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+271-->[com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
+272            android:exported="false" >
+272-->[com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
+273            <intent-filter>
+273-->[com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
+274                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+274-->[com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
+274-->[com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+275            </intent-filter>
+276        </receiver>
+277    </application>
+278
+279</manifest>

@@ -1,0 +1,2 @@
+com/example/jetpackcomposeapp/test/BuildConfig.java
+ com.example.jetpackcomposeapp.test.BuildConfig

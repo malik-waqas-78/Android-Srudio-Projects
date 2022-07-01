@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/layout_received_by.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/layout/received_by.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/drawable_iccalendar.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/drawable/iccalendar.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/layout_activity_gallery.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/layout_sent_by.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/layout/sent_by.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/drawable_ic_baseline_image_24.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/drawable/ic_baseline_image_24.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/layout_image_layout.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/layout/image_layout.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/layout_activity_chat.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/layout_received_by_img.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/layout/received_by_img.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/layout_contacts_list.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/layout/contacts_list.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/layout_sent_by_img.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/layout/sent_by_img.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/drawable_send_message.png.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/res/drawable/send_message.png"
+    },
+    {
+        "merged": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/malik-waqas/AndroidStudioProjects/SimpleChat/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    }
+]

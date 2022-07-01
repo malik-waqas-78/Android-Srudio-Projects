@@ -1,0 +1,4 @@
+com/example/lab5/BuildConfig.java
+ com.example.lab5.BuildConfig
+com/example/lab5/databinding/ActivityMainBinding.java
+ com.example.lab5.databinding.ActivityMainBinding

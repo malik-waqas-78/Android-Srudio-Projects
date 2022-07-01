@@ -1,0 +1,10 @@
+com/example/pizzader/BuildConfig.java
+ com.example.pizzader.BuildConfig
+com/example/pizzader/databinding/ActivityPizzaFlavoursBinding.java
+ com.example.pizzader.databinding.ActivityPizzaFlavoursBinding
+com/example/pizzader/databinding/RowCustomListBinding.java
+ com.example.pizzader.databinding.RowCustomListBinding
+com/example/pizzader/databinding/ActivityOrderBinding.java
+ com.example.pizzader.databinding.ActivityOrderBinding
+com/example/pizzader/databinding/ActivityMainBinding.java
+ com.example.pizzader.databinding.ActivityMainBinding

@@ -1,0 +1,784 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:2:1-42:12
+MERGED from [androidx.databinding:viewbinding:7.0.2] /home/malik-waqas/.gradle/caches/transforms-3/5cdc4ac98b8d592717731243abe0b0cb/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/f2c2b7a33240a74e6b4e1517e6c5da1a/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:2:1-107:12
+MERGED from [com.google.android.material:material:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c852a51bdd14fc53175ab6a37d6fe95e/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/malik-waqas/.gradle/caches/transforms-3/698bce1d0d0b787e1ceb56e2070df6f5/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-login:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/e8c5afea1bb7ab4e80fe7eb8f4426cd7/transformed/jetified-facebook-login-5.15.3/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:21:1-52:12
+MERGED from [androidx.appcompat:appcompat:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/fb1e2328fb715d7d95848ea1a0e3a651/transformed/appcompat-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/malik-waqas/.gradle/caches/transforms-3/b2a7fb653148a004fe247b2dd7f18e41/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/228ecd71efc8853f8235ffb94dbea0fa/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/malik-waqas/.gradle/caches/transforms-3/e2a46fc522a93b825e5e9bc64381506c/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/06026c5b2d6a14015af2c931630c3c5c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/dcca4aa0e0d037b1830511b875a42f37/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d2243e6df3ffe99e2d7f91c7abd8360f/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/malik-waqas/.gradle/caches/transforms-3/bb8cd3577825d08b03f8156bfbd67827/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/4cb31b1b6445a1a53d5a2f4d40bb63c6/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b76d8b0840ddbe24351d322406d76af7/transformed/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ff4af902a4b10b7e39bb075440a71e52/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/c75c444278d5e5ed34b728ba70562fcc/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/malik-waqas/.gradle/caches/transforms-3/40e211d40cf410be4df533f217317c74/transformed/jetified-play-services-basement-17.1.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/malik-waqas/.gradle/caches/transforms-3/bb36743118a30db46a42ce6f5f85c3ec/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/malik-waqas/.gradle/caches/transforms-3/36f856444368b829febc38e30dd92d84/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c4d551c2522fda848ab19d9ef08e7c34/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/25ccacc6667e7993d96e445469cc754b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e45819438d6332a218e6e9ccdda11796/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/3ad41855e6a10db81d3914a8090a9b4f/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/e7df87a2257d345196d35f67cecc7c25/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/696771be4a2c07c6f3d2e5bf45fc44cf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/malik-waqas/.gradle/caches/transforms-3/b1bf4a94bc27355f58901a393fc29750/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/a41a7269d6c6022fbf52174393ef0835/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/79386f30cef899b62f9a4bedcd2f7493/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.3.0] /home/malik-waqas/.gradle/caches/transforms-3/c044a87459c19aeaf3e3ea6eccf5e7fa/transformed/browser-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/326a1da493819026d56836b48c9d01c1/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:21:1-53:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/75ac8d5ad532ed70678b4e39555b4478/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/1a333d82880343e72837c61091286b91/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/68f727b1454c6916f0936e23c0f85d69/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/84de626a92852094b8b3b50fca8890e0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/3c81ab830894a654cfea4004c3125e55/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/9c7d605a53714bd6820c07fd5d231923/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/9dfb0bd698badc77866d457f3170a3f7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/1d58ef2cf106badb56a2b501b9a0cfff/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/9e0718e9520c6a8ba0f536d6c1d342d9/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/5d70975cc57445526aad3d2e507cd38a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/malik-waqas/.gradle/caches/transforms-3/dce1a7b1413b412973cc79f0ac835f7f/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/7f070f398f6b986939f1d6a13cef0e0a/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/malik-waqas/.gradle/caches/transforms-3/388247f59805d7500458dfa495471633/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/9ef973af8888f1cd0d69ad7466f72e20/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/43fd7192a645544bb5b2e74e110acd7a/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/malik-waqas/.gradle/caches/transforms-3/dd5b6660a05912b3dbd7f65fceeafa5b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/malik-waqas/.gradle/caches/transforms-3/03d668d0736a408107f10d45df355b94/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/malik-waqas/.gradle/caches/transforms-3/7c32be902642d33d85fd71e1deb9a359/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/f233c3ef35800e93e0db2d354ce5c13b/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/93ce8a3d7e72446f96a69e10e21b07e4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/e5ddca4af2d8daa0546520d35465dcf0/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/malik-waqas/.gradle/caches/transforms-3/1befd51d8de54c15cce0771268310b90/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/07a275bde83fd8f7c2ecd326a670b326/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c3d5a6d2c228816c9dd28b5227de5d79/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/malik-waqas/.gradle/caches/transforms-3/368edb4564a4fe882a67550b821ee15c/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a20242c7029ca56b6d09c2992bef2b4a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/3f7b99fb1d68b662e72698e109f95625/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/6a4bf251d8cc0bf74cb212020d26e926/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/069c874ff8e9d675286619e42c94bbd3/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/06026f11669d9bb1b95fc6e12c71d72f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.grpc:grpc-android:1.41.0] /home/malik-waqas/.gradle/caches/transforms-3/15135f38f5f4f13d3d15cdc985e76fb0/transformed/jetified-grpc-android-1.41.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /home/malik-waqas/.gradle/caches/transforms-3/b9342b23d7ac85e8edfb6ea2ee995580/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/malik-waqas/.gradle/caches/transforms-3/0ac48a8a87855740eb2aa7e07f8e2182/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:5:5-72
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:5:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:7:5-66
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:7:22-64
+application
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:8:5-40:19
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:13:5-105:19
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:13:5-105:19
+MERGED from [com.google.android.material:material:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c852a51bdd14fc53175ab6a37d6fe95e/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c852a51bdd14fc53175ab6a37d6fe95e/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/malik-waqas/.gradle/caches/transforms-3/698bce1d0d0b787e1ceb56e2070df6f5/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/malik-waqas/.gradle/caches/transforms-3/698bce1d0d0b787e1ceb56e2070df6f5/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-login:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/e8c5afea1bb7ab4e80fe7eb8f4426cd7/transformed/jetified-facebook-login-5.15.3/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/e8c5afea1bb7ab4e80fe7eb8f4426cd7/transformed/jetified-facebook-login-5.15.3/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:29:5-50:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/malik-waqas/.gradle/caches/transforms-3/b2a7fb653148a004fe247b2dd7f18e41/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/malik-waqas/.gradle/caches/transforms-3/b2a7fb653148a004fe247b2dd7f18e41/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/228ecd71efc8853f8235ffb94dbea0fa/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/228ecd71efc8853f8235ffb94dbea0fa/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/malik-waqas/.gradle/caches/transforms-3/e2a46fc522a93b825e5e9bc64381506c/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/malik-waqas/.gradle/caches/transforms-3/e2a46fc522a93b825e5e9bc64381506c/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/dcca4aa0e0d037b1830511b875a42f37/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/dcca4aa0e0d037b1830511b875a42f37/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/4cb31b1b6445a1a53d5a2f4d40bb63c6/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/4cb31b1b6445a1a53d5a2f4d40bb63c6/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/c75c444278d5e5ed34b728ba70562fcc/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/c75c444278d5e5ed34b728ba70562fcc/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/malik-waqas/.gradle/caches/transforms-3/40e211d40cf410be4df533f217317c74/transformed/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/malik-waqas/.gradle/caches/transforms-3/40e211d40cf410be4df533f217317c74/transformed/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:28:5-51:19
+MERGED from [androidx.core:core:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/9e0718e9520c6a8ba0f536d6c1d342d9/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/9e0718e9520c6a8ba0f536d6c1d342d9/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/malik-waqas/.gradle/caches/transforms-3/dd5b6660a05912b3dbd7f65fceeafa5b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/malik-waqas/.gradle/caches/transforms-3/dd5b6660a05912b3dbd7f65fceeafa5b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/malik-waqas/.gradle/caches/transforms-3/7c32be902642d33d85fd71e1deb9a359/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/malik-waqas/.gradle/caches/transforms-3/7c32be902642d33d85fd71e1deb9a359/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/f233c3ef35800e93e0db2d354ce5c13b/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/f233c3ef35800e93e0db2d354ce5c13b/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.android.installreferrer:installreferrer:1.0] /home/malik-waqas/.gradle/caches/transforms-3/b9342b23d7ac85e8edfb6ea2ee995580/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /home/malik-waqas/.gradle/caches/transforms-3/b9342b23d7ac85e8edfb6ea2ee995580/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/9e0718e9520c6a8ba0f536d6c1d342d9/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:14:9-48
+activity#com.example.simplechat.activities.LoginActivity
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:exported
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:16:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.example.simplechat.activities.GalleryActivity
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:24:9-26:39
+	android:exported
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:25:13-55
+activity#com.example.simplechat.activities.ChatActivity
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:27:9-29:39
+	android:exported
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:28:13-52
+activity#com.example.simplechat.activities.ContactsActivity
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:30:9-33:20
+	android:exported
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:31:13-56
+activity#com.facebook.FacebookActivity
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:34:9-37:48
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:81:9-85:48
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:81:9-85:48
+MERGED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:30:9-33:66
+MERGED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:30:9-33:66
+	android:label
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:37:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:85:13-45
+	android:configChanges
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:35:13-113
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:34:19-63
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:38:9-39:62
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:17:9-19:63
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:17:9-19:63
+	android:value
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:39:13-60
+	android:name
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml:38:20-65
+uses-sdk
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.2] /home/malik-waqas/.gradle/caches/transforms-3/5cdc4ac98b8d592717731243abe0b0cb/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.2] /home/malik-waqas/.gradle/caches/transforms-3/5cdc4ac98b8d592717731243abe0b0cb/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/f2c2b7a33240a74e6b4e1517e6c5da1a/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/f2c2b7a33240a74e6b4e1517e6c5da1a/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c852a51bdd14fc53175ab6a37d6fe95e/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c852a51bdd14fc53175ab6a37d6fe95e/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/malik-waqas/.gradle/caches/transforms-3/698bce1d0d0b787e1ceb56e2070df6f5/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/malik-waqas/.gradle/caches/transforms-3/698bce1d0d0b787e1ceb56e2070df6f5/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-login:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/e8c5afea1bb7ab4e80fe7eb8f4426cd7/transformed/jetified-facebook-login-5.15.3/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/e8c5afea1bb7ab4e80fe7eb8f4426cd7/transformed/jetified-facebook-login-5.15.3/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:25:5-27:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/fb1e2328fb715d7d95848ea1a0e3a651/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/fb1e2328fb715d7d95848ea1a0e3a651/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/malik-waqas/.gradle/caches/transforms-3/b2a7fb653148a004fe247b2dd7f18e41/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/malik-waqas/.gradle/caches/transforms-3/b2a7fb653148a004fe247b2dd7f18e41/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/228ecd71efc8853f8235ffb94dbea0fa/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/228ecd71efc8853f8235ffb94dbea0fa/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/malik-waqas/.gradle/caches/transforms-3/e2a46fc522a93b825e5e9bc64381506c/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/malik-waqas/.gradle/caches/transforms-3/e2a46fc522a93b825e5e9bc64381506c/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/06026c5b2d6a14015af2c931630c3c5c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/06026c5b2d6a14015af2c931630c3c5c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/dcca4aa0e0d037b1830511b875a42f37/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/dcca4aa0e0d037b1830511b875a42f37/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d2243e6df3ffe99e2d7f91c7abd8360f/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d2243e6df3ffe99e2d7f91c7abd8360f/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/malik-waqas/.gradle/caches/transforms-3/bb8cd3577825d08b03f8156bfbd67827/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/malik-waqas/.gradle/caches/transforms-3/bb8cd3577825d08b03f8156bfbd67827/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/4cb31b1b6445a1a53d5a2f4d40bb63c6/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/4cb31b1b6445a1a53d5a2f4d40bb63c6/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b76d8b0840ddbe24351d322406d76af7/transformed/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b76d8b0840ddbe24351d322406d76af7/transformed/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ff4af902a4b10b7e39bb075440a71e52/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ff4af902a4b10b7e39bb075440a71e52/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/c75c444278d5e5ed34b728ba70562fcc/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/c75c444278d5e5ed34b728ba70562fcc/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/malik-waqas/.gradle/caches/transforms-3/40e211d40cf410be4df533f217317c74/transformed/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/malik-waqas/.gradle/caches/transforms-3/40e211d40cf410be4df533f217317c74/transformed/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/malik-waqas/.gradle/caches/transforms-3/bb36743118a30db46a42ce6f5f85c3ec/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/malik-waqas/.gradle/caches/transforms-3/bb36743118a30db46a42ce6f5f85c3ec/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/malik-waqas/.gradle/caches/transforms-3/36f856444368b829febc38e30dd92d84/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/malik-waqas/.gradle/caches/transforms-3/36f856444368b829febc38e30dd92d84/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c4d551c2522fda848ab19d9ef08e7c34/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c4d551c2522fda848ab19d9ef08e7c34/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/25ccacc6667e7993d96e445469cc754b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/25ccacc6667e7993d96e445469cc754b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e45819438d6332a218e6e9ccdda11796/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e45819438d6332a218e6e9ccdda11796/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/3ad41855e6a10db81d3914a8090a9b4f/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/3ad41855e6a10db81d3914a8090a9b4f/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/e7df87a2257d345196d35f67cecc7c25/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/e7df87a2257d345196d35f67cecc7c25/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/696771be4a2c07c6f3d2e5bf45fc44cf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/696771be4a2c07c6f3d2e5bf45fc44cf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/malik-waqas/.gradle/caches/transforms-3/b1bf4a94bc27355f58901a393fc29750/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/malik-waqas/.gradle/caches/transforms-3/b1bf4a94bc27355f58901a393fc29750/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/a41a7269d6c6022fbf52174393ef0835/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/a41a7269d6c6022fbf52174393ef0835/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/79386f30cef899b62f9a4bedcd2f7493/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/79386f30cef899b62f9a4bedcd2f7493/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /home/malik-waqas/.gradle/caches/transforms-3/c044a87459c19aeaf3e3ea6eccf5e7fa/transformed/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /home/malik-waqas/.gradle/caches/transforms-3/c044a87459c19aeaf3e3ea6eccf5e7fa/transformed/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/326a1da493819026d56836b48c9d01c1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/326a1da493819026d56836b48c9d01c1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/75ac8d5ad532ed70678b4e39555b4478/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/75ac8d5ad532ed70678b4e39555b4478/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/1a333d82880343e72837c61091286b91/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/1a333d82880343e72837c61091286b91/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/68f727b1454c6916f0936e23c0f85d69/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/68f727b1454c6916f0936e23c0f85d69/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/84de626a92852094b8b3b50fca8890e0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/84de626a92852094b8b3b50fca8890e0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/3c81ab830894a654cfea4004c3125e55/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/3c81ab830894a654cfea4004c3125e55/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/9c7d605a53714bd6820c07fd5d231923/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/9c7d605a53714bd6820c07fd5d231923/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/9dfb0bd698badc77866d457f3170a3f7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/9dfb0bd698badc77866d457f3170a3f7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/1d58ef2cf106badb56a2b501b9a0cfff/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/1d58ef2cf106badb56a2b501b9a0cfff/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/9e0718e9520c6a8ba0f536d6c1d342d9/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/malik-waqas/.gradle/caches/transforms-3/9e0718e9520c6a8ba0f536d6c1d342d9/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/5d70975cc57445526aad3d2e507cd38a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/5d70975cc57445526aad3d2e507cd38a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/malik-waqas/.gradle/caches/transforms-3/dce1a7b1413b412973cc79f0ac835f7f/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/malik-waqas/.gradle/caches/transforms-3/dce1a7b1413b412973cc79f0ac835f7f/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/7f070f398f6b986939f1d6a13cef0e0a/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/7f070f398f6b986939f1d6a13cef0e0a/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/malik-waqas/.gradle/caches/transforms-3/388247f59805d7500458dfa495471633/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/malik-waqas/.gradle/caches/transforms-3/388247f59805d7500458dfa495471633/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/9ef973af8888f1cd0d69ad7466f72e20/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/9ef973af8888f1cd0d69ad7466f72e20/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/43fd7192a645544bb5b2e74e110acd7a/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/malik-waqas/.gradle/caches/transforms-3/43fd7192a645544bb5b2e74e110acd7a/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/malik-waqas/.gradle/caches/transforms-3/dd5b6660a05912b3dbd7f65fceeafa5b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/malik-waqas/.gradle/caches/transforms-3/dd5b6660a05912b3dbd7f65fceeafa5b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/malik-waqas/.gradle/caches/transforms-3/03d668d0736a408107f10d45df355b94/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/malik-waqas/.gradle/caches/transforms-3/03d668d0736a408107f10d45df355b94/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/malik-waqas/.gradle/caches/transforms-3/7c32be902642d33d85fd71e1deb9a359/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/malik-waqas/.gradle/caches/transforms-3/7c32be902642d33d85fd71e1deb9a359/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/f233c3ef35800e93e0db2d354ce5c13b/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/f233c3ef35800e93e0db2d354ce5c13b/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/93ce8a3d7e72446f96a69e10e21b07e4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/93ce8a3d7e72446f96a69e10e21b07e4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/e5ddca4af2d8daa0546520d35465dcf0/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/e5ddca4af2d8daa0546520d35465dcf0/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/malik-waqas/.gradle/caches/transforms-3/1befd51d8de54c15cce0771268310b90/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/malik-waqas/.gradle/caches/transforms-3/1befd51d8de54c15cce0771268310b90/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/07a275bde83fd8f7c2ecd326a670b326/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/malik-waqas/.gradle/caches/transforms-3/07a275bde83fd8f7c2ecd326a670b326/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c3d5a6d2c228816c9dd28b5227de5d79/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/c3d5a6d2c228816c9dd28b5227de5d79/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/malik-waqas/.gradle/caches/transforms-3/368edb4564a4fe882a67550b821ee15c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/malik-waqas/.gradle/caches/transforms-3/368edb4564a4fe882a67550b821ee15c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a20242c7029ca56b6d09c2992bef2b4a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a20242c7029ca56b6d09c2992bef2b4a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/3f7b99fb1d68b662e72698e109f95625/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/3f7b99fb1d68b662e72698e109f95625/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/6a4bf251d8cc0bf74cb212020d26e926/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/6a4bf251d8cc0bf74cb212020d26e926/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/069c874ff8e9d675286619e42c94bbd3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/069c874ff8e9d675286619e42c94bbd3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/06026f11669d9bb1b95fc6e12c71d72f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/malik-waqas/.gradle/caches/transforms-3/06026f11669d9bb1b95fc6e12c71d72f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.grpc:grpc-android:1.41.0] /home/malik-waqas/.gradle/caches/transforms-3/15135f38f5f4f13d3d15cdc985e76fb0/transformed/jetified-grpc-android-1.41.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.41.0] /home/malik-waqas/.gradle/caches/transforms-3/15135f38f5f4f13d3d15cdc985e76fb0/transformed/jetified-grpc-android-1.41.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /home/malik-waqas/.gradle/caches/transforms-3/b9342b23d7ac85e8edfb6ea2ee995580/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /home/malik-waqas/.gradle/caches/transforms-3/b9342b23d7ac85e8edfb6ea2ee995580/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/malik-waqas/.gradle/caches/transforms-3/0ac48a8a87855740eb2aa7e07f8e2182/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/malik-waqas/.gradle/caches/transforms-3/0ac48a8a87855740eb2aa7e07f8e2182/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+		ADDED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/malik-waqas/AndroidStudioProjects/SimpleChat/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.41.0] /home/malik-waqas/.gradle/caches/transforms-3/15135f38f5f4f13d3d15cdc985e76fb0/transformed/jetified-grpc-android-1.41.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.41.0] /home/malik-waqas/.gradle/caches/transforms-3/15135f38f5f4f13d3d15cdc985e76fb0/transformed/jetified-grpc-android-1.41.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:10:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/malik-waqas/.gradle/caches/transforms-3/40e211d40cf410be4df533f217317c74/transformed/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/malik-waqas/.gradle/caches/transforms-3/40e211d40cf410be4df533f217317c74/transformed/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:16:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:15:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:21:9-25:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:24:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:25:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:22:13-64
+activity#com.firebase.ui.auth.ui.idp.SingleSignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:26:9-30:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:29:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:28:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:30:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:27:13-76
+activity#com.firebase.ui.auth.ui.credentials.CredentialSaveActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:31:9-35:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:34:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:33:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:35:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:32:13-86
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:36:9-40:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:39:13-72
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:40:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:37:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:41:9-45:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:44:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:45:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:42:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:46:9-50:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:49:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:50:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:47:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:51:9-55:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:54:13-70
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:55:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:52:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:56:9-60:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:59:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:60:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:57:13-83
+activity#com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:61:9-65:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:64:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:65:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:62:13-84
+activity#com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:66:9-71:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:69:13-29
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:71:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:68:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:70:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:67:13-82
+activity#com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:72:9-76:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:75:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:76:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:73:13-88
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:77:9-80:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:80:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:78:13-80
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:86:9-98:20
+MERGED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:35:9-49:20
+MERGED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:35:9-49:20
+	tools:node
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:38:13-31
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:88:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:89:13-45
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:87:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:90:13-97:29
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:91:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:91:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:93:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:94:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:94:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:96:17-81
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:96:23-78
+provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:100:9-104:38
+	android:authorities
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:102:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:103:13-37
+	android:initOrder
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:104:13-35
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /home/malik-waqas/.gradle/caches/transforms-3/b3e114cc546d1231d8ba05f839ca8fdb/transformed/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:101:13-79
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.example.simplechat+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/32407f4d30414db490e9893e6ca6c5b5/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:9:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/9588e52f9cf436a77add57858f4daf9e/transformed/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:12:17-116
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/a5f1cb595ffdcfe36f0bdd7bf37d5773/transformed/jetified-firebase-firestore-ktx-24.0.0/AndroidManifest.xml:16:17-126
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ad5adf609e5a85535c11ff55e88def6e/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/malik-waqas/.gradle/caches/transforms-3/09614dce96880a984d95eb78c817c0db/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.0.0] /home/malik-waqas/.gradle/caches/transforms-3/e690935eef42aab67d92d23b2b94498d/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:21:17-111
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/malik-waqas/.gradle/caches/transforms-3/d5c4af48152962604006f0f49bfdf493/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/malik-waqas/.gradle/caches/transforms-3/ed094989a081cff39068f9a56bbe6236/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/malik-waqas/.gradle/caches/transforms-3/3b3f115c7ffc5c890acb06d186bf19b5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/f233c3ef35800e93e0db2d354ce5c13b/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/f233c3ef35800e93e0db2d354ce5c13b/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/malik-waqas/.gradle/caches/transforms-3/bda6a232a363e03a2f08d6d5014a06b0/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /home/malik-waqas/.gradle/caches/transforms-3/4119f166a6ec888eed1cd780daef576b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/malik-waqas/.gradle/caches/transforms-3/954a38ce21b26dae28977570f7f6dac5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] /home/malik-waqas/.gradle/caches/transforms-3/b9342b23d7ac85e8edfb6ea2ee995580/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.0] /home/malik-waqas/.gradle/caches/transforms-3/b9342b23d7ac85e8edfb6ea2ee995580/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
