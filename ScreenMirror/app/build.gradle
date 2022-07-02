@@ -25,18 +25,18 @@ android {
     buildTypes {
         release {
             // Facebook ads
-            resValue "string", "interstitial_add", "1267149117080141_1267153020413084"
-            resValue "string", "banner_add", "1267149117080141_1267151790413207"
+            resValue "string", "interstitial_add", ""
+            resValue "string", "banner_add", ""
             resValue "string", "native_add", ""
 
             // Admob Ads
 
-            resValue "string", "admob_app_id", "ca-app-pub-6736377393529176~1201794359"
+            resValue "string", "admob_app_id", ""
 
-            resValue "string", "app_open", "ca-app-pub-6736377393529176/6262549342"
-            resValue "string", "admob_banner", "ca-app-pub-6736377393529176/5149805893"
-            resValue "string", "admob_native_ad", "ca-app-pub-6736377393529176/3206168839"
-            resValue "string", "admob_interstitial_ad", "ca-app-pub-6736377393529176/5832332171"
+            resValue "string", "app_open", ""
+            resValue "string", "admob_banner", ""
+            resValue "string", "admob_native_ad", ""
+            resValue "string", "admob_interstitial_ad", ""
 
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'

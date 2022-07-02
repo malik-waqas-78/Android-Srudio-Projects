@@ -38,11 +38,11 @@ android {
             resValue "string", "banner_add", ""
             resValue "string", "native_add", ""
 
-            resValue "string", "admob_app_id", "ca-app-pub-6736377393529176~3099499265"
+            resValue "string", "admob_app_id", ""
 
-            resValue "string", "admob_banner", "ca-app-pub-6736377393529176/1786417599"
-            resValue "string", "admob_native_ad", "ca-app-pub-6736377393529176/4095503279"
-            resValue "string", "admob_interstitial", "ca-app-pub-6736377393529176/8160254254"
+            resValue "string", "admob_banner", ""
+            resValue "string", "admob_native_ad", ""
+            resValue "string", "admob_interstitial", ""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

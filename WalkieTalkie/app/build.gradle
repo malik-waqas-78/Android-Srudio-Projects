@@ -39,10 +39,10 @@ android {
             resValue "string", "admob_normal_banner", ""
             resValue "string", "admob_normal_interstitial_ad", ""
 
-            resValue "string", "admob_mediated_banner", "ca-app-pub-6736377393529176/9511046056"
-            resValue "string", "admob_native_ad", "ca-app-pub-6736377393529176/6884882716"
-            resValue "string", "admob_mediated_interstitial_ad", "ca-app-pub-6736377393529176/6912802878"
-            resValue "string", "app_open", "ca-app-pub-6736377393529176/2945637700"
+            resValue "string", "admob_mediated_banner", ""
+            resValue "string", "admob_native_ad", ""
+            resValue "string", "admob_mediated_interstitial_ad", ""
+            resValue "string", "app_open", ""
 
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'

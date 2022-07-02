@@ -30,17 +30,17 @@ android {
             resValue "string","app_open" ,"ca-app-pub-3940256099942544/3419835294"
         }
         release {
-            resValue "string", "interstitial_add" , "540011470360918_540012637027468"
-            resValue "string" , "banner_add" ,"540011470360918_540012280360837"
-            resValue "string" , "native_add", "540011470360918_540012550360810"
+            resValue "string", "interstitial_add" , ""
+            resValue "string" , "banner_add" ,""
+            resValue "string" , "native_add", ""
 
-            resValue "string", "admob_banner", "ca-app-pub-9640607417493405/1791995911"
-            resValue "string", "admob_native_ad", " ca-app-pub-9640607417493405/6449411289"
-            resValue "string", "admob_interstitial_ad", "ca-app-pub-9640607417493405/7814478785"
+            resValue "string", "admob_banner", ""
+            resValue "string", "admob_native_ad", ""
+            resValue "string", "admob_interstitial_ad", ""
 
-            resValue "string", "satrt_end_inter_admob", "ca-app-pub-9640607417493405/7002586840"
+            resValue "string", "satrt_end_inter_admob", ""
 
-            resValue "string","app_open" ,"ca-app-pub-9640607417493405/2653281284"
+            resValue "string","app_open" ,""
 
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'

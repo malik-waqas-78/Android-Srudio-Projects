@@ -33,9 +33,9 @@ android {
             resValue "string", "admob_interstitial", "ca-app-pub-3940256099942544/1033173712"
         }
         release {
-            resValue "string", "banner_add", "289379432895242_296794575487061"
-            resValue "string", "native_add", "289379432895242_296795745486944"
-            resValue "string", "interstitial_add", "289379432895242_296795888820263"
+            resValue "string", "banner_add", ""
+            resValue "string", "native_add", ""
+            resValue "string", "interstitial_add", ""
 
             resValue "string", "admob_banner", ""
             resValue "string", "admob_native_ad", ""
