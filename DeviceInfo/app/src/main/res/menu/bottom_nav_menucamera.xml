@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rear"
+        android:icon="@drawable/ic_camera_lens"
+        android:title="@string/rear"/>
+    <item
+        android:id="@+id/front"
+        android:icon="@drawable/ic_camera_lens_land"
+        android:title="@string/front" />
+
+</menu>

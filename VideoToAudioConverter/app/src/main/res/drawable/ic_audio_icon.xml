@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+  <path
+      android:pathData="M457.3,512H54.7C24.5,512 0,487.5 0,457.3V54.7C0,24.5 24.5,0 54.7,0h402.5C487.5,0 512,24.5 512,54.7v402.5C512,487.5 487.5,512 457.3,512z"
+      android:strokeAlpha="0.15"
+      android:fillColor="@color/musicIconColor"
+      android:fillAlpha="0.15"/>
+  <path
+      android:pathData="M336.5,188.8c-24.4,-17.9 -49.4,-39.9 -67.2,-66.6l-15.6,-23.4c-3.3,-5 -9.5,-7.2 -15.2,-5.4c-5.7,1.7 -9.6,7 -9.6,12.9v212.2c-8,-4.7 -17.2,-7.5 -27,-7.5c-29.8,0 -54.1,24.3 -54.1,54.1c0,29.8 24.3,54.1 54.1,54.1s54.1,-24.3 54.1,-54.1V150.7c19.1,24.2 43,44.1 64.5,59.9c10.6,7.7 16.6,19.7 16.6,32.8c0,22.4 -18.2,40.6 -40.6,40.6c-7.5,0 -13.5,6 -13.5,13.5s6,13.5 13.5,13.5c37.3,0 67.6,-30.3 67.6,-67.6C364.2,221.9 353.9,201.5 336.5,188.8z"
+      android:strokeAlpha="0.8"
+      android:fillColor="@color/musicIconColor"
+      android:fillAlpha="0.8"/>
+</vector>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="pleaseWait">Калі ласка пачакай... </string>
+
+    <string name="hintSettingTitle">Ўстаноўка назву </string>
+
+    <string name="removeaudio">Выдаліць аўдыё з відэа </string>
+
+    <string name="addaudiotovideo">Дадаць аўдыё для відэа </string>
+
+    <string name="createvideo">Стварэнне відэа з малюнкаў </string>
+
+    <string name="removingAudio">Выдаленне аўдыё з відэа </string>
+
+    <string name="removedAudio">Аўдыё паспяхова выдаляецца </string>
+
+    <string name="audioRemoved">Аўдыё выдалены </string>
+
+    <string name="removeAudioFolder">Аўдыё выдаленыя відэа </string>
+
+    <string name="audioaddedFolder">Аўдыё дадаў да відэа </string>
+
+    <string name="videoCreated">Створаны відэа з малюнкаў </string>
+
+    <string name="audioName">Аўдыё імя </string>
+
+    <string name="mixedVideoSaved">Новы аўдыё дадаў да відэа. </string>
+
+    <string name="mixingAudio">Даданне аўдыё для відэа </string>
+
+    <string name="summingAudio">Паўтараючы Audios </string>
+
+    <string name="iteratingAudio">Паўтараючы аўдыё для відэа </string>
+
+    <string name="chaangeaudiovolume">Змена аб\'ёму аўдыё </string>
+
+    <string name="chaangevideovolume">Змена аб\'ёму відэа </string>
+
+    <string name="images">Малюеце </string>
+
+    <string name="allImages">Усе выявы </string>
+
+    <string name="addimagetocreate">Дадаць малюнкі для стварэння </string>
+
+    <string name="videoFromImages">Відэа з малюнкаў </string>
+
+    <string name="timeline">Графік </string>
+
+    <string name="audio">Гудзь </string>
+
+    <string name="audioremove">Выдаліць аўдыё </string>
+
+    <string name="addmusic">Дадаць музыку </string>
+
+    <string name="imagetovideo">Малюнак для відэа </string>
+
+    <string name="volumes">Аб\'ёмы </string>
+
+    <string name="system">Сістэма </string>
+
+    <string name="video">Відэа </string>
+
+    <string name="creatingVideo">Стварэнне відэа з малюнкаў </string>
+
+    <string name="createdVideo">Новае відэа, створанае з малюнкаў </string>
+
+    <string name="videoCreatedFromImages">Відэа, створаныя з малюнкаў </string>
+
+    <string name="loadingplzwait">Загрузка Калі ласка, пачакайце ... </string>
+
+    <string name="noAudio">Гэта відэа не мае аўдыё. </string>
+    <string name = "loadingVideo"> Загрузка відэа ... </string>
+    <string name = "notAvailable"> Недаступна </string>
+    <string name="videosaving">Захаванне відэа </string>
+
+    <string name="audiosaving">Захаванне аўдыё </string>
+
+    <string name="msgsavingtrimvideo">Абрэзка відэа ... </string>
+
+    <string name="msgsavingconvaudio">Пераўтварэнне аўдыё ... </string>
+
+    <string name="trimmedvideosaved">Відэа абрэзкі завершана паспяхова </string>
+
+    <string name="convertedaudiosaved">Відэа аўдыё пераўтварэння паспяхова завершана </string>
+
+    <string name="ok">добра </string>
+
+    <string name="loadfailed">Не ўдалося загрузіць </string>
+
+    <string name="loadfailedVideo">Не атрымалася загрузіць відэа </string>
+
+    <string name="loadfailedAudio">Не атрымалася загрузіць аўдыё </string>
+
+    <string name="trimingaudio">Абрэзкі аўдыё </string>
+
+    <string name="msgtrimmingAudio">Абрэзка аўдыё ... </string>
+
+    <string name="trimmedAudiosucess">Аўдыё аздобленыя паспяхова </string>
+
+    <string name="Loading">Загрузка аўдыё </string>
+
+    <string name="loadingmessage">Загрузка аўдыё ... </string>
+    <string name="app_name">Відэа ў MP3 канвэртар </string>
+    <string name="start">Пачынаць </string>
+    <string name="ratiaonaleInstruction">Дазвол захоўвання павінен захоўваць аўдыёсістэмы і відэа ў сховішча. Калі ласка, дазваляюць гэта дазвол на наладах прыкладання </string>
+    <string name="allow">Дазваляць </string>
+    <string name="deny">Адмаўляць </string>
+    <string name="importance">Значнасць </string>
+    <string name="videocutter">Відэа Cutter </string>
+    <string name="audiocutter">Аўдыё Cutter </string>
+    <string name="videotoaudio">Відэа аўдыё </string>
+    <string name="outputfolder">Выходная тэчка </string>
+    <string name="hintvideoname">Відэа </string>
+    <string name="covertedAudio">Ператвораныя Audios </string>
+    <string name="trimmedVideo">Аздобленыя відэа </string>
+    <string name="trimmedAudios">Абразаецца Audios </string>
+    <string name="trim">RIM </string>
+    <string name="lessthansec">Менш, чым другі </string>
+    <string name="cancel">Ануляваць </string>
+    <string name="upload">Загрузка </string>
+    <string name="exit">Выхадзіць </string>
+    <string name="exitmsg">Вы сапраўды хочаце, каб выйсці? </string>
+    <string name="yes">Так </string>
+    <string name="no">Не </string>
+    <string name="allVideos">Усе відэа </string>
+    <string name="allAudios">Усе Audios </string>
+    <string name="folder">Папкі </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Выхады </string>
+    <string name="permissiontitle">Дазвол патрабуецца! </string>
+    <string name="permissionMesssage">App патрабуе дазволу захоўвання для захавання Audios і відэа ў сховішча. Калі ласка, дазваляюць гэта дазвол на наладах прыкладання </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">брудны </string>
+
+    <string name="save">Ратаваць </string>
+    <string name="Convert">Ператвараць </string>
+    <string name="Trim">Аздабленне відэа </string>
+
+
+    <string name="hintSearch">Пошук ... </string>
+    <string name="delete">Выдаляць </string>
+    <string name="deletetxt">Вы сапраўды хочаце выдаліць? </string>
+    <string name="settings">Налада </string>
+    <string name="selectLanguage">Абярыце мова </string>
+    <string name="darkTheme">Цёмная тэма </string>
+    <string name="shareApp">Share App </string>
+</resources>

@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Walkie Talkie</string>
+
+
+    <string name="appid">ca-app-pub-6736377393529176~3137209396</string>
+<!--    <string name="appid">ca-app-pub-3940256099942544~3347511713</string>-->
+
+    <string name="error_missing_permissions">Cannot start without required permissions</string>
+
+    <string name="toast_connected">Connected to %s</string>
+    <string name="toast_disconnected">Disconnected from %s</string>
+
+    <string name="status_unknown">Please wait</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_advertising">Advertising</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_discovering">Have one person shake their device. Everyone else, stand still.</string>
+
+    <string name="status_searching">Looking for a device to connect to</string>
+    <string name="searching_alert">Searching NearBy Devices</string>
+    <string name="available_nearby_device">Available NearBy Device</string>
+    <string name="select_a_device_to_connect">Select A device to connect to</string>
+    <string name="callmsg">Please make sure to Make a Call</string>
+
+    <string name="privacy_text">Privacy Policy</string>
+
+    <string name="privacy_text1">These are the Terms of Service and Privacy Policy of This application. This application which provides you the service of Walkie-Talkie. This privacy policy provides an overview about how we process personal data about users of our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+
+    <string name="privacy_text2">Our Privacy Commitment</string>
+
+    <string name="privacy_text3">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+
+    <string name="privacy_text4">Information We Collect</string>
+
+    <string name="privacy_text5">Permissions in this Application are the Following</string>
+
+    <string name="privacy_text6">\nLocation \nRecord Audio</string>
+
+    <string name="privacy_text7">Changes to this Privacy Policy</string>
+
+    <string name="privacy_text8">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+
+    <string name="privacy_text9">Third-party links</string>
+
+    <string name="privacy_text10">We do not include or offer third-party products or services in  our application.</string>
+
+    <string name="privacy_text11">Children Privacy</string>
+
+    <string name="privacy_text12">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="share_message">Hey check out this app. It lets you talk to your buddies like walkie talkie do.</string>
+    <string name="privacy_text13">Contact Us</string>
+    <string name="play_store_link">https://play.google.com/store/apps/details?id=</string>
+    <string name="privacy_text14">If you have any questions about this Privacy Policy, please contact us:</string>
+    <string name="alert_dicsonnected_msg">Your device has been disconnected.</string>
+    <string name="alert_disconnected_title">Disconnected</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="turnon_wifi_msg">Wifi needed to establish call. Please turn on wifi.</string>
+    <string name="turnon_wifi_title">Turn On Your Wifi</string>
+    <string name="turn_on_wifi">Turn On</string>
+    <string name="connection_request">Connection Request</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="channel_msg">Walkie Talkie</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="user_name_title">
+        Welcome to Walkie Talkie
+    </string>
+    <string name="change_user_name">User profile</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="receive_calls_in_Background">Receive calls while App is closed</string>
+    <string name="create_avatar">Please Create Your Avatar</string>
+    <string name="description_service">You will be able to receive calls even when  walkie talkie is not running.</string>
+    <string name="pleasewaittxt">Please wait...</string>
+    <string name="txt_calling">Calling to start</string>
+    <string-array name="slices_titles">
+        <item>Allow Location Permission</item>
+        <item>Send Connection Request</item>
+        <item>Accept Connection Request</item>
+        <item>Hold to Talk</item>
+        <item>End Call</item>
+    </string-array>
+    <string-array name="slices_desc">
+        <item>Inorder to call, this app requires Location permission to find their device</item>
+        <item>Select a searched device to Connect the call</item>
+        <item>After sending connection request, receiving persone need to accept the call by clicking accept.</item>
+        <item>Hold this button and then speak. Only one of you can talk at a time.</item>
+        <item>To End a call press End Call.</item>
+    </string-array>
+
+    <string name="underline_text"><u> Privacy Policy </u></string>
+    <string name="getStarted">Get Started</string>
+    <string name="walkietalkie">Walkie Talkie</string>
+    <string name="connecttosearch">Communcate with the user by connecting.</string>
+    <string name="makecall">Make a Call</string>
+    <string name="selectionMsg">Please make a call first.</string>
+    <string name="dragtospeak">"Drag down to Talk"</string>
+
+    <string name="leavetosend">Leave to End</string>
+    <string name="cont">Continue</string>
+    <string name="splashtitle">Walkie Talkie</string>
+    <string name="mainscreenmsg">"Connect to Walkman,\nTalk to friends in nearby radius. "</string>
+    <string name="mainname">Walkie Talkie</string>
+    <string name="mainbtnmsg">Connect to other device speak</string>
+    <string name="setting">Settings</string>
+    <string name="settingmsg">Enabling incomming call more</string>
+    <string name="calling">Calling</string>
+    <string name="profilemsg">Please complete the Profile proceed</string>
+    <string name="userpro">User Profile</string>
+    <string name="connections">Connections</string>
+    <string name="makeacall">Make a call to other Side to connect</string>
+    <string name="pressandhold">Press and Hold Button to Speak</string>
+
+</resources>

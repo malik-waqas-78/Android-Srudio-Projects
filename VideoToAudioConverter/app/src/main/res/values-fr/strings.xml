@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="pleaseWait">S\'il vous plaît, attendez... </string>
+
+    <string name="hintSettingTitle">Définition du titre </string>
+
+    <string name="removeaudio">Supprimer l\'audio de la vidéo </string>
+
+    <string name="addaudiotovideo">Ajouter audio à la vidéo </string>
+
+    <string name="createvideo">Créer une vidéo à partir d\'images </string>
+
+    <string name="removingAudio">Suppression de l\'audio de la vidéo </string>
+
+    <string name="removedAudio">Audio retiré avec succès </string>
+
+    <string name="audioRemoved">Audio enlevé </string>
+
+    <string name="removeAudioFolder">Vidéos audio supprimées </string>
+
+    <string name="audioaddedFolder">Audio ajouté à la vidéo </string>
+
+    <string name="videoCreated">Vidéo créée des images </string>
+
+    <string name="audioName">Nom audio </string>
+
+    <string name="mixedVideoSaved">Nouveau audio ajouté à la vidéo. </string>
+
+    <string name="mixingAudio">Ajout de l\'audio à la vidéo </string>
+
+    <string name="summingAudio">Répéter audios </string>
+
+    <string name="iteratingAudio">Répéter audio à la vidéo </string>
+
+    <string name="chaangeaudiovolume">Modification du volume d\'audio </string>
+
+    <string name="chaangevideovolume">Modification du volume de la vidéo </string>
+
+    <string name="images">Images </string>
+
+    <string name="allImages">Toutes les images </string>
+
+    <string name="addimagetocreate">Ajouter des images à créer </string>
+
+    <string name="videoFromImages">Vidéo d\'images </string>
+
+    <string name="timeline">Chronologie </string>
+
+    <string name="audio">l\'audio </string>
+
+    <string name="audioremove">Supprimer l\'audio </string>
+
+    <string name="addmusic">Ajouter de la musique </string>
+
+    <string name="imagetovideo">Image à la vidéo </string>
+
+    <string name="volumes">Volumes </string>
+
+    <string name="system">Système </string>
+
+    <string name="video">Vidéo </string>
+
+    <string name="creatingVideo">Créer une vidéo à partir d\'images </string>
+
+    <string name="createdVideo">Nouvelle vidéo créée à partir d\'images </string>
+
+    <string name="videoCreatedFromImages">Vidéos créées à partir d\'images </string>
+
+    <string name="loadingplzwait">Chargement, veuillez patienter... </string>
+
+    <string name="noAudio">Cette vidéo n\'a pas de son. </string>
+    <string name="loadingVideo">Chargement de la vidéo...</string>
+    <string name="notAvailable">Non disponible</string>
+    <string name="videosaving">Économie de la vidéo </string>
+
+    <string name="audiosaving">Économie audio </string>
+
+    <string name="msgsavingtrimvideo">Couper la vidéo ... </string>
+
+    <string name="msgsavingconvaudio">Conversion en audio ... </string>
+
+    <string name="trimmedvideosaved">La coupe vidéo s\'est terminée avec succès </string>
+
+    <string name="convertedaudiosaved">Vidéo à la conversion audio terminée avec succès </string>
+
+    <string name="ok">d\'accord </string>
+
+    <string name="loadfailed">Chargement raté </string>
+
+    <string name="loadfailedVideo">Impossible de charger la vidéo </string>
+
+    <string name="loadfailedAudio">Échec de la charge audio </string>
+
+    <string name="trimingaudio">Coupe audio </string>
+
+    <string name="msgtrimmingAudio">Coupure de l\'audio ... </string>
+
+    <string name="trimmedAudiosucess">Audio coupé avec succès </string>
+
+    <string name="Loading">Chargement audio </string>
+
+    <string name="loadingmessage">Chargement de l\'audio ... </string>
+    <string name="app_name">Vidéo to MP3 Converter </string>
+    <string name="start">Début </string>
+    <string name="ratiaonaleInstruction">La permission de stockage doit stocker les audios et les vidéos au stockage. Veuillez autoriser cette autorisation à partir des paramètres de l\'application </string>
+    <string name="allow">Permettre </string>
+    <string name="deny">Refuser </string>
+    <string name="importance">Importance </string>
+    <string name="videocutter">Cutter vidéo </string>
+    <string name="audiocutter">Coupe audio </string>
+    <string name="videotoaudio">Vidéo à audio </string>
+    <string name="outputfolder">Dossier de sortie </string>
+    <string name="hintvideoname">Vidéo </string>
+    <string name="covertedAudio">Audios converti </string>
+    <string name="trimmedVideo">Vidéos coupées </string>
+    <string name="trimmedAudios">Audios coupé </string>
+    <string name="trim">Garniture </string>
+    <string name="lessthansec">Moins de second </string>
+    <string name="cancel">Annuler </string>
+    <string name="upload">Télécharger </string>
+    <string name="exit">Sortir </string>
+    <string name="exitmsg">Voulez-vous vraiment sortir? </string>
+    <string name="yes">Oui </string>
+    <string name="no">Non </string>
+    <string name="allVideos">Toutes les vidéos </string>
+    <string name="allAudios">Tous les audios </string>
+    <string name="folder">Dossiers </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Les sorties </string>
+    <string name="permissiontitle">Autorisation requise! </string>
+    <string name="permissionMesssage">L\'application nécessite une autorisation de stockage pour enregistrer des audios et des vidéos au stockage. Veuillez autoriser cette autorisation à partir des paramètres de l\'application </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">secs </string>
+
+    <string name="save">sauvegarder </string>
+    <string name="Convert">Convertir </string>
+    <string name="Trim">Couper la vidéo </string>
+
+
+    <string name="hintSearch">Chercher... </string>
+    <string name="delete">Effacer </string>
+    <string name="deletetxt">Voulez-vous vraiment supprimer? </string>
+    <string name="settings">Paramètres </string>
+    <string name="selectLanguage">Choisir la langue </string>
+    <string name="darkTheme">Thème sombre </string>
+    <string name="shareApp">Partager l\'application </string>
+</resources>

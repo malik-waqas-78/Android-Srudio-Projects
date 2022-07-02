@@ -1,2 +1,0 @@
-com/example/pizzaapp/BuildConfig.java
- com.example.pizzaapp.BuildConfig

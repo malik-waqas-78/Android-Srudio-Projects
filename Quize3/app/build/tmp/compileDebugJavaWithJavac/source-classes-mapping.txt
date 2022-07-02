@@ -1,6 +1,0 @@
-com/example/quize3/MainActivity.java
- com.example.quize3.MainActivity
-com/example/quize3/BuildConfig.java
- com.example.quize3.BuildConfig
-com/example/quize3/Detail_activity.java
- com.example.quize3.Detail_activity

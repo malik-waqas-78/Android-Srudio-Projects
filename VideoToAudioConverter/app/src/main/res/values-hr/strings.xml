@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="pleaseWait">Pričekajte ... </string>
+
+    <string name="hintSettingTitle">Postavljanje naslova </string>
+
+    <string name="removeaudio">Uklonite zvuk iz videozapisa </string>
+
+    <string name="addaudiotovideo">Dodaj zvuk na video </string>
+
+    <string name="createvideo">Stvorite videozapis s slika </string>
+
+    <string name="removingAudio">Uklanjanje zvuka iz videozapisa </string>
+
+    <string name="removedAudio">Audio je uspješno uklonjen </string>
+
+    <string name="audioRemoved">Audio uklonjen </string>
+
+    <string name="removeAudioFolder">Audio uklonjen videozapisi </string>
+
+    <string name="audioaddedFolder">Audio dodan u video </string>
+
+    <string name="videoCreated">Stvorio videozapis s slika </string>
+
+    <string name="audioName">Audio ime </string>
+
+    <string name="mixedVideoSaved">Novi audio dodao je videozapisima. </string>
+
+    <string name="mixingAudio">Dodavanje zvuka na video </string>
+
+    <string name="summingAudio">Ponavljajući audio </string>
+
+    <string name="iteratingAudio">Ponavljanje zvuka za videozapis </string>
+
+    <string name="chaangeaudiovolume">Promjena glasnoće zvuka </string>
+
+    <string name="chaangevideovolume">Promjena glasnoće videozapisa </string>
+
+    <string name="images">Slika </string>
+
+    <string name="allImages">Sve slike </string>
+
+    <string name="addimagetocreate">Dodajte slike za stvaranje </string>
+
+    <string name="videoFromImages">Videozapis s slika </string>
+
+    <string name="timeline">Vremenska Crta </string>
+
+    <string name="audio">Audio </string>
+
+    <string name="audioremove">Uklonite zvuk </string>
+
+    <string name="addmusic">Dodajte glazbu </string>
+
+    <string name="imagetovideo">Slika na video </string>
+
+    <string name="volumes">Volumeni </string>
+
+    <string name="system">Sustav </string>
+
+    <string name="video">Video </string>
+
+    <string name="creatingVideo">Stvaranje videozapisa s slika </string>
+
+    <string name="createdVideo">Novi videozapis kreiran iz slika </string>
+
+    <string name="videoCreatedFromImages">Videozapisi izrađeni iz slika </string>
+
+    <string name="loadingplzwait">Ucitava se, molimo pricekaj te... </string>
+
+    <string name="noAudio">Ovaj video nema zvuka. </string>
+    <string name = "loadingVideo"> Učitavanje videozapisa ... </string>
+    <string name = "notAvailable"> Nije dostupno </string>
+    <string name = "videosaving"> Spremanje videozapisa </string>
+    <string name = "audiosaving"> Spremanje zvuka </string>
+    <string name = "msgsavingtrimvideo"> Obrezivanje videozapisa ... </string>
+    <string name = "msgsavingconvaudio"> Pretvaranje u audio ... </string>
+    <string name = "trimmedvideosaved"> Obrezivanje videozapisa dovršeno je uspješno </string>
+    <string name = "convertedaudiosaved"> Video konverzija u audio uspješno je dovršena </string>
+    <string name = "ok"> U redu </string>
+
+    <string name = "loadfailed"> Učitavanje nije uspjelo </string>
+    <string name = "loadfailedVideo"> Učitavanje videozapisa nije uspjelo </string>
+    <string name = "loadfailedAudio"> Učitavanje zvuka nije uspjelo </string>
+
+    <string name = "trimingaudio"> Obrezivanje zvuka </string>
+    <string name = "msgtrimmingAudio"> Trimmimg Audio ... </string>
+    <string name = "trimmedAudiosucess"> Zvuk je uspješno obrezan </string>
+
+    <string name = "Loading"> Učitavanje zvuka </string>
+    <string name = "loadingmessage"> Učitavanje zvuka ... </string>
+    <string name="app_name">Video u MP3 Converter </string>
+    <string name="start">Početak </string>
+    <string name="ratiaonaleInstruction">Dopuštenje za pohranu mora pohraniti audio i videozapise u pohranjivanju. Ljubazno dopustite ovo dopuštenje od postavki aplikacije </string>
+    <string name="allow">Dopustiti </string>
+    <string name="deny">Odbiti </string>
+    <string name="importance">Važnost </string>
+    <string name="videocutter">Videozapis </string>
+    <string name="audiocutter">Audio rezač </string>
+    <string name="videotoaudio">Video na audio </string>
+    <string name="outputfolder">Izlazna mapa </string>
+    <string name="hintvideoname">Video </string>
+    <string name="covertedAudio">Pretvoreni audio </string>
+    <string name="trimmedVideo">Obrezani videozapisi </string>
+    <string name="trimmedAudios">Obrubljeni audio </string>
+    <string name="trim">Obložiti </string>
+    <string name="lessthansec">Manje od drugog </string>
+    <string name="cancel">Otkazati </string>
+    <string name="upload">Učitaj </string>
+    <string name="exit">Izlaz </string>
+    <string name="exitmsg">Želite li stvarno izaći? </string>
+    <string name="yes">Da </string>
+    <string name="no">Ne </string>
+    <string name="allVideos">Svi videozapisi </string>
+    <string name="allAudios">Svi audio </string>
+    <string name="folder">Mape </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Izlazi </string>
+    <string name="permissiontitle">Potrebna dozvola! </string>
+    <string name="permissionMesssage">Aplikacija zahtijeva dopuštenje za pohranu za spremanje audio i videozapisa u pohranjivanju. Ljubazno dopustite ovo dopuštenje od postavki aplikacije </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">prljav </string>
+
+    <string name="save">Uštedjeti </string>
+    <string name="Convert">Pretvoriti </string>
+    <string name="Trim">Trim video </string>
+
+
+    <string name="hintSearch">Traži... </string>
+    <string name="delete">Izbrisati </string>
+    <string name="deletetxt">Želite li stvarno izbrisati? </string>
+    <string name="settings">Postavke </string>
+    <string name="selectLanguage">Izaberi jezik </string>
+    <string name="darkTheme">Tamna tema </string>
+    <string name="shareApp">Dijelite aplikaciju </string>
+</resources>

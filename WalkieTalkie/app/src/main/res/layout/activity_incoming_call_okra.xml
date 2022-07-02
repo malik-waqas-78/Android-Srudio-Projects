@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actvities.IncomingCallOKRA">
+
+    <RelativeLayout
+        android:id="@+id/top_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/view_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/callscreen"
+        app:layout_constraintTop_toBottomOf="@id/top_banner"
+        app:layout_constraintBottom_toTopOf="@id/bottom_banner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:text="@string/walkietalkie"
+            android:textColor="@color/black1"
+            android:textSize="@dimen/_15sdp"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:id="@+id/linearName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView5"
+            app:layout_constraintBottom_toTopOf="@id/lottiecallingback"
+
+           >
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="bottom"
+                android:text="@string/calling"
+
+                android:textColor="@color/black1"
+                android:textSize="@dimen/_12sdp"
+                 />
+
+            <TextView
+                android:id="@+id/tv_caller_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:hint="Sara"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/_20sdp" />
+        </LinearLayout>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="0dp"
+           android:id="@+id/lottiecallingback"
+           android:src="@drawable/crcle"
+           android:padding="@dimen/_20sdp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/linearName"
+           app:layout_constraintBottom_toTopOf="@id/constraintLayout7"
+           />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/callerImage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/avatar1"
+            android:padding="@dimen/_50sdp"
+            app:layout_constraintStart_toStartOf="@id/lottiecallingback"
+            app:layout_constraintEnd_toEndOf="@id/lottiecallingback"
+            app:layout_constraintTop_toBottomOf="@id/linearName"
+            app:layout_constraintBottom_toTopOf="@id/constraintLayout7"
+
+             />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout7"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:layout_marginBottom="@dimen/_100sdp"
+            android:translationY="@dimen/_20sdp"
+            app:layout_constraintTop_toBottomOf="@id/lottiecallingback"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            >
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:lottie_rawRes="@raw/lottie_up"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_8sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:lottie_rawRes="@raw/lottie_downarrows"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:rotation="270"
+                android:layout_marginEnd="@dimen/_8sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.appcompat.widget.AppCompatSeekBar
+                android:id="@+id/seekbar11"
+                android:layout_width="220dp"
+                android:layout_height="85dp"
+                android:progress="15"
+                android:max="30"
+                android:maxHeight="85dp"
+                android:minHeight="85dp"
+                android:progressDrawable="@color/trans"
+                android:splitTrack="false"
+                android:thumb="@drawable/ic_seekbarthumb"
+                android:thumbOffset="-1dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--            <com.airbnb.lottie.LottieAnimationView-->
+            <!--                android:layout_width="50dp"-->
+            <!--                android:layout_height="50dp"-->
+            <!--               app:lottie_rawRes="@raw/lottie_up"-->
+            <!--                app:lottie_autoPlay="true"-->
+            <!--                app:lottie_loop="true"-->
+            <!--                android:rotation="90"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--            <com.airbnb.lottie.LottieAnimationView-->
+            <!--                android:layout_width="50dp"-->
+            <!--                android:layout_height="50dp"-->
+            <!--               app:lottie_rawRes="@raw/lottie_downarrows"-->
+            <!--                app:lottie_autoPlay="true"-->
+            <!--                app:lottie_loop="true"-->
+            <!--                android:rotation="270"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="@dimen/_250sdp"-->
+<!--            android:layout_height="@dimen/_100sdp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tv_caller_name"-->
+<!--            >-->
+
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/constraintLayout7"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                >-->
+
+<!--                <com.airbnb.lottie.LottieAnimationView-->
+<!--                    android:layout_width="@dimen/_50sdp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:lottie_rawRes="@raw/callrejectred"-->
+<!--                    app:lottie_autoPlay="true"-->
+<!--                    app:lottie_loop="true"-->
+<!--                    android:rotation="90"-->
+<!--                    android:layout_marginStart="@dimen/_15sdp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                <com.airbnb.lottie.LottieAnimationView-->
+<!--                    android:layout_width="@dimen/_50sdp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:lottie_rawRes="@raw/callattendgreen"-->
+<!--                    app:lottie_autoPlay="true"-->
+<!--                    app:lottie_loop="true"-->
+<!--                    android:rotation="270"-->
+<!--                    android:layout_marginEnd="@dimen/_15sdp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--                <androidx.appcompat.widget.AppCompatSeekBar-->
+<!--                    android:id="@+id/seekbar11"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:progress="15"-->
+<!--                    android:max="30"-->
+<!--                    android:maxHeight="85dp"-->
+<!--                    android:minHeight="85dp"-->
+<!--                    android:progressDrawable="@color/trans"-->
+<!--                    android:splitTrack="false"-->
+<!--                    android:thumb="@drawable/ic_call"-->
+<!--                    android:thumbOffset="-1dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/textView8"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="32dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:fontFamily="@font/overlock_black"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Walkie-Talkie"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@color/colorPrimary"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_24sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/textView3"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:fontFamily="@font/overlock_blackitalic"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Incoming Call"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@color/colorPrimary"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_15sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/imageView3" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <androidx.constraintlayout.widget.ConstraintLayout&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/imageView3"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintBottom_toTopOf="@id/btn_accept"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <com.airbnb.lottie.LottieAnimationView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/anim_speaking_listening"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="@dimen/_150sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="@dimen/_150sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginBottom="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:visibility="visible"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:lottie_autoPlay="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:lottie_loop="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:lottie_rawRes="@raw/calling_animationfile" />&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;        </androidx.constraintlayout.widget.ConstraintLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/tv_caller_name"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:fontFamily="@font/overlock_blackitalic"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="name"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@color/colorPrimary"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_14sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/textView3" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn_deny"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="@dimen/_20sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginBottom="@dimen/_60sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="#E91E1E"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Cancel"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="#FFFFFF"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_14sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:cornerRadius="15dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn_accept"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginEnd="@dimen/_20sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginBottom="@dimen/_60sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="#4CAF50"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Accept"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="#FFFFFF"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_14sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:cornerRadius="15dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent" />&ndash;&gt;-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

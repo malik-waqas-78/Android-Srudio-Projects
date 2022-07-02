@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#4DDC19</color>
+    <color name="purple_500">#30E62A</color>
+    <color name="purple_700">#3AAA35</color>
+    <color name="teal_200">#009EE2</color>
+    <color name="teal_700">#EC6467</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#E6007E</color>
+
+    <color name="light_pink">#EC9796</color>
+    <color name="purple">#622578</color>
+    <color name="red">#BE1522</color>
+    <color name="dark_blue">#101948</color>
+    <color name="dark_green">#3AAA35</color>
+    <color name="light_orange">#EC6467</color>
+    <color name="pdf_red">#E30613</color>
+    <color name="word_blue">#5D75EF</color>
+    <color name="other_sky_blue">#2dAAE1</color>
+    <color name="audio_color">#008DD5</color>
+
+
+    <color name="background_color">#faf6ff</color>
+
+    <color name="home_status_color">#E6009EE2</color>
+    <color name="chats_sc">#E6E6007E</color>
+    <color name="messenger_sc">#E6101948</color>
+    <color name="whatsapp_sc">#E63AAA35</color>
+    <color name="mails_sc">#E6EC6467</color>
+    <color name="image_sc">#E6662483</color>
+    <color name="audios_sc">#E6008DD5</color>
+    <color name="videos_sc">#E6BE1522</color>
+    <color name="pdf_sc">#E6E30613</color>
+    <color name="word_sc">#E6101948</color>
+    <color name="others_sc">#E62DAAE1</color>
+    <color name="docs_sc">#E6E30613</color>
+    <color name="media_sc">#E694C11F</color>
+
+    <color name="appcolorgreen">#0EAD69</color>
+
+    <color name="musiciconcolor">#e29f6b</color>
+
+    <color name="greybox">#E9E9E9</color>
+
+
+    <color name="green">#11ad6a</color>
+    <color name="gray">#707070</color>
+
+    <color name="pink1">#ee4266</color>
+
+    <color name="green1">#0EAD69 </color>
+    <color name="gray1">#707070 </color>
+    <color name="black1">#161414 </color>
+    <color name="white1">#E9E9E9 </color>
+    <color name="select_color">#00717f</color>
+    <color name="bgColor">#faf6ff</color>
+    <color name="searchViewbg">#e9e9e9</color>
+    <color name="transparenBlack">#56000000</color>
+    <color name="unselected">#BCD9DC</color>
+
+</resources>

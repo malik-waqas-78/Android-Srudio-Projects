@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+    <string name="loadingVideo">Ładowanie wideo...</string>
+    <string name="notAvailable">Niedostępne</string>
+    <string name="videosaving">Zapisywanie wideo. </string>
+    <string name="pleaseWait">Proszę czekać... </string>
+
+    <string name="hintSettingTitle">Tytuł ustawienia </string>
+
+    <string name="removeaudio">Usuń dźwięk z wideo </string>
+
+    <string name="addaudiotovideo">Dodaj dźwięk na wideo </string>
+
+    <string name="createvideo">Utwórz wideo z obrazów </string>
+
+    <string name="removingAudio">Usuwanie dźwięku z wideo </string>
+
+    <string name="removedAudio">Audio usunięto pomyślnie </string>
+
+    <string name="audioRemoved">Usunięto dźwięk. </string>
+
+    <string name="removeAudioFolder">Audio Usunięto filmy </string>
+
+    <string name="audioaddedFolder">Audio dodano do wideo </string>
+
+    <string name="videoCreated">Stworzony film z obrazów </string>
+
+    <string name="audioName">Nazwa audio. </string>
+
+    <string name="mixedVideoSaved">Nowy dźwięk dodany do wideo. </string>
+
+    <string name="mixingAudio">Dodawanie audio do wideo </string>
+
+    <string name="summingAudio">Powtarzające się audio. </string>
+
+    <string name="iteratingAudio">Powtarzanie dźwięku do wideo </string>
+
+    <string name="chaangeaudiovolume">Zmiana wolumenu audio </string>
+
+    <string name="chaangevideovolume">Zmiana wolumenu wideo </string>
+
+    <string name="images">Obrazy </string>
+
+    <string name="allImages">Wszystkie obrazy </string>
+
+    <string name="addimagetocreate">Dodaj zdjęcia do tworzenia </string>
+
+    <string name="videoFromImages">Wideo z obrazów </string>
+
+    <string name="timeline">Osi czasu </string>
+
+    <string name="audio">Audio </string>
+
+    <string name="audioremove">Usuń audio. </string>
+
+    <string name="addmusic">Dodaj muzykę </string>
+
+    <string name="imagetovideo">Obraz do wideo </string>
+
+    <string name="volumes">Wolumeny </string>
+
+    <string name="system">System </string>
+
+    <string name="video">Wideo </string>
+
+    <string name="creatingVideo">Tworzenie wideo z obrazów </string>
+
+    <string name="createdVideo">Nowy film utworzony z obrazów </string>
+
+    <string name="videoCreatedFromImages">Filmy utworzone z obrazów </string>
+
+    <string name="loadingplzwait">Ładowanie proszę czekać... </string>
+
+    <string name="noAudio">Ten film nie ma dźwięku. </string>
+    <string name="audiosaving">Zapisywanie audio. </string>
+
+    <string name="msgsavingtrimvideo">Przycinanie wideo ... </string>
+
+    <string name="msgsavingconvaudio">Konwersja do audio ... </string>
+
+    <string name="trimmedvideosaved">Przycinanie wideo zakończone pomyślnie </string>
+
+    <string name="convertedaudiosaved">Konwersja wideo do audio zakończona pomyślnie </string>
+
+    <string name="ok">ok </string>
+
+    <string name="loadfailed">Ładowanie nie powiodło się </string>
+
+    <string name="loadfailedVideo">Nie można załadować wideo </string>
+
+    <string name="loadfailedAudio">Nie można załadować audio </string>
+
+    <string name="trimingaudio">Przycinanie audio. </string>
+
+    <string name="msgtrimmingAudio">Przycinanie audio ... </string>
+
+    <string name="trimmedAudiosucess">Audio przycięty pomyślnie </string>
+
+    <string name="Loading">Ładowanie audio. </string>
+
+    <string name="loadingmessage">Ładowanie audio ... </string>
+    <string name="app_name">Video to MP3 Converter </string>
+    <string name="start">Początek </string>
+    <string name="ratiaonaleInstruction">Zezwolenie na przechowywanie musi przechowywać audio i filmy w pamięci. Uprzejmie zezwolić na to pozwolenie od ustawień aplikacji </string>
+    <string name="allow">Pozwolić </string>
+    <string name="deny">Zaprzeczyć </string>
+    <string name="importance">Znaczenie </string>
+    <string name="videocutter">Cutter wideo </string>
+    <string name="audiocutter">Cutter Audio. </string>
+    <string name="videotoaudio">Wideo do audio. </string>
+    <string name="outputfolder">Folder wyjściowy </string>
+    <string name="hintvideoname">Wideo </string>
+    <string name="covertedAudio">Przekształcony audio. </string>
+    <string name="trimmedVideo">Przycięte filmy </string>
+    <string name="trimmedAudios">Przycięte audio. </string>
+    <string name="trim">Przycinać </string>
+    <string name="lessthansec">Mniej niż sekunda </string>
+    <string name="cancel">Anulować </string>
+    <string name="upload">Wgrywać </string>
+    <string name="exit">Wyjście </string>
+    <string name="exitmsg">Czy naprawdę chcesz wyjść? </string>
+    <string name="yes">tak </string>
+    <string name="no">Nie </string>
+    <string name="allVideos">Wszystkie filmy </string>
+    <string name="allAudios">Wszystkie Audio. </string>
+    <string name="folder">Lornetka składana </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Wyjścia </string>
+    <string name="permissiontitle">Wymagany zezwolenie! </string>
+    <string name="permissionMesssage">Aplikacja wymaga pozwolenia na przechowywanie, aby zapisać audio i filmy w pamięci masowej. Uprzejmie zezwolić na to pozwolenie od ustawień aplikacji </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">brudny </string>
+
+    <string name="save">Zapisać </string>
+    <string name="Convert">Konwertować </string>
+    <string name="Trim">Wykończenia wideo </string>
+
+
+    <string name="hintSearch">Szukaj... </string>
+    <string name="delete">Kasować </string>
+    <string name="deletetxt">Czy naprawdę chcesz usunąć? </string>
+    <string name="settings">Ustawienia </string>
+    <string name="selectLanguage">Wybierz język </string>
+    <string name="darkTheme">Ciemny schemat </string>
+    <string name="shareApp">Udostępnij aplikacje </string>
+</resources>

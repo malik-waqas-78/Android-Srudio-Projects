@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="pleaseWait">कृपया प्रतीक्षा करें... </string>
+
+    <string name="hintSettingTitle">शीर्षक </string>
+
+    <string name="removeaudio">वीडियो से ऑडियो निकालें </string>
+
+    <string name="addaudiotovideo">वीडियो में ऑडियो जोड़ें </string>
+
+    <string name="createvideo">छवियों से वीडियो बनाएँ </string>
+
+    <string name="removingAudio">वीडियो से ऑडियो निकालना </string>
+
+    <string name="removedAudio">ऑडियो सफलतापूर्वक हटा दिया गया </string>
+
+    <string name="audioRemoved">ऑडियो हटा दिया गया </string>
+
+    <string name="removeAudioFolder">ऑडियो हटाया वीडियो </string>
+
+    <string name="audioaddedFolder">ऑडियो वीडियो में जोड़ा गया </string>
+
+    <string name="videoCreated">छवियों से वीडियो बनाया </string>
+
+    <string name="audioName">ऑडियो नाम </string>
+
+    <string name="mixedVideoSaved">वीडियो में जोड़ा गया नया ऑडियो। </string>
+
+    <string name="mixingAudio">वीडियो में ऑडियो जोड़ना </string>
+
+    <string name="summingAudio">ऑडियो को दोहराते हुए </string>
+
+    <string name="iteratingAudio">वीडियो को ऑडियो दोहराना </string>
+
+    <string name="chaangeaudiovolume">ऑडियो की मात्रा बदलना </string>
+
+    <string name="chaangevideovolume">वीडियो की मात्रा बदलना </string>
+
+    <string name="images">इमेजिस </string>
+
+    <string name="allImages">सभी छवियां </string>
+
+    <string name="addimagetocreate">बनाने के लिए छवियां जोड़ें </string>
+
+    <string name="videoFromImages">छवियों से वीडियो </string>
+
+    <string name="timeline">इस समय </string>
+
+    <string name="audio">ऑडियो </string>
+
+    <string name="audioremove">ऑडियो निकालें </string>
+
+    <string name="addmusic">संगीत जोड़ें </string>
+
+    <string name="imagetovideo">वीडियो के लिए छवि </string>
+
+    <string name="volumes">संस्करणों </string>
+
+    <string name="system">प्रणाली </string>
+
+    <string name="video">वीडियो </string>
+
+    <string name="creatingVideo">छवियों से वीडियो बनाना </string>
+
+    <string name="createdVideo">छवियों से बनाया गया नया वीडियो </string>
+
+    <string name="videoCreatedFromImages">छवियों से बनाई गई वीडियो </string>
+
+    <string name="loadingplzwait">लोड हो रहा है कृपया प्रतीक्षा करें... </string>
+
+    <string name="noAudio">इस वीडियो में कोई ऑडियो नहीं है। </string>
+    <string name = "loadingVideo">वीडियो लोड हो रहा है...</string>
+    <string name = "notAvailable">उपलब्ध नहीं</string>
+    <string name="videosaving">वीडियो सहेजना </string>
+
+    <string name="audiosaving">बचत ऑडियो </string>
+
+    <string name="msgsavingtrimvideo">वीडियो ट्रिमिंग ... </string>
+
+    <string name="msgsavingconvaudio">ऑडियो में कनवर्ट करना ... </string>
+
+    <string name="trimmedvideosaved">वीडियो ट्रिमिंग सफलतापूर्वक पूरा हुआ </string>
+
+    <string name="convertedaudiosaved">ऑडियो रूपांतरण के लिए वीडियो सफलतापूर्वक पूरा हुआ </string>
+
+    <string name="ok">ठीक है </string>
+
+    <string name="loadfailed">लोड विफल हो गया </string>
+
+    <string name="loadfailedVideo">वीडियो लोड करने में विफल </string>
+
+    <string name="loadfailedAudio">ऑडियो लोड करने में विफल </string>
+
+    <string name="trimingaudio">ट्रिमिंग ऑडियो </string>
+
+    <string name="msgtrimmingAudio">ऑडियो ट्रिमिंग ... </string>
+
+    <string name="trimmedAudiosucess">ऑडियो सफलतापूर्वक ट्रिम किया गया </string>
+
+    <string name="Loading">ऑडियो लोड हो रहा है </string>
+
+    <string name="loadingmessage">ऑडियो लोड हो रहा है ... </string>
+    <string name="app_name">एमपी 3 कनवर्टर के लिए वीडियो </string>
+    <string name="start">शुरू </string>
+    <string name="ratiaonaleInstruction">भंडारण अनुमति को ऑडियो और वीडियो को भंडारण में स्टोर करना होगा। कृपया इस अनुमति को ऐप की सेटिंग्स से अनुमति दें </string>
+    <string name="allow">अनुमति देना </string>
+    <string name="deny">मना करना </string>
+    <string name="importance">महत्त्व </string>
+    <string name="videocutter">चलचित्र कर्तक </string>
+    <string name="audiocutter">ऑडियो कटर </string>
+    <string name="videotoaudio">ऑडियो के लिए वीडियो </string>
+    <string name="outputfolder">आउटपुट फ़ोल्डर </string>
+    <string name="hintvideoname">वीडियो </string>
+    <string name="covertedAudio">परिवर्तित ऑडियो </string>
+    <string name="trimmedVideo">छंटनी वीडियो </string>
+    <string name="trimmedAudios">ट्रिम किए गए ऑडियो </string>
+    <string name="trim">ट्रिम </string>
+    <string name="lessthansec">दूसरे से कम </string>
+    <string name="cancel">रद्द करें </string>
+    <string name="upload">डालना </string>
+    <string name="exit">बाहर जाएं </string>
+    <string name="exitmsg">क्या आप वास्तव में बाहर निकलना चाहते हैं? </string>
+    <string name="yes">हां </string>
+    <string name="no">नहीं </string>
+    <string name="allVideos">सभी वीडियो </string>
+    <string name="allAudios">सभी ऑडियो </string>
+    <string name="folder">फ़ोल्डर </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">आउटपुट </string>
+    <string name="permissiontitle">अनुमति की आवश्यकता है! </string>
+    <string name="permissionMesssage">ऐप को भंडारण में ऑडियो और वीडियो को सहेजने के लिए भंडारण अनुमति की आवश्यकता होती है। कृपया इस अनुमति को ऐप की सेटिंग्स से अनुमति दें </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">गंदा </string>
+
+    <string name="save">सहेजें </string>
+    <string name="Convert">धर्मांतरित </string>
+    <string name="Trim">ट्रिम वीडियो </string>
+
+
+    <string name="hintSearch">खोज... </string>
+    <string name="delete">हटाएं </string>
+    <string name="deletetxt">क्या आप वास्तव में हटाना चाहते हैं? </string>
+    <string name="settings">समायोजन </string>
+    <string name="selectLanguage">भाषा चुने </string>
+    <string name="darkTheme">अंधेरा विषय </string>
+    <string name="shareApp">ऐप शेयर करें </string>
+</resources>

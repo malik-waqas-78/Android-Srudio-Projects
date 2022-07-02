@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recycle Bin</string>
+
+    <string name="appid">ca-app-pub-5209588748713002~3138646182</string>
+
+    <string name="get_started">get started</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="search_here">Search Here</string>
+    <string name="all_files">All Files</string>
+    <string name="privacy_text">Privacy Policy</string>
+    <string name="chats">Chats</string>
+    <string name="media">Media</string>
+    <string name="docs">Docs</string>
+    <string name="images">Images</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="messenger">Messenger</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="mails">Mails</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="deleted_media">Deleted Media</string>
+    <string name="deleted_chats">Deleted Chats</string>
+    <string name="deleted_docs">Deleted Docs</string>
+    <string name="audios_files">Audio Files</string>
+    <string name="videos_files">Video Files</string>
+    <string name="images_files">Image Files</string>
+    <string name="pdf_files">Pdf Files</string>
+    <string name="word_files">Word Files</string>
+    <string name="other_files">Other Files</string>
+    <string name="pdf">Pdf</string>
+    <string name="word">WordFiles</string>
+    <string name="other">OthersFiles</string>
+
+    <string name="notification_listener_service">Recycle Bin</string>
+    <string name="notification_listener_service_explanation">To Recover your Data and chats, this app needs Notification Listener Permission. Please Allow this permission in order to recover your data. </string>
+
+    <string name="authority">com.photo.recovery.fileprovider</string>
+
+    <string name="storage_permission_title">Allow Recycle Bin to access your storage.</string>
+    <string name="storage_permission_msg">It will allow us to Read, Store and share files easily.</string>
+
+    <string name="total_files">Total Files</string>
+    <string name="deleted_files">No Deleted Files Found</string>
+    <string name="no_deleted_chats">No Chats Found</string>
+
+    <string name="yes">Allow</string>
+    <string name="no">No</string>
+
+    <string name="ongoing_notification_id">Recycle Bin</string>
+    <string name="file_info">FILE_INFO</string>
+
+    <string name="privacy_text1">These are the Terms of Service and Privacy Policy of This application. This application which provides you the service of recovering data and works as a recycle bin. This privacy policy provides an overview about how we process personal data about users of our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+
+    <string name="privacy_text2">Our Privacy Commitment</string>
+
+    <string name="privacy_text3">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+
+    <string name="privacy_text4">Information We Collect</string>
+
+    <string name="privacy_text5">Permissions in this Application are the Following</string>
+
+    <string name="privacy_text6">Write External Storage \nRead External Storage \n Access Notification </string>
+
+    <string name="privacy_text7">Changes to this Privacy Policy</string>
+
+    <string name="privacy_text8">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+
+    <string name="privacy_text9">Third-party links</string>
+
+    <string name="privacy_text10">We do not include or offer third-party products or services in  our application.</string>
+
+    <string name="privacy_text11">Children Privacy</string>
+
+    <string name="privacy_text12">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+
+    <string name="privacy_text13">Contact Us</string>
+
+    <string name="privacy_text14">If you have any questions about this Privacy Policy, please contact us:</string>
+    <string name="notificationServiceLable">MyNotificationListenerService</string>
+    <string name="notification_text">RecycleBin Is Running</string>
+    <string name="total_chats">Total Chats</string>
+    <string name="recovering_files">Recovering Files</string>
+    <string name="scanning_files">Scanning For Files</string>
+    <string name="deeplyscanning">Scanning Deeply</string>
+    <string name="pleaseWait">Please Wait...</string>
+    <string name="deleting_files">Deleting Files</string>
+    <string name="home">home</string>
+    <string name="underline_text"><u> Privacy Policy </u></string>
+    <string name="appname">Recycle Bin</string>
+
+    <string name="recentactivity">Recent Activity</string>
+
+    <string name="splashmsg">Recover deleted files</string>
+    <string name="mainmsg">Recover deleted files\nwith Deep Scanner</string>
+    <string name="recover_selected">Recover</string>
+    <string name="delete">Delete</string>
+    <string name="rateus">Rate Us</string>
+    <string-array name="slices_titles">
+        <item>Allow Permissions</item>
+        <item>Scanning Files</item>
+        <item>Recovered Files</item>
+        <item>Backup Your Data</item>
+    </string-array>
+    <string-array name="slices_desc">
+        <item>App needs storage permission to recover media files.</item>
+        <item>Scan through the system to get deleted files.</item>
+        <item>Recover the deleted files back into the system.</item>
+        <item>App keeps the backup of your important data.</item>
+
+    </string-array>
+</resources>

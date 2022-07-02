@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_1">#9F92EC</color>
+    <color name="color_2">#FF7862F6</color>
+    <color name="color_3">#4B3AA8</color>
+
+    <color name="teal_200">#776BBD</color>
+    <color name="teal_700">#271C67</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="rating_star_normal">#BFBFBF</color>
+
+    <color name="color_back_intro">#EFEFEF</color>
+</resources>

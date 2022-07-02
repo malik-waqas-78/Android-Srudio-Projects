@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name = "loadingVideo">動画を読み込んでいます... </string>
+    <string name = "notAvailable">利用できません</string>
+    <string name="videosaving">ビデオを節約します </string>
+    <string name="pleaseWait">お待ちください... </string>
+
+    <string name="hintSettingTitle">タイトルを設定する </string>
+
+    <string name="removeaudio">ビデオからオーディオを削除します </string>
+
+    <string name="addaudiotovideo">ビデオにオーディオを追加します </string>
+
+    <string name="createvideo">画像からビデオを作成します </string>
+
+    <string name="removingAudio">ビデオからオーディオを削除します </string>
+
+    <string name="removedAudio">オーディオが正常に削除されました </string>
+
+    <string name="audioRemoved">オーディオが削除されました </string>
+
+    <string name="removeAudioFolder">オーディオの削除ビデオ </string>
+
+    <string name="audioaddedFolder">オーディオがビデオに追加されました </string>
+
+    <string name="videoCreated">画像からビデオを作成しました </string>
+
+    <string name="audioName">オーディオ名 </string>
+
+    <string name="mixedVideoSaved">新しいオーディオがビデオに追加されました。 </string>
+
+    <string name="mixingAudio">動画を追加します </string>
+
+    <string name="summingAudio">繰り返しのオーディオ </string>
+
+    <string name="iteratingAudio">ビデオを繰り返します </string>
+
+    <string name="chaangeaudiovolume">音声の量を変える </string>
+
+    <string name="chaangevideovolume">ビデオの音量を変える </string>
+
+    <string name="images">images </string>
+
+    <string name="allImages">すべての画像 </string>
+
+    <string name="addimagetocreate">作成する画像を追加します </string>
+
+    <string name="videoFromImages">画像からのビデオ </string>
+
+    <string name="timeline">タイムライン </string>
+
+    <string name="audio">オーディオ </string>
+
+    <string name="audioremove">オーディオを削除します </string>
+
+    <string name="addmusic">音楽を追加してください </string>
+
+    <string name="imagetovideo">ビデオへの画像 </string>
+
+    <string name="volumes">ボリューム </string>
+
+    <string name="system">システム </string>
+
+    <string name="video">ビデオ </string>
+
+    <string name="creatingVideo">画像からビデオを作成します </string>
+
+    <string name="createdVideo">画像から作成された新しいビデオ </string>
+
+    <string name="videoCreatedFromImages">画像から作成されたビデオ </string>
+
+    <string name="loadingplzwait">読み込み中。。。待って下さい... </string>
+
+    <string name="noAudio">このビデオにはオーディオがありません。 </string>
+    <string name="audiosaving">オーディオを節約する </string>
+
+    <string name="msgsavingtrimvideo">ビデオをトリミングする... </string>
+
+    <string name="msgsavingconvaudio">音声への変換... </string>
+
+    <string name="trimmedvideosaved">ビデオトリミングが正常に完了しました </string>
+
+    <string name="convertedaudiosaved">オーディオ変換へのビデオが正常に完了しました </string>
+
+    <string name="ok">わかった </string>
+
+    <string name="loadfailed">負荷に失敗しました </string>
+
+    <string name="loadfailedVideo">ビデオのロードに失敗しました </string>
+
+    <string name="loadfailedAudio">オーディオのロードに失敗しました </string>
+
+    <string name="trimingaudio">音声をトリミングする </string>
+
+    <string name="msgtrimmingAudio">音声をトリミングする... </string>
+
+    <string name="trimmedAudiosucess">オーディオが正常にトリミングされました </string>
+
+    <string name="Loading">オーディオを読み込む </string>
+
+    <string name="loadingmessage">オーディオを読み込む... </string>
+    <string name="app_name">MP3コンバーターへのビデオ </string>
+    <string name="start">始める </string>
+    <string name="ratiaonaleInstruction">ストレージ権限は、オーディオとビデオをストレージに保存する必要があります。 親切にアプリの設定からこの許可を許可します </string>
+    <string name="allow">許可する </string>
+    <string name="deny">拒否 </string>
+    <string name="importance">重要性 </string>
+    <string name="videocutter">ビデオカッター </string>
+    <string name="audiocutter">オーディオカッター </string>
+    <string name="videotoaudio">ビデオへのビデオ </string>
+    <string name="outputfolder">出力フォルダ </string>
+    <string name="hintvideoname">ビデオ </string>
+    <string name="covertedAudio">変換されたオーディオ </string>
+    <string name="trimmedVideo">トリミングビデオ </string>
+    <string name="trimmedAudios">トリミングオーディオ </string>
+    <string name="trim">トリム </string>
+    <string name="lessthansec">2番目以下 </string>
+    <string name="cancel">キャンセル </string>
+    <string name="upload">アップロード </string>
+    <string name="exit">出口 </string>
+    <string name="exitmsg">あなたは本当に終了したいですか？ </string>
+    <string name="yes">はい </string>
+    <string name="no">番号 </string>
+    <string name="allVideos">すべてのビデオ </string>
+    <string name="allAudios">すべてのオーディオ </string>
+    <string name="folder">フォルダ </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">出力 </string>
+    <string name="permissiontitle">許可が必要！ </string>
+    <string name="permissionMesssage">アプリは、保存内のオーディオやビデオを保存するためのストレージ権限を必要とします。 親切にアプリの設定からこの権限を許可します </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">汚れた </string>
+
+    <string name="save">保存する </string>
+    <string name="Convert">変換 </string>
+    <string name="Trim">ビデオをトリムします </string>
+
+
+    <string name="hintSearch">検索... </string>
+    <string name="delete">消去 </string>
+    <string name="deletetxt">本当に削除しますか？ </string>
+    <string name="settings">設定 </string>
+    <string name="selectLanguage">言語を選択する </string>
+    <string name="darkTheme">暗いテーマ </string>
+    <string name="shareApp">アプリを共有する </string>
+</resources>

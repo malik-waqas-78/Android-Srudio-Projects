@@ -1,6 +1,0 @@
-com/example/lab7/databinding/SecondAcitvityBinding.java
- com.example.lab7.databinding.SecondAcitvityBinding
-com/example/lab7/BuildConfig.java
- com.example.lab7.BuildConfig
-com/example/lab7/databinding/MainActivityBinding.java
- com.example.lab7.databinding.MainActivityBinding

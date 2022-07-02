@@ -1,4 +1,0 @@
-com/example/sqliteapp/BuildConfig.java
- com.example.sqliteapp.BuildConfig
-com/example/sqliteapp/databinding/ActivityMainBinding.java
- com.example.sqliteapp.databinding.ActivityMainBinding

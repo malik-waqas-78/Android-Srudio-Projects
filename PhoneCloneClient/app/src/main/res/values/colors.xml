@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#FFAEAEAE</color>
+    <color name="grey_txt">#FFAEAEAE</color>
+    <color name="green">#2ECB64</color>
+    <color name="app_primary_color">#05c8e8</color>
+    <color name="red">#FF0000</color>
+    <color name="dark_blue">#627FE9</color>
+    <color name="blue">#3D69ED</color>
+    <color name="teal_200">#2ECB64</color>
+    <color name="teal_700">#2ECB64</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_light">#ADC3C3C3</color>
+    <color name="green_text">#2ECB64</color>
+    <color name="background">#FFFFFF</color>
+
+
+    <color name="bg">#FFFFFF</color>
+    <color name="appcolorpurple">#540d6e</color>
+    <color name="sea_green">#f77c4f</color>
+    <color name="light_sea_green">#48f77c4f</color>
+    <color name="darkSeaGreen">#95520A</color>
+    <color name="transparentDarkSeaGreen">#ebf0f9</color>
+    <color name="gray">#C4C4C4</color>
+    <color name="blackanother">#363535</color>
+    <color name="buttonsColor">#f77c4f</color>
+
+    <color name="videoscolor">#ffb70d</color>
+    <color name="photoscolor">#3185fc</color>
+    <color name="docscolor">#6844ff</color>
+    <color name="appscolor">#ff3e3e</color>
+    <color name="contactscolor">#ce0d5c</color>
+    <color name="calendercolor">#ffa35c</color>
+    <color name="audiocolor">#00db75</color>
+
+    <color name="default_back_color">@android:color/transparent</color>
+    <color name="default_back_stroke_color">#f0f0f0</color>
+    <color name="default_chart_value_color">#ff3d00</color>
+    <color name="other">#858179</color>
+
+
+</resources>

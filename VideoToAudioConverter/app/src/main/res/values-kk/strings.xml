@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="pleaseWait">Өтінемін күте тұрыңыз... </string>
+
+    <string name="hintSettingTitle">Тақырыпты орнату </string>
+
+    <string name="removeaudio">Дыбысты бейнеден алып тастаңыз </string>
+
+    <string name="addaudiotovideo">Дыбысты бейнеге қосыңыз </string>
+
+    <string name="createvideo">Суреттерден бейнені жасаңыз </string>
+
+    <string name="removingAudio">Дыбысты бейнеден шығару </string>
+
+    <string name="removedAudio">Дыбыс сәтті өтті </string>
+
+    <string name="audioRemoved">Дыбыс жойылды </string>
+
+    <string name="removeAudioFolder">Дыбыс алынған бейнелерді жойды </string>
+
+    <string name="audioaddedFolder">Дыбыс бейнеге қосылды </string>
+
+    <string name="videoCreated">Суреттерден бейнелер жасалған </string>
+
+    <string name="audioName">Аудио ат </string>
+
+    <string name="mixedVideoSaved">Бейнеге жаңа дыбыс қосылды. </string>
+
+    <string name="mixingAudio">Дыбысты бейнеге қосу </string>
+
+    <string name="summingAudio">Аудио қайталау </string>
+
+    <string name="iteratingAudio">Дыбысты бейнеге қайталау </string>
+
+    <string name="chaangeaudiovolume">Дыбыс көлемін өзгерту </string>
+
+    <string name="chaangevideovolume">Бейне көлемін өзгерту </string>
+
+    <string name="images">Суреттер </string>
+
+    <string name="allImages">Барлық суреттер </string>
+
+    <string name="addimagetocreate">Жасау үшін суреттерді қосыңыз </string>
+
+    <string name="videoFromImages">Суреттерден бейне </string>
+
+    <string name="timeline">Уақыт рәсімі </string>
+
+    <string name="audio">Дыбыс </string>
+
+    <string name="audioremove">Дыбысты алып тастаңыз </string>
+
+    <string name="addmusic">Музыканы қосыңыз </string>
+
+    <string name="imagetovideo">Бейнеге сурет </string>
+
+    <string name="volumes">Көлем </string>
+
+    <string name="system">Жүйе </string>
+
+    <string name="video">Вызшақ </string>
+
+    <string name="creatingVideo">Суреттерден бейнені жасау </string>
+
+    <string name="createdVideo">Суреттерден жасалған жаңа бейне </string>
+
+    <string name="videoCreatedFromImages">Суреттерден жасалған бейнелер </string>
+
+    <string name="loadingplzwait">Жүктеу Күте тұрыңыз ... </string>
+
+    <string name="noAudio">Бұл бейнеде дыбыс жоқ. </string>
+    <string name = "loadingVideo"> Бейне жүктелуде ... </string>
+<string name = "notAvailable"> Қол жетімді емес </string>
+    <string name="videosaving">Бейнені сақтау </string>
+
+    <string name="audiosaving">Дыбысты сақтау </string>
+
+    <string name="msgsavingtrimvideo">Бейнені тегістеу ... </string>
+
+    <string name="msgsavingconvaudio">Аудиоға түрлендіру ... </string>
+
+    <string name="trimmedvideosaved">Бейне қысқарту аяқталды </string>
+
+    <string name="convertedaudiosaved">Дыбыстық түрлендіруге бейне сәтті аяқталды </string>
+
+    <string name="ok">ЖАРАЙДЫ МА </string>
+
+    <string name="loadfailed">Жүктеме сәтсіз аяқталды </string>
+
+    <string name="loadfailedVideo">Бейнені жүктеу сәтсіз аяқталды </string>
+
+    <string name="loadfailedAudio">Дыбысты жүктеу сәтсіз аяқталды </string>
+
+    <string name="trimingaudio">Дыбысты кесу </string>
+
+    <string name="msgtrimmingAudio">Аудио ... </string>
+
+    <string name="trimmedAudiosucess">Дыбыс сәтті кесілген </string>
+
+    <string name="Loading">Аудио жүктеу </string>
+
+    <string name="loadingmessage">Аудио жүктеу ... </string>
+    <string name="app_name">MP3 конвертеріне бейне </string>
+    <string name="start">Жүргізу </string>
+    <string name="ratiaonaleInstruction">Сақтауға рұқсат - аудио және бейнелерді сақтау үшін сақтау керек. Бұл рұқсатты қолданба параметрлерінен алуға мүмкіндік беріңіз </string>
+    <string name="allow">Рұқсат ету </string>
+    <string name="deny">Мойындамау </string>
+    <string name="importance">Маңыздылық </string>
+    <string name="videocutter">Бейне кескіш </string>
+    <string name="audiocutter">Аудио кескіш </string>
+    <string name="videotoaudio">Дыбыстық бейне </string>
+    <string name="outputfolder">Шығу қалтасы </string>
+    <string name="hintvideoname">Вызшақ </string>
+    <string name="covertedAudio">Түрлендірілген аудио </string>
+    <string name="trimmedVideo">Кесілген бейнелер </string>
+    <string name="trimmedAudios">Кесілген аудио </string>
+    <string name="trim">Жиіту </string>
+    <string name="lessthansec">Секундтан аз </string>
+    <string name="cancel">Күшін жою </string>
+    <string name="upload">Жүктеу </string>
+    <string name="exit">Шығу </string>
+    <string name="exitmsg">Шынымен шығу керек пе? </string>
+    <string name="yes">Иә </string>
+    <string name="no">Жоқ </string>
+    <string name="allVideos">Барлық бейнелер </string>
+    <string name="allAudios">Барлық аудио </string>
+    <string name="folder">Қалталар </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Шығоры </string>
+    <string name="permissiontitle">Рұқсат қажет! </string>
+    <string name="permissionMesssage">Қолданба аудио мен бейнелерді сақтауға сақтау үшін сақтауға рұқсат талап етеді. Бұл рұқсатты қолданба параметрлерінен алуға мүмкіндік беріңіз </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">лас </string>
+
+    <string name="save">Жинау </string>
+    <string name="Convert">Өзарту </string>
+    <string name="Trim">Бейнені тегістеу </string>
+
+
+    <string name="hintSearch">Іздеу ... </string>
+    <string name="delete">Жою </string>
+    <string name="deletetxt">Сіз шынымен жойғыңыз келе ме? </string>
+    <string name="settings">Параметрлер </string>
+    <string name="selectLanguage">Тілді таңдаңыз </string>
+    <string name="darkTheme">Қараңғы тақырып </string>
+    <string name="shareApp">Бағдарламаны бөлісу </string>
+</resources>

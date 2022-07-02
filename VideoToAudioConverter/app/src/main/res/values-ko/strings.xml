@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="pleaseWait">기다리세요... </string>
+
+    <string name="hintSettingTitle">제목 설정 </string>
+
+    <string name="removeaudio">비디오에서 오디오를 제거하십시오 </string>
+
+    <string name="addaudiotovideo">비디오에 오디오를 추가하십시오 </string>
+
+    <string name="createvideo">이미지에서 비디오를 만듭니다 </string>
+
+    <string name="removingAudio">비디오에서 오디오 제거 </string>
+
+    <string name="removedAudio">오디오가 성공적으로 제거되었습니다 </string>
+
+    <string name="audioRemoved">오디오 제거 </string>
+
+    <string name="removeAudioFolder">오디오 제거 비디오 </string>
+
+    <string name="audioaddedFolder">비디오에 오디오가 추가되었습니다 </string>
+
+    <string name="videoCreated">이미지에서 비디오를 생성했습니다 </string>
+
+    <string name="audioName">오디오 이름 </string>
+
+    <string name="mixedVideoSaved">비디오에 새로운 오디오가 추가되었습니다. </string>
+
+    <string name="mixingAudio">비디오에 오디오 추가 </string>
+
+    <string name="summingAudio">오디오 반복 </string>
+
+    <string name="iteratingAudio">오디오를 비디오로 반복합니다 </string>
+
+    <string name="chaangeaudiovolume">오디오 볼륨 변경 </string>
+
+    <string name="chaangevideovolume">비디오 볼륨 변경 </string>
+
+    <string name="images">이미지 </string>
+
+    <string name="allImages">모든 이미지 </string>
+
+    <string name="addimagetocreate">생성 할 이미지를 추가하십시오 </string>
+
+    <string name="videoFromImages">이미지에서 비디오 </string>
+
+    <string name="timeline">타임 라인 </string>
+
+    <string name="audio">오디오 </string>
+
+    <string name="audioremove">오디오를 제거하십시오 </string>
+
+    <string name="addmusic">음악을 추가하십시오 </string>
+
+    <string name="imagetovideo">이미지 - 비디오 이미지 </string>
+
+    <string name="volumes">부피 </string>
+
+    <string name="system">체계 </string>
+
+    <string name="video">동영상 </string>
+
+    <string name="creatingVideo">이미지에서 비디오 만들기 </string>
+
+    <string name="createdVideo">이미지에서 생성 된 새로운 비디오 </string>
+
+    <string name="videoCreatedFromImages">이미지에서 생성 된 비디오 </string>
+
+    <string name="loadingplzwait">로딩 중 기다려주세요... </string>
+
+    <string name="noAudio">이 비디오에는 오디오가 없습니다. </string>
+    <string name="loadingVideo">동영상 로드 중...</string>
+    <string name="notAvailable">사용할 수 없음</string>
+    <string name="videosaving">비디오 저장 </string>
+
+    <string name="audiosaving">오디오 저장 </string>
+
+    <string name="msgsavingtrimvideo">비디오 트리밍 ... </string>
+
+    <string name="msgsavingconvaudio">오디오로 변환 ... </string>
+
+    <string name="trimmedvideosaved">비디오 트리밍이 성공적으로 완료되었습니다 </string>
+
+    <string name="convertedaudiosaved">비디오 오디오 변환이 성공적으로 완료되었습니다 </string>
+
+    <string name="ok">좋아요 </string>
+
+    <string name="loadfailed">로드 실패 </string>
+
+    <string name="loadfailedVideo">비디오를로드하지 못했습니다 </string>
+
+    <string name="loadfailedAudio">오디오를로드하지 못했습니다 </string>
+
+    <string name="trimingaudio">오디오 트리밍 </string>
+
+    <string name="msgtrimmingAudio">오디오 트리밍 ... </string>
+
+    <string name="trimmedAudiosucess">오디오가 성공적으로 트림되었습니다 </string>
+
+    <string name="Loading">오디오를로드합니다 </string>
+
+    <string name="loadingmessage">오디오로드 중 ... </string>
+    <string name="app_name">비디오는 MP3 변환기입니다 </string>
+    <string name="start">시작 </string>
+    <string name="ratiaonaleInstruction">스토리지 사용 권한은 오디오와 비디오를 저장소에 저장해야합니다. 친절 하게이 응용 프로그램 설정에 대한 허가를 허용하십시오 </string>
+    <string name="allow">허용하다 </string>
+    <string name="deny">부인하다 </string>
+    <string name="importance">중요성 </string>
+    <string name="videocutter">비디오 커터 </string>
+    <string name="audiocutter">오디오 커터 </string>
+    <string name="videotoaudio">비디오 오디오에 </string>
+    <string name="outputfolder">출력 폴더 </string>
+    <string name="hintvideoname">동영상 </string>
+    <string name="covertedAudio">변환 된 오디오 </string>
+    <string name="trimmedVideo">트리밍 된 비디오 </string>
+    <string name="trimmedAudios">트리밍 된 오디오 </string>
+    <string name="trim">손질 </string>
+    <string name="lessthansec">초 미만 </string>
+    <string name="cancel">취소 </string>
+    <string name="upload">업로드 </string>
+    <string name="exit">출구 </string>
+    <string name="exitmsg">정말로 나가고 싶니? </string>
+    <string name="yes">예 </string>
+    <string name="no">아니요 </string>
+    <string name="allVideos">모든 비디오 </string>
+    <string name="allAudios">모든 오디오 </string>
+    <string name="folder">폴더 </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">출력 </string>
+    <string name="permissiontitle">허가가 필요합니다! </string>
+    <string name="permissionMesssage">앱은 스토리지에 오디오 및 비디오를 저장할 수있는 스토리지 권한이 필요합니다. 친절 하게이 응용 프로그램 설정에 대한 허가를 허용하십시오 </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">더러운 </string>
+
+    <string name="save">구하다 </string>
+    <string name="Convert">전환하다 </string>
+    <string name="Trim">비디오 트림 </string>
+
+
+    <string name="hintSearch">찾다... </string>
+    <string name="delete">삭제 </string>
+    <string name="deletetxt">정말로 삭제하고 싶습니까? </string>
+    <string name="settings">설정 </string>
+    <string name="selectLanguage">언어를 선택하십시오 </string>
+    <string name="darkTheme">어두운 테마 </string>
+    <string name="shareApp">앱 공유 </string>
+</resources>

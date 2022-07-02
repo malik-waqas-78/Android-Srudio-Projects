@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <paths>
+    <external-path
+        name="status/"
+        path="WhatsApp/Media/.Statuses/" />
+
+    <external-path
+        name="newStatus/"
+        path="Android/media/com.whatsapp/WhatsApp/Media/.Statuses/" />
+    <external-path
+        name="data/"
+        path="/.WhatsApp Data Recover/"/>
+    </paths>

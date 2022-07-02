@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="screen.lock.screenlock">
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:networkSecurityConfig="@xml/netwerk_security_config"
+        android:usesCleartextTraffic="true"
+        android:largeHeap="true"
+        android:hardwareAccelerated="true"
+        android:name="screen.lock.screenlock.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EvaluationApp_LockScreen">
+
+        <!--<meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id"/>-->
+
+
+        <activity android:name="screen.lock.screenlock.Settings_Recycler"
+            android:excludeFromRecents="true"
+            android:autoRemoveFromRecents="false"
+            android:screenOrientation="portrait"/>
+        <activity android:name="screen.lock.screenlock.ClockTypeSet"
+            android:excludeFromRecents="true"
+            android:autoRemoveFromRecents="false"
+            android:screenOrientation="portrait"/>
+        <activity android:name="screen.lock.screenlock.SetPatternLock"
+            android:excludeFromRecents="true"
+            android:autoRemoveFromRecents="false"
+            android:screenOrientation="portrait"/>
+        <activity android:name="screen.lock.screenlock.PatternLock"
+            android:windowSoftInputMode="adjustResize"
+            android:excludeFromRecents="true"
+            android:autoRemoveFromRecents="true"
+            android:launchMode="singleInstance"
+
+            android:screenOrientation="portrait"/>
+        <activity android:name="screen.lock.screenlock.LockType"
+            android:excludeFromRecents="true"
+            android:autoRemoveFromRecents="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="screen.lock.screenlock.Theme"
+            android:label="Themes"
+            android:screenOrientation="portrait"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"/>
+        <activity android:name="screen.lock.screenlock.SplashActivity"
+            android:excludeFromRecents="true"
+            android:autoRemoveFromRecents="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="screen.lock.screenlock.MainActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true"
+            android:autoRemoveFromRecents="false" />
+
+
+        <service android:name="screen.lock.screenlock.ForegroundService" />
+
+        <activity android:name="screen.lock.screenlock.CofirmPattern"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:name="screen.lock.screenlock.LockScreenActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:autoRemoveFromRecents="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="screen.lock.screenlock.ConfirmPin"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.Design.Light.NoActionBar"
+            android:screenOrientation="portrait"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"/>
+
+        <receiver
+            android:name="screen.lock.screenlock.Reciever"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

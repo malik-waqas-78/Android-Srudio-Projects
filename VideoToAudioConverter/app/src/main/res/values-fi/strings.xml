@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="pleaseWait">Odota... </string>
+
+    <string name="hintSettingTitle">Otsikko </string>
+
+    <string name="removeaudio">Poista ääni videosta </string>
+
+    <string name="addaudiotovideo">Lisää ääni videoon </string>
+
+    <string name="createvideo">Luo videota kuvista </string>
+
+    <string name="removingAudio">Äänen poistaminen videosta </string>
+
+    <string name="removedAudio">Audio on poistettu onnistuneesti </string>
+
+    <string name="audioRemoved">Audio on poistettu </string>
+
+    <string name="removeAudioFolder">Audio Poistettu videot </string>
+
+    <string name="audioaddedFolder">Ääni lisätään videoon </string>
+
+    <string name="videoCreated">Luotu videokuvista </string>
+
+    <string name="audioName">Äänen nimi </string>
+
+    <string name="mixedVideoSaved">Uusi ääni lisätään videoon. </string>
+
+    <string name="mixingAudio">Äänen lisääminen videolle </string>
+
+    <string name="summingAudio">Toistuvat audiot </string>
+
+    <string name="iteratingAudio">Toistetaan ääntä videolle </string>
+
+    <string name="chaangeaudiovolume">Äänenvoimakkuuden muuttaminen </string>
+
+    <string name="chaangevideovolume">Videon tilavuuden muuttaminen </string>
+
+    <string name="images">Kuvat </string>
+
+    <string name="allImages">Kaikki kuvat </string>
+
+    <string name="addimagetocreate">Lisää kuvia luomaan </string>
+
+    <string name="videoFromImages">Video kuvista </string>
+
+    <string name="timeline">Aikajana </string>
+
+    <string name="audio">Audio </string>
+
+    <string name="audioremove">Poista ääni </string>
+
+    <string name="addmusic">Lisää musiikkia </string>
+
+    <string name="imagetovideo">Kuva videolle </string>
+
+    <string name="volumes">Volyymit </string>
+
+    <string name="system">Järjestelmä </string>
+
+    <string name="video">Video </string>
+
+    <string name="creatingVideo">Videon luominen kuvista </string>
+
+    <string name="createdVideo">Uusi video luotu kuvista </string>
+
+    <string name="videoCreatedFromImages">Kuvista luotu videot </string>
+
+    <string name="loadingplzwait">Ladataan, odota... </string>
+
+    <string name="noAudio">Tässä videossa ei ole ääntä. </string>
+    <string name = "loadingVideo"> Ladataan videota ... </string>
+    <string name = "notAvailable"> Ei saatavilla </string>
+    <string name="videosaving">Videon tallentaminen </string>
+
+    <string name="audiosaving">Äänen tallentaminen </string>
+
+    <string name="msgsavingtrimvideo">Leikkaus video ... </string>
+
+    <string name="msgsavingconvaudio">Muuntaminen äänentoistoon ... </string>
+
+    <string name="trimmedvideosaved">Videon leikkaus valmistui onnistuneesti </string>
+
+    <string name="convertedaudiosaved">Video äänen muuntaminen onnistuneesti </string>
+
+    <string name="ok">Ok </string>
+
+    <string name="loadfailed">Kuormitus epäonnistui </string>
+
+    <string name="loadfailedVideo">Videon lataaminen epäonnistui </string>
+
+    <string name="loadfailedAudio">Äänen lataaminen epäonnistui </string>
+
+    <string name="trimingaudio">Trimmaus Audio </string>
+
+    <string name="msgtrimmingAudio">Trimmaus Audio ... </string>
+
+    <string name="trimmedAudiosucess">Ääni leikattu onnistuneesti </string>
+
+    <string name="Loading">Äänen lataaminen </string>
+
+    <string name="loadingmessage">Lataaminen Ääni ... </string>
+    <string name="app_name">Video MP3 Converter </string>
+    <string name="start">alkaa </string>
+    <string name="ratiaonaleInstruction">Varastointiluvan on tallennettava audiot ja videot varastointiin. Ystävällisesti salli tämän luvan sovelluksen asetuksista </string>
+    <string name="allow">Sallia </string>
+    <string name="deny">Kieltää </string>
+    <string name="importance">Merkitys </string>
+    <string name="videocutter">Videon leikkuri </string>
+    <string name="audiocutter">Audioleikkuri </string>
+    <string name="videotoaudio">Video äänentoistoon </string>
+    <string name="outputfolder">Ulostulokansio </string>
+    <string name="hintvideoname">VideoName </string>
+    <string name="covertedAudio">Muunnetut audiot </string>
+    <string name="trimmedVideo">Koristetut videot </string>
+    <string name="trimmedAudios">Koristetut audiot </string>
+    <string name="trim">Trimmata </string>
+    <string name="lessthansec">Vähemmän kuin toinen </string>
+    <string name="cancel">Peruuttaa </string>
+    <string name="upload">Ladata </string>
+    <string name="exit">Poistu </string>
+    <string name="exitmsg">Haluatko todella poistua? </string>
+    <string name="yes">Joo </string>
+    <string name="no">Ei </string>
+    <string name="allVideos">Kaikki videot </string>
+    <string name="allAudios">Kaikki audiot </string>
+    <string name="folder">Kansiot </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Lähdöt </string>
+    <string name="permissiontitle">Tarvittava lupa! </string>
+    <string name="permissionMesssage">Sovellus vaatii tallennusluvan tallentaa audiot ja videot tallentamiseen. Ystävällisesti salli tämän luvan sovelluksen asetuksista </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">likainen </string>
+
+    <string name="save">Tallentaa </string>
+    <string name="Convert">Muuntaa </string>
+    <string name="Trim">Leikkaa video </string>
+
+
+    <string name="hintSearch">Hae... </string>
+    <string name="delete">Poistaa </string>
+    <string name="deletetxt">Haluatko todella poistaa? </string>
+    <string name="settings">asetukset </string>
+    <string name="selectLanguage">Valitse kieli </string>
+    <string name="darkTheme">Tumma teema </string>
+    <string name="shareApp">Jaa sovellus </string>
+</resources>

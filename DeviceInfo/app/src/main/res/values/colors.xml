@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#f6f6f6</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="splashButttoncolor">#FFFFFFFF</color>
+    <color name="splashTextColor">#FF000000</color>
+
+    <color name="backgroundColor">#f6f6f6</color>
+    <color name="buttonColor">#fc7d53</color>
+
+    <color name="default_back_color">@android:color/transparent</color>
+    <color name="default_back_stroke_color">#f0f0f0</color>
+    <color name="default_chart_value_color">#ff3d00</color>
+    <color name="transparentPieChartBack">#efefef</color>
+    <color name="pieChartBarColor">#28bf97</color>
+    <color name="bottomNavSelected">#0ed9a3</color>
+    <color name="unselectedNav">#c9c9c9</color>
+    <color name="gray">#ababab</color>
+    <color name="greenProg">#53FC75</color>
+    <color name="redProg">#FC5353</color>
+
+
+</resources>

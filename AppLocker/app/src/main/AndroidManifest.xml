@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.locker.applock">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
+
+    <application
+
+        android:name="com.locker.applock.MyApplication"
+        android:allowBackup="true"
+        android:allowClearUserData="false"
+
+        android:hardwareAccelerated="true"
+
+        android:icon="@drawable/app_icon"
+        android:killAfterRestore="true"
+        android:label="@string/app_name"
+
+        android:largeHeap="true"
+
+        android:manageSpaceActivity="com.locker.applock.Activities.ClearStorageActivity"
+
+        android:networkSecurityConfig="@xml/network_security_config"
+
+        android:resizeableActivity="false"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppLocker"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6736377393529176~3099499265"/>
+
+        <activity
+            android:name="com.locker.applock.Activities.ClearStorageActivity"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.locker.applock.Activities.TransparentDialogActivity"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppLocker.OverlayTransparent"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.locker.applock.Activities.ThemeSelectionActivity"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.locker.applock.Activities.SettingsScreen"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.locker.applock.Activities.AppLockListActivity"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.locker.applock.Activities.HomeActivity"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.locker.applock.Activities.SplashScreen"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.locker.applock.LockActivities.PinLockActivity"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppLocker.FullScreen"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.locker.applock.LockActivities.PatternLockActivity"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppLocker.FullScreen"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.locker.applock.Activities.OverlayActivity"
+            android:autoRemoveFromRecents="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppLocker.OverlayTransparent"
+            tools:ignore="LockedOrientationActivity" />
+
+        <service
+            android:name="com.locker.applock.Services.NotificationForegroundService"
+            android:enabled="true" />
+        <service
+            android:name="com.locker.applock.Services.AccessibilityHelperClass"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/access_service_config" />
+        </service>
+
+        <receiver android:name="com.locker.applock.Receivers.LockAndBootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.locker.applock.Receivers.PackageAddedBroadcastReceiver">
+            <intent-filter>
+                <data android:scheme="package" />
+
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

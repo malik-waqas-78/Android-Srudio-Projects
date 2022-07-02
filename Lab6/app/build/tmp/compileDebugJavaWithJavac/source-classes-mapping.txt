@@ -1,4 +1,0 @@
-com/example/lab6/databinding/ActivityMainBinding.java
- com.example.lab6.databinding.ActivityMainBinding
-com/example/lab6/BuildConfig.java
- com.example.lab6.BuildConfig

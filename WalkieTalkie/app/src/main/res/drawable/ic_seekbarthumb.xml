@@ -1,0 +1,18 @@
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="270"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="270">
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="67.405dp"
+    android:height="67.405dp"
+    android:viewportWidth="67.405"
+    android:viewportHeight="67.405">
+  <path
+      android:pathData="M33.7,0A33.7,33.7 0,1 1,0 33.7,33.7 33.7,0 0,1 33.7,0Z"
+      android:fillColor="#ffb631"/>
+  <path
+      android:pathData="M27.812,33.33a18.556,18.556 0,0 0,7.122 7.109c0.069,-0.066 0.137,-0.127 0.2,-0.192q0.942,-0.939 1.883,-1.878a2.669,2.669 0,0 1,2.625 -0.749c0.83,0.192 1.658,0.4 2.479,0.619a2.625,2.625 0,0 1,1.967 1.979c0.288,1.1 0.559,2.2 0.831,3.308a1.073,1.073 0,0 1,-1.1 1.389,20.575 20.575,0 0,1 -19.917,-15.668 20.177,20.177 0,0 1,-0.573 -4.733,1.078 1.078,0 0,1 1.44,-1.132c1.089,0.268 2.179,0.533 3.265,0.815a2.637,2.637 0,0 1,1.99 1.988c0.217,0.8 0.418,1.614 0.609,2.426a2.671,2.671 0,0 1,-0.746 2.646C29.206,31.943 28.517,32.627 27.812,33.33Z"
+      android:fillColor="#fff"/>
+</vector>
+</rotate>

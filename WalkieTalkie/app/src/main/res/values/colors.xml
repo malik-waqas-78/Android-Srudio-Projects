@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFFF988E</color>
+    <color name="purple_500">#FFDC2424</color>
+    <color name="purple_700">#FFDC2424</color>
+    <color name="teal_200">#EDEDED</color>
+    <color name="teal_700">#E1E1E1</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="state_discovering">#FFDC2424</color>
+    <color name="state_advertising">#EF5350</color>
+    <color name="colorPrimary">#FFDC2424</color>
+    <color name="colorPrimaryDark">#FFDC2424</color>
+    <color name="colorAccent">#66BB6A</color>
+    <color name="selected_avatar">#B3B3B3</color>
+    <color name="un_seleted_avatar">#DDDDDD</color>
+    <color name="textColor">#FFFFFF</color>
+
+    <color name="userItemStroke">#A6A6A6</color>
+
+    <color name="state_unknown">#78909C</color>
+    <color name="state_connected">#0097A7</color>
+
+    <color name="log_verbose">#FFFFFF</color>
+    <color name="log_debug">#EEEEEE</color>
+    <color name="log_warning">#E57373</color>
+    <color name="log_error">#F44336</color>
+    <color name="Red1">#398FFF</color>
+    <color name="disconnectcall">#EC1000</color>
+
+
+    <color name="state_searching">#B0BEC5</color>
+    <color name="statusbarcolor">#2B303A</color>
+    <color name="trans">#00F44336</color>
+
+    <color name="col1">#2B303A</color>
+    <color name="col2">#446DF6</color>
+    <color name="col3">#2B303A</color>
+    <color name="gray">#B8B2B1</color>
+    <color name="blue">#446DF6</color>
+
+    <color name="btnonegradstart">#47A3FF</color>
+    <color name="btnonegradend">#C063FF</color>
+    <color name="btntwogradstart">#FFC62A</color>
+    <color name="btntwogradend">#FF9647</color>
+    <color name="black1">#141313</color>
+    <color name="transparentBlack">#63141313</color>
+    <color name="green">#29DA00</color>
+</resources>

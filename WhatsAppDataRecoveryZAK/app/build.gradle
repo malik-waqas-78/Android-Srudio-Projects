@@ -1,0 +1,85 @@
+plugins {
+    id 'com.android.application'
+
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.recovery.data.forwhatsapp.recover.whatsappdata.media.whatsdelete.restore"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0.1"
+        android.defaultConfig.vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+
+        debug {
+            resValue "string", "fbinterstitialad", "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
+            resValue "string", "fbbannerad", "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
+            resValue "string", "fbnativead", "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
+
+            resValue "string", "admob_banner", "ca-app-pub-3940256099942544/6300978111"
+            resValue "string", "admob_native_ad", "ca-app-pub-3940256099942544/2247696110"
+            resValue "string", "admob_interstitial", "ca-app-pub-3940256099942544/1033173712"
+
+        }
+        release {
+
+            resValue "string", "fbinterstitialad", ""
+            resValue "string", "fbbannerad", ""
+            resValue "string", "fbnativead", ""
+
+
+            resValue "string", "admob_banner", ""
+            resValue "string", "admob_native_ad", ""
+            resValue "string", "admob_interstitial", ""
+
+
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'io.gresse.hugo.vumeterlibrary:vumeterlibrary:1.0.17'
+   // implementation 'com.google.android.gms:play-services-ads:20.2.0'
+    //implementation 'com.facebook.android:audience-network-sdk:6.5.0'
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+    implementation 'top.oply.opuslib:opuslib:1.0.2'
+
+}
+
+apply plugin: 'realm-android'
+apply plugin: 'kotlin-android'
+repositories {
+    mavenCentral()
+}

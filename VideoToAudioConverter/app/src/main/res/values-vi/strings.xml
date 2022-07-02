@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+    <string name = "loadingVideo"> Đang tải Video ... </string>
+    <string name = "notAvailable"> Không có sẵn </string>
+    <string name="videosaving">Lưu video </string>
+    <string name="pleaseWait">Vui lòng chờ... </string>
+
+    <string name="hintSettingTitle">Đặt tiêu đề </string>
+
+    <string name="removeaudio">Xóa âm thanh khỏi video </string>
+
+    <string name="addaudiotovideo">Thêm âm thanh vào video </string>
+
+    <string name="createvideo">Tạo video từ hình ảnh </string>
+
+    <string name="removingAudio">Xóa âm thanh khỏi video </string>
+
+    <string name="removedAudio">Audio đã bị xóa thành công </string>
+
+    <string name="audioRemoved">Âm thanh loại bỏ. </string>
+
+    <string name="removeAudioFolder">Âm thanh đã xóa video </string>
+
+    <string name="audioaddedFolder">Âm thanh được thêm vào video </string>
+
+    <string name="videoCreated">Tạo video từ hình ảnh </string>
+
+    <string name="audioName">Tên âm thanh. </string>
+
+    <string name="mixedVideoSaved">Âm thanh mới được thêm vào video. </string>
+
+    <string name="mixingAudio">Thêm âm thanh vào video </string>
+
+    <string name="summingAudio">Lặp lại âm thanh </string>
+
+    <string name="iteratingAudio">Lặp lại âm thanh sang video </string>
+
+    <string name="chaangeaudiovolume">Thay đổi âm lượng của âm thanh </string>
+
+    <string name="chaangevideovolume">Thay đổi khối lượng video </string>
+
+    <string name="images">Hình ảnh </string>
+
+    <string name="allImages">Tất cả hình ảnh </string>
+
+    <string name="addimagetocreate">Thêm hình ảnh để tạo </string>
+
+    <string name="videoFromImages">Video từ hình ảnh </string>
+
+    <string name="timeline">Mốc thời gian </string>
+
+    <string name="audio">Âm thanh. </string>
+
+    <string name="audioremove">Xóa âm thanh </string>
+
+    <string name="addmusic">Thêm nhạc </string>
+
+    <string name="imagetovideo">Hình ảnh để video. </string>
+
+    <string name="volumes">Khối lượng. </string>
+
+    <string name="system">Hệ thống </string>
+
+    <string name="video">Băng hình </string>
+
+    <string name="creatingVideo">Tạo video từ hình ảnh </string>
+
+    <string name="createdVideo">Video mới được tạo từ hình ảnh </string>
+
+    <string name="videoCreatedFromImages">Video được tạo từ hình ảnh </string>
+
+    <string name="loadingplzwait">Tải vui lòng đợi... </string>
+
+    <string name="noAudio">Video này không có âm thanh. </string>
+    <string name="audiosaving">Lưu âm thanh </string>
+
+    <string name="msgsavingtrimvideo">Cắt tỉa video ... </string>
+
+    <string name="msgsavingconvaudio">Chuyển đổi sang âm thanh ... </string>
+
+    <string name="trimmedvideosaved">Video cắt tỉa hoàn thành thành công </string>
+
+    <string name="convertedaudiosaved">Chuyển đổi video sang âm thanh hoàn thành thành công </string>
+
+    <string name="ok">VÂNG </string>
+
+    <string name="loadfailed">Tải thất bại </string>
+
+    <string name="loadfailedVideo">Không thể tải video </string>
+
+    <string name="loadfailedAudio">Không thể tải âm thanh </string>
+
+    <string name="trimingaudio">Cắt tỉa âm thanh. </string>
+
+    <string name="msgtrimmingAudio">Cắt tỉa âm thanh ... </string>
+
+    <string name="trimmedAudiosucess">Âm thanh được cắt thành công </string>
+
+    <string name="Loading">Đang tải âm thanh </string>
+
+    <string name="loadingmessage">Đang tải âm thanh ... </string>
+    <string name="app_name">Chuyển đổi video sang MP3 </string>
+    <string name="start">Bắt đầu </string>
+    <string name="ratiaonaleInstruction">Quyền lưu trữ là phải lưu trữ các âm thanh và video trong bộ lưu trữ. Vui lòng cho phép quyền này từ cài đặt của ứng dụng </string>
+    <string name="allow">Cho phép </string>
+    <string name="deny">Từ chối </string>
+    <string name="importance">Tầm quan trọng </string>
+    <string name="videocutter">Máy cắt video </string>
+    <string name="audiocutter">Máy cắt âm thanh </string>
+    <string name="videotoaudio">Video theo âm thanh </string>
+    <string name="outputfolder">Thư mục đầu ra </string>
+    <string name="hintvideoname">Băng hình </string>
+    <string name="covertedAudio">Audios chuyển đổi. </string>
+    <string name="trimmedVideo">Video cắt tỉa </string>
+    <string name="trimmedAudios">Âm thanh cắt tỉa. </string>
+    <string name="trim">Trang trí </string>
+    <string name="lessthansec">Ít hơn thứ hai </string>
+    <string name="cancel">Hủy bỏ </string>
+    <string name="upload">Tải lên </string>
+    <string name="exit">Lối ra </string>
+    <string name="exitmsg">Bạn có thực sự muốn thoát? </string>
+    <string name="yes">đúng </string>
+    <string name="no">Không </string>
+    <string name="allVideos">Tất cả video </string>
+    <string name="allAudios">Tất cả các âm thanh </string>
+    <string name="folder">Thư mục </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Đầu ra </string>
+    <string name="permissiontitle">Cần có sự cho phép! </string>
+    <string name="permissionMesssage">Ứng dụng yêu cầu quyền lưu trữ để lưu âm thanh và video trong bộ lưu trữ. Vui lòng cho phép quyền này từ cài đặt của ứng dụng </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">dơ bẩn </string>
+
+    <string name="save">Cứu </string>
+    <string name="Convert">Đổi </string>
+    <string name="Trim">Cắt video </string>
+
+
+    <string name="hintSearch">Tìm kiếm... </string>
+    <string name="delete">Xóa bỏ </string>
+    <string name="deletetxt">Bạn có thực sự muốn xóa? </string>
+    <string name="settings">Cài đặt </string>
+    <string name="selectLanguage">Chọn ngôn ngữ </string>
+    <string name="darkTheme">Chủ đề tối </string>
+    <string name="shareApp">Chia sẻ ứng dụng </string>
+</resources>

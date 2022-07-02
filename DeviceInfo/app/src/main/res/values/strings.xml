@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Device Info</string>
+
+    <string name="privacy_text"><u>Privacy Policy</u></string>
+
+    <string name="privacy_text1">These are the Terms of Service and Privacy Policy of This application. This application which provides you the service of cloning your phone. This privacy policy provides an overview about how we process personal data about users of our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+
+    <string name="privacy_text2">Our Privacy Commitment</string>
+
+    <string name="privacy_text3">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+
+    <string name="privacy_text4">Information We Collect</string>
+
+    <string name="privacy_text5">Permissions in this Application are the Following</string>
+
+    <string name="privacy_text6">Write External Storage \nRead External Storage \nRead\\Write Contacts \nCamera \nLocation \nRead\\Write call logs \nInstall Aplications</string>
+
+    <string name="privacy_text7">Changes to this Privacy Policy</string>
+
+    <string name="privacy_text8">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+
+    <string name="privacy_text9">Third-party links</string>
+
+    <string name="privacy_text10">We do not include or offer third-party products or services in  our application.</string>
+
+    <string name="privacy_text11">Children\'s Privacy</string>
+
+    <string name="privacy_text12">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+
+    <string name="privacy_text13">Contact Us</string>
+
+    <string name="privacy_text14">If you have any questions about this Privacy Policy, please contact us</string>
+    <string name="txt_start">Get Started</string>
+    <string name="ram">RAM</string>
+    <string name="used">used</string>
+    <string name="home">Home</string>
+    <string name="grid">Tools</string>
+    <string name="settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="code">00.00</string>
+    <string name="batteryPercent">100%</string>
+    <string name="sensorsAvail">Sensors Available</string>
+    <string name="testMsg">Features Tested</string>
+    <string name="device">Device</string>
+    <string name="system">System</string>
+    <string name="display">Display</string>
+    <string name="camera">Camera</string>
+    <string name="battery">Battery</string>
+    <string name="simcard">Sim Card</string>
+    <string name="sensor">Sensors</string>
+    <string name="blutooth">Bluetooth</string>
+    <string name="network">Network</string>
+    <string name="cpu">CPU</string>
+    <string name="storage">Storage</string>
+    <string name="test">Tests</string>
+    <string name="lighttheme">Light theme</string>
+    <string name="languages">Languages</string>
+    <string name="about">About</string>
+    <string name="rateapp">Rate App</string>
+    <string name="tools">Tools</string>
+    <string name="serial">Serial</string>
+    <string name="model">Model</string>
+    <string name="id">ID</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="brand">Brand</string>
+    <string name="type">Type</string>
+    <string name="user">User</string>
+    <string name="base">Base</string>
+    <string name="incremental">Incremental</string>
+    <string name="board">Board</string>
+    <string name="host">Host</string>
+    <string name="hardware">Hardware</string>
+    <string name="androidVerision">Android Version</string>
+    <string name="sdkno">SDK No.</string>
+    <string name="buildNo">Build No.</string>
+    <string name="baseband">Baseband Version</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="buildtime">Build time</string>
+    <string name="osbit">OS Bit</string>
+    <string name="release">Release</string>
+    <string name="security">Security level</string>
+    <string name="patchlevel">Patch Level</string>
+    <string name="rootaccess">Root Access</string>
+    <string name="systemuptime">System Uptime</string>
+    <string name="playservices">Google Play Services</string>
+    <string name="javavm">JAVA VM</string>
+    <string name="kernal">Kernal</string>
+    <string name="openGl">Open GL</string>
+    <string name="noDetected">Fingerprint not Detected</string>
+    <string name="permissiontitle">Following Permission is required to get information of the device.</string>
+    <string name="permissionMesssage">Following Permission is required to get information about device.</string>
+    <string name="deny">deny</string>
+    <string name="allow">Allow</string>
+    <string name="ratiaonaleInstruction">Read Phone State Permission is must to get information otherwise app wont be able to give proper results. Kindly allow this permission from the Settings</string>
+    <string name="importance">Importance</string>
+    <string name="permssiondeniedfailed">Permission Not Granted</string>
+    <string name="front">Front</string>
+    <string name="rear">Rear</string>
+    <string name="resolution">Resolutions</string>
+    <string name="cameraPermission">Kindly Allow camera Permission to get the complete information abaout the camera</string>
+    <string name="rationalMesage">Camera Permission is must to get the information of the camera kindly allow it from setting so that you can have complete details of your device camera.</string>
+    <string name="flash">Flash</string>
+    <string name="focusModes">Focus Modes</string>
+    <string name="sceneModes">Scene Modes</string>
+    <string name="FocalLenght">Focal Length</string>
+    <string name="AntiBanding">Antibanding Modes</string>
+    <string name="thumbnailSize">Thumbnail Size</string>
+    <string name="imageRes">Supported Image Resolutions</string>
+    <string name="videoRes">Supported Video Resolution</string>
+    <string name="capacity">Capacity</string>
+    <string name="technology">Technology</string>
+    <string name="health">Health</string>
+    <string name="status">Status</string>
+    <string name="powerSource">Power Source</string>
+    <string name="Temperatue">Temperature</string>
+    <string name="voltage">Voltage</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_over_voltage">Over Voltage</string>
+    <string name="battery_health_overheat">Over Heat</string>
+    <string name="battery_health_unspecified_failure">Unspacified Failure</string>
+    <string name="battery_plugged_none">Plugged None</string>
+    <string name="battery_plugged_wireless">Plugged Wireless</string>
+    <string name="battery_plugged_usb">Plugged USB</string>
+    <string name="battery_plugged_ac">Plugged AC</string>
+    <string name="battery_status_discharging">Discharging</string>
+    <string name="battery_status_charging">Charging</string>
+    <string name="battery_status_full">Full</string>
+
+</resources>

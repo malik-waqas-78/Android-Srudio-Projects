@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_icons_size">@dimen/_40sdp</dimen>
+    <dimen name="secret_image_width">@dimen/_40sdp</dimen>
+    <dimen name="secret_image_height">@dimen/_40sdp</dimen>
+    <dimen name="secret_image_padding">@dimen/_5sdp</dimen>
+    <dimen name="secret_image_margin">@dimen/_5sdp</dimen>
+</resources>

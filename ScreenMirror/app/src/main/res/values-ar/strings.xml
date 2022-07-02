@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name" translatable="false">Screen Mirroring</string>
+    <string name="privacy_policy">سياسة الخصوصية </string>
+
+    <string name="privacy_text">سياسة الخصوصية </string>
+    <string name="privacy_text1">هذه هي شروط الخدمة وسياسة الخصوصية لهذا التطبيق. يوفر لك هذا التطبيق وظيفة صب الشاشة. توافق سياسة الخصوصية هذه لمحة عامة عن كيفية معالجة البيانات الشخصية لمستخدمينا. لن نشارك أي من معلوماتك الشخصية مع أي شخص باستثناء ما هو محدد في سياسة الخصوصية هذه. </string>
+    <string name="privacy_text2">التزام الخصوصية لدينا </string>
+    <string name="privacy_text3">نحن نحترم حقوقك وخصوصيتك. قدرتك على اتخاذ خيارات مستنيرة حول استخدام معلوماتك مهمة بالنسبة لنا. نجمع أنواع مختلفة من المعلومات لأغراض مختلفة لتزويدك بخدمات أكثر تحسنا. </string>
+    <string name="privacy_text4">المعلومات التي نجمعها </string>
+    <string name="privacy_text5">أذونات في هذا التطبيق هي التالية </string>
+    <string name="privacy_text6">• اكتب تخزين خارجي • قراءة التخزين الخارجي </string>
+    <string name="privacy_text7">التغييرات في سياسة الخصوصية هذه </string>
+    <string name="privacy_text8">قد نغير سياسة الخصوصية هذه من وقت لآخر، من خلال نشر سياسة الخصوصية الحالية وتاريخها الساري. في حالة تغيير سياسة الخصوصية هذه بشكل كبير، قد نحقق هذه التغييرات على اهتمامك بإشعار واضح في هذه الصفحة. </string>
+    <string name="privacy_text9">روابط الطرف الثالث </string>
+    <string name="privacy_text10">نحن لا نضم أو تقدم منتجات أو خدمات طرف ثالث على موقعنا. </string>
+    <string name="privacy_text11">خصوصية الأطفال </string>
+    <string name="privacy_text12">خدمتنا لا تعالج أي شخص دون سن 18 عاما (الأطفال). نحن لا نجمع أي معلومات محددة شخصيا من أي شخص أقل من 18 عاما. إذا كنت أحد الوالدين / الوصي وأنت تدرك أن أطفالك قد زودنا بالبيانات الشخصية، يرجى الاتصال بنا. إذا أصبحنا ندرك أننا جمعنا بيانات شخصية من الأطفال دون التحقق من موافقة الوالدين، فإننا نتخذ خطوات لإزالة هذه المعلومات من خوادمنا. </string>
+    <string name="privacy_text13">اتصل بنا </string>
+    <string name="privacy_text14">إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا. </string>
+    <string name="exit_dialog_desc">هل أنت متأكد من الخروج من التطبيق؟ </string>
+    <string name="yes">نعم </string>
+    <string name="no">لا </string>
+    <string name="location_dialog_title">إذن الموقع </string>
+    <string name="location_dialog_desc">يتطلب هذا التطبيق إذن باستخدام خدمات الموقع للبحث في الأجهزة القريبة لصق الشاشة </string>
+    <string name="okay">تمام </string>
+    <string name="casting">يصب </string>
+    <string name="settings">إعدادات </string>
+    <string name="images">صور </string>
+    <string name="videos">أشرطة فيديو </string>
+    <string name="share">يشارك </string>
+    <string name="help">كيف تستعمل؟ </string>
+
+    <string name="initialText">شارك هذا التطبيق لا يصدق مع أصدقائك وعائلتك. </string>
+    <string name="share_subject">اخبر صديق </string>
+    <string name="device_not_supported">عذرا، هذا الجهاز غير مدعوم. </string>
+    <string name="intro_slider_1_title">اتصال التلفزيون والهاتف </string>
+    <string name="intro_slider_1_desc">تأكد من توصيل هاتفك والتلفزيون إلى نفس الشبكة لبدء تشغيل الشاشة. </string>
+    <string name="intro_slider_2_title">يلقي الشاشة </string>
+    <string name="intro_slider_2_desc">من خلال النقر فوق الزر Cast، ستحصل على قائمة بالأجهزة القريبة المتاحة للصب </string>
+    <string name="intro_slider_3_title">اختر جهاز </string>
+    <string name="intro_slider_3_desc">حدد جهازك من القائمة، بدء الصب الشاشة والاستمتاع بشاشة كبيرة. </string>
+    <string name="connect_wifi">الاتصال بشبكة لاسلكية </string>
+    <string name="language">لغة </string>
+    <string name="scanning">المسح الضوئي للأجهزة </string>
+    <string name="waiting_text">في انتظار الاتصال </string>
+    <string name="connect_wifi_text">الاتصال واي فاي </string>
+    <string name="enter_network_password">أدخل كلمة مرور WiFi </string>
+    <string name="connect">الاتصال </string>
+    <string name="english">الإنجليزية </string>
+    <string name="urdu">الأردية </string>
+    <string name="arabic">عربى </string>
+    <string name="chinese">صينى </string>
+    <string name="serbian">الصربية </string>
+    <string name="japanese">اليابانية </string>
+    <string name="turkish">اللغة التركية </string>
+    <string name="bengali">بنغالي </string>
+    <string name="hindi">لا. </string>
+    <string name="russian">الروسية </string>
+    <string name="indonesian">إندونيسي </string>
+    <string name="italian">الإيطالية </string>
+    <string name="spanish">الأسبانية </string>
+    <string name="french">الفرنسية </string>
+    <string name="german">ألمانية </string>
+    <string name="portuguese">البرتغالية </string>
+    <string name="thai">التايلاندية </string>
+    <string name="allow">تسمح </string>
+    <string name="deny">أنكر </string>
+    <string name="storage_permission_title">إذن التخزين مطلوب </string>
+    <string name="storage_permission_desc">مطلوب إذن التخزين للوصول إلى ملفات الوسائط على جهازك. </string>
+    <string name="storage_perm_denied_title">تم رفض إذن التخزين </string>
+    <string name="storage_perm_denied_desc">يجب أن تسمح بإذن التخزين بالوصول إلى ملفات الوسائط الخاصة بك لصب الشاشة. </string>
+    <string name="grant_permissions">منحة وصول التخزين </string>
+    <string name="image_preview">معاينة الصورة </string>
+    <string name="error_message">خطأ في معاينة الصورة </string>
+    <string name="video_preview">معاينة الفيديو </string>
+    <string name="feature_not_available">ستكون هذه اللغة متاحة في التحديثات المستقبلية. </string>
+    <string name="start">بداية </string>
+    <string name="youtube">موقع YouTube </string>
+    <string name="view_all">View All</string>
+    <string name="ad_attribution">Ad</string>
+
+</resources>

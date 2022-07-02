@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="loadingVideo">Video yükleniyor...</string>
+    <string name="notAvailable">Kullanılamaz</string>
+    <string name="videosaving">Video kaydetme </string>
+    <string name="pleaseWait">Lütfen bekleyin... </string>
+
+    <string name="hintSettingTitle">Başlık belirlemek </string>
+
+    <string name="removeaudio">Videodaki sesi kaldır </string>
+
+    <string name="addaudiotovideo">Videoya ses ekle </string>
+
+    <string name="createvideo">Görüntülerden video oluşturun </string>
+
+    <string name="removingAudio">Videodan Ses Çıkarma </string>
+
+    <string name="removedAudio">Ses başarıyla kaldırıldı </string>
+
+    <string name="audioRemoved">Ses kaldırıldı </string>
+
+    <string name="removeAudioFolder">Ses kaldırıldı Videolar </string>
+
+    <string name="audioaddedFolder">Videoya ses eklendi </string>
+
+    <string name="videoCreated">Görüntülerden video oluşturuldu </string>
+
+    <string name="audioName">Ses adı </string>
+
+    <string name="mixedVideoSaved">Videoya yeni ses eklendi. </string>
+
+    <string name="mixingAudio">Videoya ses ekleme </string>
+
+    <string name="summingAudio">Audios yinelenen </string>
+
+    <string name="iteratingAudio">Videoya ses yinelenen </string>
+
+    <string name="chaangeaudiovolume">Ses seviyesini değiştirme </string>
+
+    <string name="chaangevideovolume">Video hacmi değiştirme </string>
+
+    <string name="images">Görüntüler </string>
+
+    <string name="allImages">Tüm resimler </string>
+
+    <string name="addimagetocreate">Oluşturmak için resim ekleyin </string>
+
+    <string name="videoFromImages">Görüntülerden video </string>
+
+    <string name="timeline">Zaman çizelgesi </string>
+
+    <string name="audio">Ses </string>
+
+    <string name="audioremove">Sesi Kaldır </string>
+
+    <string name="addmusic">Müzik eklemek </string>
+
+    <string name="imagetovideo">Video için resim </string>
+
+    <string name="volumes">Birimler </string>
+
+    <string name="system">Sistem </string>
+
+    <string name="video">Video </string>
+
+    <string name="creatingVideo">Görüntülerden video oluşturma </string>
+
+    <string name="createdVideo">Görüntülerden oluşturulan yeni video </string>
+
+    <string name="videoCreatedFromImages">Görüntülerden oluşturulan videolar </string>
+
+    <string name="loadingplzwait">Yükleniyor lütfen bekleyin... </string>
+
+    <string name="noAudio">Bu videonun sesi yok. </string>
+    <string name="audiosaving">Ses kaydetme </string>
+
+    <string name="msgsavingtrimvideo">Kırpma videosu ... </string>
+
+    <string name="msgsavingconvaudio">Ses\'e Dönüştürme ... </string>
+
+    <string name="trimmedvideosaved">Video kırpma başarıyla tamamlandı </string>
+
+    <string name="convertedaudiosaved">Ses dönüştürme videosu başarıyla tamamlandı </string>
+
+    <string name="ok">Tamam </string>
+
+    <string name="loadfailed">Yükleme başarısız </string>
+
+    <string name="loadfailedVideo">Video yüklenemedi </string>
+
+    <string name="loadfailedAudio">Ses yüklenemedi </string>
+
+    <string name="trimingaudio">Ses kesme </string>
+
+    <string name="msgtrimmingAudio">Ses kesme ... </string>
+
+    <string name="trimmedAudiosucess">Ses başarıyla kesilmiş </string>
+
+    <string name="Loading">Ses yükleme </string>
+
+    <string name="loadingmessage">Ses yükleniyor ... </string>
+    <string name="app_name">MP3 Converter Video </string>
+    <string name="start">Başlangıç </string>
+    <string name="ratiaonaleInstruction">Depolama izni, ses ve videoları depolamada saklamak gerekir. Lütfen bu izninin uygulamanın ayarlarından izin ver </string>
+    <string name="allow">İzin vermek </string>
+    <string name="deny">İnkar etmek </string>
+    <string name="importance">Önem </string>
+    <string name="videocutter">Video kesici </string>
+    <string name="audiocutter">Ses kesici </string>
+    <string name="videotoaudio">Ses için video </string>
+    <string name="outputfolder">Çıktı dosyası </string>
+    <string name="hintvideoname">Video </string>
+    <string name="covertedAudio">Dönüştürülmüş sesler </string>
+    <string name="trimmedVideo">Kesilmiş videolar </string>
+    <string name="trimmedAudios">Kesilmiş sesler </string>
+    <string name="trim">Süslemek </string>
+    <string name="lessthansec">İkinciden daha az </string>
+    <string name="cancel">İptal </string>
+    <string name="upload">Yüklemek </string>
+    <string name="exit">çıkış </string>
+    <string name="exitmsg">Gerçekten çıkmak istiyor musun? </string>
+    <string name="yes">Evet </string>
+    <string name="no">Numara </string>
+    <string name="allVideos">Tüm videolar </string>
+    <string name="allAudios">Tüm sesler </string>
+    <string name="folder">Klasörler </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">çıktılar </string>
+    <string name="permissiontitle">İzin Gerekli! </string>
+    <string name="permissionMesssage">App Sesli Yayınları ve Videoları depoda kaydetmek için depolama izni gerektirir. Lütfen bu izninin uygulamanın ayarlarından izin ver </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">kirli </string>
+
+    <string name="save">Kaydetmek </string>
+    <string name="Convert">Dönüştürmek </string>
+    <string name="Trim">Video trim </string>
+
+
+    <string name="hintSearch">Arama... </string>
+    <string name="delete">Silmek </string>
+    <string name="deletetxt">Gerçekten silmek istiyor musun? </string>
+    <string name="settings">Ayarlar </string>
+    <string name="selectLanguage">Dil Seçin </string>
+    <string name="darkTheme">Karanlık tema </string>
+    <string name="shareApp">Uygulamayı Paylaş </string>
+</resources>

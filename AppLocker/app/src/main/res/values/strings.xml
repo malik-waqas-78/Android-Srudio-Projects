@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appname "App Locker">]>
+<resources>
+    <string name="app_name">App Locker</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="exit_diag_desc">This will exit your application. Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Privacy Policy -->
+    <string name="privacy_text">Privacy Policy</string>
+    <string name="privacy_text1">These are the Terms of Service and Privacy Policy of This application.
+        This application which provides you with the Application Locker. This privacy policy provides
+        an overview about how we process personal data about users of our mobile applications
+        we provide to you.We will not share your personal information anyone excepts as described
+        in the privacy policy </string>
+    <string name="privacy_text2">Our Privacy Commitment</string>
+    <string name="privacy_text3">This application respects your right to privacy.
+        Your ability to make informed choices about the use of your information is important to us.
+        We collect several different types of information for various purposes to provide and
+        improve our Services for you. </string>
+    <string name="privacy_text4">Information We Collect</string>
+    <string name="privacy_text5">Permissions in this Application are the Following</string>
+    <string name="privacy_text6">• Package Stats Usage \n• Draw Over Other Apps \n• Accessibility Service</string>
+    <string name="privacy_text7">Changes to this Privacy Policy</string>
+    <string name="privacy_text8">We may change this privacy policy from time to time by posting the
+        most current privacy policy and its effective date. In case we change this privacy policy
+        substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9">Third-party links</string>
+    <string name="privacy_text10">We do not include or offer third-party products or services on
+        our website.</string>
+    <string name="privacy_text11">Children Privacy</string>
+    <string name="privacy_text12">Our Service does not address anyone under the age of 18 ("Children").
+        We do not knowingly collect personally identifiable information from anyone under the age of
+        18. If you are a parent or guardian and you are aware that your Children has provided us with
+        Personal Data, please contact us. If we become aware that we have collected Personal Data
+        from children without verification of parental consent, we take steps to remove that
+        information from our servers.</string>
+    <string name="privacy_text13">Contact Us</string>
+    <string name="privacy_text14">If you have any questions about this Privacy Policy, please contact Us.</string>
+    <string name="ok">Okay</string>
+    <string name="home">Home</string>
+    <string name="app_lock">App Locker</string>
+    <string name="share">Share</string>
+    <string name="themes">Themes</string>
+    <string name="settings">Settings</string>
+    <string name="apps_lock">Apps Lock</string>
+    <string name="hint_search_edittext_apps_lock_list">Search</string>
+    <string name="settings_enable_app_lock">Enable App Lock</string>
+    <string name="settings_enable_app_lock_desc">Temporarily disable Application locks</string>
+    <string name="settings_change_password">Change Password</string>
+    <string name="settings_change_password_desc">Setup Pattern or Passcode</string>
+    <string name="settings_figerprint">Fingerprint</string>
+    <string name="settings_figerprint_desc">Use your fingerprint to unlock faster</string>
+    <string name="settings_lock_the_new_app">Lock the new app</string>
+    <string name="settings_lock_the_new_app_desc">Lock newly installed apps with one tap</string>
+    <string name="apply">Apply</string>
+    <string name="enter_your_pin">Enter your pin</string>
+    <string name="forgot_pattern">Forgot Pattern</string>
+    <string name="draw_your_pattern">Draw your pattern</string>
+    <string name="forgot_pin">Forgot Pin?</string>
+    <string name="draw_new_pattern">Draw new Pattern</string>
+    <string name="min_dots_error">Please select at least 4 dots</string>
+    <string name="re_draw_to_confirm">Re-draw your Pattern to Confirm</string>
+    <string name="pattern_set">Pattern Set Successfully.</string>
+    <string name="pattern_not_matched">Sorry Pattern Not Matched</string>
+    <string name="enter_new_pin">Enter new Pin</string>
+    <string name="set_a_pin">Set a Pin</string>
+    <string name="re_enter_pin_to_confirm">Re Enter Pin to confirm</string>
+    <string name="pin_set_success">Pin Set Up Successfully</string>
+    <string name="pin_not_matched">Sorry, Pin not Matched.</string>
+    <string name="usage_access_dialog_title">1/2 Allow Usage Access Permission</string>
+    <string name="usage_access_dialog_desc">\"Usage Access Permission\" is required to lock your apps. Don\'t worry this information is only stored in your phone.</string>
+    <string name="usage_access_perm_not_granted">Error: Usage Access Permission not Granted. App won\'t work properly</string>
+    <string name="draw_over_apps_dialog_title">2/2 Allow Draw Over Apps Permission</string>
+    <string name="draw_over_apps_dialog_desc">Draw Over Apps permission is required to lock your app.</string>
+    <string name="select_lock_type">Select your lock type</string>
+    <string name="select_lock_type_desc">Select Pattern/Pin lock type</string>
+    <string name="lock_pattern_type">Pattern</string>
+    <string name="pin_lock_type">Pin</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="notification_desc">Click here to open app</string>
+    <string name="settings_change_lock_type">Change Lock Type</string>
+    <string name="settings_get_help">Get Help</string>
+    <string name="settings_get_help_desc">Watch a tutorial to get to know how this app works.</string>
+    <string name="settings_change_security_question">Change Security Question</string>
+    <string name="settings_change_security_question_dec">Change Secret Image or Secret Answer</string>
+    <string name="secret_image_title">Select Your Secret Image</string>
+    <string name="secret_image_desc">Select a secret Image from the list below. It will help us identify you, in case you forget your Pin/Pattern.</string>
+    <string name="hint_secret_question">Enter your secret text for image here</string>
+    <string name="cancel">Cancel</string>
+    <string name="secret_book">Favourite Book</string>
+    <string name="secret_movie">Favourite Movie</string>
+    <string name="secret_song">Favourite Song</string>
+    <string name="secret_car">Favourite Car</string>
+    <string name="secret_image_title_for_change_old">Select old Security Image</string>
+    <string name="secret_image_title_for_change_new">Select new Security Image</string>
+    <string name="select_answer_first">Please select your answer first</string>
+    <string name="select_image_first">Select a secret Image first</string>
+    <string name="no_secret_image_set">You have not set any secret Image yet.</string>
+    <string name="wrong_answer">Incorrect Answer, Try Again</string>
+    <string name="wrong_image">Incorrect image, Try again</string>
+    <string name="secret_city">Favourite City</string>
+    <string name="secret_pet">Favourite Pet</string>
+    <string name="search">Search</string>
+    <string name="fingerprint_not_available">Fingerprint service is not available</string>
+    <string name="got_it">Got it</string>
+    <string name="usage_access_permission_title">Usage Access Permission</string>
+    <string name="usage_access_permission_desc">Please find \"&appname;\" in the list, and grant required permission</string>
+    <string name="accessibility_service_permission_title">AccessibilityService Permission</string>
+    <string name="accessibility_service_permission_desc">Please find \"&appname;\" in Downloaded Services/Downloaded Apps section and allow to use Accessibility service</string>
+    <string name="draw_over_apps_permission_title">Draw Over Apps</string>
+    <string name="draw_over_apps_permission_desc">Please allow \"&appname;\" to display over other apps.</string>
+    <string name="initialText">Share this incredible app with your friends and family and secure your phone  .</string>
+    <string name="share_subject">Tell a Friend</string>
+    <string name="settings_battery_optimize">Battery Optimization Mode</string>
+    <string name="settings_battery_optimize_desc">Reduce App Locker\'s battery consumption by 50%.</string>
+    <string name="accessibility_dialog_title">Accessibility Service</string>
+    <string name="accessibility_dialog_desc">Accessibility Service Permission is required to lock your apps without showing notifications</string>
+    <string name="new_added_app_title">Installed</string>
+    <string name="new_added_app_desc">"Do you want to lock it?"</string>
+    <string name="clear_storage">Clear Storage</string>
+    <string name="clear_storage_title">Clear App Storage?</string>
+    <string name="clear_storage_desc">This will clear all the app data and settings.</string>
+    <string name="provide_permissions">Provide necessary permissions to utilize our app service</string>
+</resources>

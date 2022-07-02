@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name = "loadingVideo"> Memuatkan Video ... </string>
+    <string name = "notAvailable"> Tidak Tersedia </string>
+    <string name="videosaving">Menyimpan video </string>
+    <string name="pleaseWait">Sila tunggu... </string>
+
+    <string name="hintSettingTitle">Menetapkan tajuk </string>
+
+    <string name="removeaudio">Keluarkan audio dari video </string>
+
+    <string name="addaudiotovideo">Tambah audio ke video </string>
+
+    <string name="createvideo">Buat video dari imej </string>
+
+    <string name="removingAudio">Mengeluarkan audio dari video </string>
+
+    <string name="removedAudio">Audio dikeluarkan dengan jayanya </string>
+
+    <string name="audioRemoved">Audio dikeluarkan </string>
+
+    <string name="removeAudioFolder">Audio mengeluarkan video </string>
+
+    <string name="audioaddedFolder">Audio ditambah ke video </string>
+
+    <string name="videoCreated">Video yang dibuat dari imej </string>
+
+    <string name="audioName">Nama audio. </string>
+
+    <string name="mixedVideoSaved">Audio baru ditambah ke video. </string>
+
+    <string name="mixingAudio">Menambah audio ke video </string>
+
+    <string name="summingAudio">Mengulangi audio. </string>
+
+    <string name="iteratingAudio">Mengulangi audio ke video </string>
+
+    <string name="chaangeaudiovolume">Menukar jumlah audio </string>
+
+    <string name="chaangevideovolume">Menukar jumlah video </string>
+
+    <string name="images">Imej </string>
+
+    <string name="allImages">Semua imej </string>
+
+    <string name="addimagetocreate">Tambah imej untuk membuat </string>
+
+    <string name="videoFromImages">Video dari imej </string>
+
+    <string name="timeline">Garis masa </string>
+
+    <string name="audio">Audio </string>
+
+    <string name="audioremove">Keluarkan audio </string>
+
+    <string name="addmusic">Tambah muzik </string>
+
+    <string name="imagetovideo">Imej ke video </string>
+
+    <string name="volumes">Jumlah </string>
+
+    <string name="system">Sistem </string>
+
+    <string name="video">Video. </string>
+
+    <string name="creatingVideo">Mewujudkan video dari imej </string>
+
+    <string name="createdVideo">Video baru yang dibuat dari imej </string>
+
+    <string name="videoCreatedFromImages">Video yang dibuat dari imej </string>
+
+    <string name="loadingplzwait">Muat turun sila tunggu... </string>
+
+    <string name="noAudio">Video ini tidak mempunyai audio. </string>
+    <string name="audiosaving">Menyimpan Audio </string>
+
+    <string name="msgsavingtrimvideo">Memangkas video ... </string>
+
+    <string name="msgsavingconvaudio">Menukar kepada audio ... </string>
+
+    <string name="trimmedvideosaved">Pemangkasan Video Selesai </string>
+
+    <string name="convertedaudiosaved">Video ke penukaran audio berjaya diselesaikan </string>
+
+    <string name="ok">okey </string>
+
+    <string name="loadfailed">Beban gagal </string>
+
+    <string name="loadfailedVideo">Gagal memuatkan video </string>
+
+    <string name="loadfailedAudio">Gagal memuat audio </string>
+
+    <string name="trimingaudio">Memangkas audio. </string>
+
+    <string name="msgtrimmingAudio">Memangkas audio ... </string>
+
+    <string name="trimmedAudiosucess">Audio dipangkas berjaya </string>
+
+    <string name="Loading">Memuatkan audio </string>
+
+    <string name="loadingmessage">Memuatkan audio ... </string>
+    <string name="app_name">VIDEO TO MP3 CONVERTER </string>
+    <string name="start">Bermula </string>
+    <string name="ratiaonaleInstruction">Kebenaran penyimpanan mesti menyimpan audio dan video dalam simpanan. Sila izinkan kebenaran ini dari tetapan aplikasi </string>
+    <string name="allow">Membenarkan </string>
+    <string name="deny">DENGAN </string>
+    <string name="importance">Kepentingannya </string>
+    <string name="videocutter">Pemotong video. </string>
+    <string name="audiocutter">Pemotong audio. </string>
+    <string name="videotoaudio">Video ke audio </string>
+    <string name="outputfolder">Folder output. </string>
+    <string name="hintvideoname">Video. </string>
+    <string name="covertedAudio">Ditukar audio. </string>
+    <string name="trimmedVideo">Video yang dipangkas </string>
+    <string name="trimmedAudios">Dipotong audio. </string>
+    <string name="trim">Trim. </string>
+    <string name="lessthansec">Kurang dari saat </string>
+    <string name="cancel">Membatalkan </string>
+    <string name="upload">Muat naik </string>
+    <string name="exit">Keluar </string>
+    <string name="exitmsg">Adakah anda benar-benar mahu keluar? </string>
+    <string name="yes">Ya </string>
+    <string name="no">Tidak </string>
+    <string name="allVideos">Semua video </string>
+    <string name="allAudios">Semua audio. </string>
+    <string name="folder">Folder. </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Output. </string>
+    <string name="permissiontitle">Kebenaran Diperlukan! </string>
+    <string name="permissionMesssage">App memerlukan kebenaran penyimpanan untuk menyimpan audio dan video dalam simpanan. Sila izinkan kebenaran ini dari tetapan aplikasi </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">kotor </string>
+
+    <string name="save">JIMAT </string>
+    <string name="Convert">Tukar. </string>
+    <string name="Trim">Video trim. </string>
+
+
+    <string name="hintSearch">Cari ... </string>
+    <string name="delete">Memadam </string>
+    <string name="deletetxt">Adakah anda benar-benar mahu memadam? </string>
+    <string name="settings">Tetapan </string>
+    <string name="selectLanguage">Pilih Bahasa </string>
+    <string name="darkTheme">Tema gelap </string>
+    <string name="shareApp">Kongsi aplikasi </string>
+</resources>

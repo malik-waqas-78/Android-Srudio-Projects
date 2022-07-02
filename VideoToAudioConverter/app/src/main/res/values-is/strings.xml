@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name = "loadingVideo"> Hleður myndskeið ... </string>
+    <string name = "notAvailable"> Ekki í boði </string>
+    <string name="videosaving">Saving Video. </string>
+    <string name="pleaseWait">Vinsamlegast bíðið... </string>
+
+    <string name="hintSettingTitle">Stilling titill </string>
+
+    <string name="removeaudio">Fjarlægðu hljóð frá myndskeiði </string>
+
+    <string name="addaudiotovideo">Bæta við hljóð við myndskeið </string>
+
+    <string name="createvideo">Búðu til myndskeið úr myndum </string>
+
+    <string name="removingAudio">Fjarlægi hljóð frá myndskeiði </string>
+
+    <string name="removedAudio">Audio fjarlægt með góðum árangri </string>
+
+    <string name="audioRemoved">Audio fjarlægt </string>
+
+    <string name="removeAudioFolder">Hljóð fjarlægt myndskeið </string>
+
+    <string name="audioaddedFolder">Hljóð bætt við vídeó </string>
+
+    <string name="videoCreated">Búið til myndskeið úr myndum </string>
+
+    <string name="audioName">Hljóðheiti </string>
+
+    <string name="mixedVideoSaved">Nýtt hljóð bætt við vídeó. </string>
+
+    <string name="mixingAudio">Bætir hljóð við myndskeið </string>
+
+    <string name="summingAudio">Endurtaka Audios. </string>
+
+    <string name="iteratingAudio">Endurtaka hljóð til myndbands </string>
+
+    <string name="chaangeaudiovolume">Breyting á hljóðstyrk hljóðsins </string>
+
+    <string name="chaangevideovolume">Breyting á bindi myndbands </string>
+
+    <string name="images">Myndir </string>
+
+    <string name="allImages">Allar myndir </string>
+
+    <string name="addimagetocreate">Bæta við myndum til að búa til </string>
+
+    <string name="videoFromImages">Myndband frá myndum </string>
+
+    <string name="timeline">Tímalína </string>
+
+    <string name="audio">Hljóð </string>
+
+    <string name="audioremove">Fjarlægðu hljóð </string>
+
+    <string name="addmusic">Bæta við tónlist </string>
+
+    <string name="imagetovideo">Mynd til myndbands </string>
+
+    <string name="volumes">Bindi </string>
+
+    <string name="system">Kerfi </string>
+
+    <string name="video">Myndband </string>
+
+    <string name="creatingVideo">Búa til myndskeið úr myndum </string>
+
+    <string name="createdVideo">Nýtt vídeó búin til úr myndum </string>
+
+    <string name="videoCreatedFromImages">Vídeó búin frá myndum </string>
+
+    <string name="loadingplzwait">Hleðsla Vinsamlegast bíddu ... </string>
+
+    <string name="noAudio">Þetta myndband hefur engin hljóð. </string>
+    <string name="audiosaving">Saving Audio. </string>
+
+    <string name="msgsavingtrimvideo">Trimming Video ... </string>
+
+    <string name="msgsavingconvaudio">Umbreyta í hljóð ... </string>
+
+    <string name="trimmedvideosaved">Vídeó snyrtingu lokið með góðum árangri </string>
+
+    <string name="convertedaudiosaved">Vídeó til Audio viðskipta lokið með góðum árangri </string>
+
+    <string name="ok">Allt í lagi </string>
+
+    <string name="loadfailed">Hlaða mistókst </string>
+
+    <string name="loadfailedVideo">Mistókst að hlaða upp myndskeið </string>
+
+    <string name="loadfailedAudio">Mistókst að hlaða hljóð </string>
+
+    <string name="trimingaudio">Snyrtingu hljóð </string>
+
+    <string name="msgtrimmingAudio">Trimming hljóð ... </string>
+
+    <string name="trimmedAudiosucess">Audio trimmed með góðum árangri </string>
+
+    <string name="Loading">Hleðsla hljóð </string>
+
+    <string name="loadingmessage">Hleðsla hljóð ... </string>
+    <string name="app_name">Vídeó til Mp3 Converter </string>
+    <string name="start">Byrja </string>
+    <string name="ratiaonaleInstruction">Geymsluleyfi er nauðsynlegt að geyma hljóð- og myndskeið í geymslu. Vinsamlegast leyfðu þessu leyfi frá stillingum app </string>
+    <string name="allow">Leyfa </string>
+    <string name="deny">Neita </string>
+    <string name="importance">Mikilvægi. </string>
+    <string name="videocutter">Video Cutter. </string>
+    <string name="audiocutter">Audio Cutter. </string>
+    <string name="videotoaudio">Vídeó til hljóðs </string>
+    <string name="outputfolder">Output mappa. </string>
+    <string name="hintvideoname">Myndband </string>
+    <string name="covertedAudio">Breytt hljóðfotti </string>
+    <string name="trimmedVideo">Snyrtilegar myndbönd </string>
+    <string name="trimmedAudios">Trimmed Audios. </string>
+    <string name="trim">Trim </string>
+    <string name="lessthansec">Minna en annað </string>
+    <string name="cancel">Hætta við </string>
+    <string name="upload">Upload. </string>
+    <string name="exit">Brottför </string>
+    <string name="exitmsg">Viltu virkilega hætta? </string>
+    <string name="yes">Já </string>
+    <string name="no">Nei </string>
+    <string name="allVideos">Allar myndbönd </string>
+    <string name="allAudios">Öll hljóðfæri </string>
+    <string name="folder">Möppur </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Útgangs </string>
+    <string name="permissiontitle">Leyfi krafist! </string>
+    <string name="permissionMesssage">Forrit krefst geymsluleyfis til að vista hljóð- og myndskeið í geymslu. Vinsamlegast leyfðu þessu leyfi frá stillingum app </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">Dirty. </string>
+
+    <string name="save">Vista </string>
+    <string name="Convert">Umbreyta </string>
+    <string name="Trim">Snúðu myndbandinu </string>
+
+
+    <string name="hintSearch">Leita ... </string>
+    <string name="delete">Eyða </string>
+    <string name="deletetxt">Viltu virkilega eyða? </string>
+    <string name="settings">Stillingar </string>
+    <string name="selectLanguage">Veldu tungumál </string>
+    <string name="darkTheme">Dökk þema </string>
+    <string name="shareApp">Deila app </string>
+</resources>

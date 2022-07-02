@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Smart Share</string>
+    <string name="data_stored">Data Has Been Stored.</string>
+    <string name="privacy_text">Privacy Policy</string>
+
+    <string name="privacy_text1">These are the Terms of Service and Privacy Policy of This application. This application which provides you the service of cloning your phone. This privacy policy provides an overview about how we process personal data about users of our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+
+    <string name="privacy_text2">Our Privacy Commitment</string>
+
+    <string name="privacy_text3">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+
+    <string name="privacy_text4">Information We Collect</string>
+
+    <string name="privacy_text5">Permissions in this Application are the Following</string>
+
+    <string name="privacy_text6">Write External Storage \nRead External Storage \nRead\\Write Contacts \nCamera \nLocation \nRead\\Write call logs \nInstall Aplications</string>
+
+    <string name="privacy_text7">Changes to this Privacy Policy</string>
+
+    <string name="privacy_text8">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+
+    <string name="privacy_text9">Third-party links</string>
+
+    <string name="privacy_text10">We do not include or offer third-party products or services in  our application.</string>
+
+    <string name="privacy_text11">Children\'s Privacy</string>
+
+    <string name="privacy_text12">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+
+    <string name="privacy_text13">Contact Us</string>
+
+    <string name="privacy_text14">If you have any questions about this Privacy Policy, please contact us</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="share_message">Hey check out this app to share data or to clone your new phone from your old phone.</string>
+    <string name="play_store_link">https://play.google.com/store/apps/details?id=</string>
+    <string name="update_title">Update Available</string>
+    <string name="update_msg">Please update app to get better performance.</string>
+    <string name="phone_data_clone">Phone Clone</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="transfer_data_from_old_to_new_device_in_easy_steps">The easiest way to transfer data to your new phone</string>
+    <string name="receive_data">Receive</string>
+    <string name="revievingData">Receiving Data</string>
+    <string name="send_data">Send</string>
+    <string name="new_phone">New Phone</string>
+    <string name="old_phone">Old Phone</string>
+    <string name="_192_168_0_1">192.168.0.1</string>
+    <string name="device_name">Device Name</string>
+    <string name="searching_devices">Searching</string>
+    <string name="please_tap_on_the_device_name_you_want_to_connect_to">Please tap on the device name you want to connect to.</string>
+    <string name="select_data_to_send">Select Data</string>
+    <string name="total_data_selected">0.00 Mb Selected Data</string>
+    <string name="text_view">text_view</string>
+    <string name="fetching_data">Loading Data Please Wait...</string>
+    <string name="preparing_data">Please Wait\nGetting Data ready to send</string>
+    <string name="done">Done</string>
+    <string name="txt_start">Get Started</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_transfer">Transfer</string>
+    <string name="splashmsg">Sharing from old to new phone fastly!</string>
+    <string name="new_phonemsg">Searching for device to make connection. Please wait...</string>
+    <string name="old_phonemsg">Searching for device to make connection. Please wait...</string>
+    <string name="savingdata">Saving data to device</string>
+    <string name="preparing">Prepairing data please wait...</string>
+    <string name="canceltransfer">Do you want to cancel the data transfer.</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="appalertmsg"><![CDATA[Please make sure you have installed all the applications. If you want to install apps latter you can install by opening ASHFile manager\n->Phone Clone.\nDo you want to continue installing?]]></string>
+    <string name="install">Install</string>
+    <string name="data">Data</string>
+    <string name="invite">Invite</string>
+    <string name="datasending">Sent 0.0 Mb</string>
+    <string name="smartSwitch">Smart Switch</string>
+    <string name="choose_device_msg">Choose your phone to transfer data.</string>
+    <string name="retrymsg">Connection Timeout. Please retry.</string>
+    <string name="rate">Rate us</string>
+    <string name="sendingData">Sending Data</string>
+    <string name="sending">Sending</string>
+    <string name="installappsmsg">Install applications by clicking the install button</string>
+    <string name="selectAll">Select All</string>
+    <string name="selectAllspaced">\t\tSelect All</string>
+    <string name="exit">Exit</string>
+    <string name="share">Share</string>
+    <string name="videos">Videos</string>
+    <string name="photos">Photos</string>
+    <string name="docs">Documents</string>
+    <string name="apps">Applications</string>
+    <string name="contact">Contacts</string>
+    <string name="calender">Calender</string>
+    <string name="audios">Audios</string>
+    <string name="others">Others</string>
+    <string name="errorMsg">Something went wrong while transfering data.</string>
+
+</resources>

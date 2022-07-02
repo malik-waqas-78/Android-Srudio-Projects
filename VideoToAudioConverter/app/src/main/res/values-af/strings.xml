@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name = "loadingVideo"> Laai video ... </string>
+    <string name = "notAvailable"> Nie beskikbaar nie </string>
+    <string name="videosaving">Besparing video </string>
+    <string name="audiosaving">Besparing van klank </string>
+    <string name="msgsavingtrimvideo">Trimming video ... </string>
+    <string name="msgsavingconvaudio">Omskakeling na klank ... </string>
+    <string name="trimmedvideosaved">Video-afsny suksesvol voltooi </string>
+    <string name="convertedaudiosaved">Video tot klankomskakeling suksesvol voltooi </string>
+    <string name="ok">Ok </string>
+
+    <string name="loadfailed">Load het misluk </string>
+    <string name="loadfailedVideo">Kon nie video laai nie </string>
+    <string name="loadfailedAudio">Kon nie klank laai nie </string>
+
+    <string name="trimingaudio">Snoei klank </string>
+    <string name="msgtrimmingAudio">Trimming Audio ... </string>
+    <string name="trimmedAudiosucess">Audio het suksesvol afgewerk </string>
+
+    <string name="Loading">Laai klank </string>
+    <string name="loadingmessage">Laai klank ... </string>
+    <string name="app_name">Video na MP3 Converter </string>
+    <string name="start">Aanskakel </string>
+    <string name="ratiaonaleInstruction">Berging Toestemming is moet die oudio\'s en video\'s in berging stoor. Laat hierdie toestemming van instellings van die program toe </string>
+    <string name="allow">Toelaat </string>
+    <string name="deny">Ontken </string>
+    <string name="importance">Belangrikheid </string>
+    <string name="videocutter">Video Cutter </string>
+    <string name="audiocutter">Klank snyer </string>
+    <string name="videotoaudio">Video na klank </string>
+    <string name="outputfolder">Uitvoer gids </string>
+    <string name="hintvideoname">Video </string>
+    <string name="covertedAudio">Omskepte oudio\'s </string>
+    <string name="trimmedVideo">Geknipte video\'s </string>
+    <string name="trimmedAudios">Geknipte oudio\'s </string>
+    <string name="trim">Trim </string>
+    <string name="lessthansec">Minder as die tweede </string>
+    <string name="cancel">Kanselleer </string>
+    <string name="upload">Oplaai </string>
+    <string name="exit">Uitgang </string>
+    <string name="exitmsg">Wil jy regtig verlaat? </string>
+    <string name="yes">Ja </string>
+    <string name="no">Geen </string>
+    <string name="allVideos">Alle video\'s </string>
+    <string name="allAudios">Alle Audio\'s </string>
+    <string name="folder">Dopgehou </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Uitsette </string>
+    <string name="permissiontitle">Toestemming benodig! </string>
+    <string name="permissionMesssage">Program vereis berging toestemming om oudio\'s en video\'s in berging te stoor. Laat hierdie toestemming van instellings van die program toe </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">vuil </string>
+
+    <string name="save">Spaar </string>
+    <string name="Convert">Omwissel </string>
+    <string name="Trim">Trim Video </string>
+
+
+    <string name="hintSearch">Soek... </string>
+    <string name="delete">Verwyder </string>
+    <string name="deletetxt">Wil jy regtig uitvee? </string>
+    <string name="settings">Instelling </string>
+    <string name="selectLanguage">Kies taal </string>
+    <string name="darkTheme">Donker tema </string>
+    <string name="shareApp">Deel app </string>
+
+    <string name="pleaseWait">Wag asseblief... </string>
+    <string name="hintSettingTitle">Stel titel </string>
+    <string name="removeaudio">Verwyder klank uit video </string>
+    <string name="addaudiotovideo">Voeg klank by video </string>
+    <string name="createvideo">Skep video van beelde </string>
+    <string name="removingAudio">Verwydering van klank van video </string>
+    <string name="removedAudio">Oudio het suksesvol verwyder </string>
+    <string name="audioRemoved">Klank verwyder </string>
+    <string name="removeAudioFolder">Oudio verwyder video\'s </string>
+    <string name="audioaddedFolder">Audio bygevoeg aan video </string>
+    <string name="videoCreated">Geskep video van beelde </string>
+    <string name="audioName">Audio Naam </string>
+    <string name="mixedVideoSaved">Nuwe klank bygevoeg aan video. </string>
+    <string name="mixingAudio">Voeg klank by video </string>
+    <string name="summingAudio">Herhaling van oudio\'s </string>
+    <string name="iteratingAudio">Herhaling van klank na video </string>
+    <string name="chaangeaudiovolume">Verandering van volume van klank </string>
+    <string name="chaangevideovolume">Verandering van volume video </string>
+    <string name="images">Beelde </string>
+    <string name="allImages">Alle beelde </string>
+    <string name="addimagetocreate">Voeg beelde by om te skep </string>
+    <string name="videoFromImages">Video van beelde </string>
+    <string name="timeline">Tydlyn </string>
+    <string name="audio">Oudio </string>
+    <string name="audioremove">Verwyder klank </string>
+    <string name="addmusic">Voeg musiek by </string>
+    <string name="imagetovideo">Beeld na video </string>
+    <string name="volumes">Volumes </string>
+    <string name="system">Sisteem </string>
+    <string name="video">Video </string>
+    <string name="creatingVideo">Skep video van beelde </string>
+    <string name="createdVideo">Nuwe video geskep uit beelde </string>
+    <string name="videoCreatedFromImages">Video\'s geskep uit beelde </string>
+    <string name="loadingplzwait">Wag asseblief terwyl dit laai... </string>
+    <string name="noAudio">Hierdie video het geen klank nie. </string>
+
+</resources>

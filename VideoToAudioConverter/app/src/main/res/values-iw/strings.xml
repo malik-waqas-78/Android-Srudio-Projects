@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name = "loadingVideo"> טוען וידאו ... </string>
+    <string name = "notAvailable"> לא זמין </string>
+    <string name="videosaving">שמירת וידאו </string>
+    <string name="pleaseWait">המתן בבקשה... </string>
+
+    <string name="hintSettingTitle">הגדרת כותרת </string>
+
+    <string name="removeaudio">הסר אודיו מתוך וידאו </string>
+
+    <string name="addaudiotovideo">הוסף אודיו אל וידאו </string>
+
+    <string name="createvideo">צור וידאו מתמונות </string>
+
+    <string name="removingAudio">הסרת שמע מווידאו </string>
+
+    <string name="removedAudio">אודיו הוסר בהצלחה </string>
+
+    <string name="audioRemoved">אודיו הוסר </string>
+
+    <string name="removeAudioFolder">אודיו הוסר וידאו </string>
+
+    <string name="audioaddedFolder">אודיו הוסיף וידאו </string>
+
+    <string name="videoCreated">נוצר וידאו מתמונות </string>
+
+    <string name="audioName">שם שמע. </string>
+
+    <string name="mixedVideoSaved">אודיו חדש נוסף לסרטון. </string>
+
+    <string name="mixingAudio">הוספת שמע לסרטון </string>
+
+    <string name="summingAudio">חזרה על אודיוס </string>
+
+    <string name="iteratingAudio">חוזר על אודיו וידאו </string>
+
+    <string name="chaangeaudiovolume">שינוי נפח אודיו </string>
+
+    <string name="chaangevideovolume">שינוי נפח וידאו </string>
+
+    <string name="images">תמונות </string>
+
+    <string name="allImages">כל התמונות </string>
+
+    <string name="addimagetocreate">הוסף תמונות כדי ליצור </string>
+
+    <string name="videoFromImages">וידאו מתמונות </string>
+
+    <string name="timeline">ציר זמן </string>
+
+    <string name="audio">שֶׁמַע </string>
+
+    <string name="audioremove">הסר אודיו </string>
+
+    <string name="addmusic">הוסף מוסיקה </string>
+
+    <string name="imagetovideo">תמונה לסרטון </string>
+
+    <string name="volumes">כרכים </string>
+
+    <string name="system">מערכת </string>
+
+    <string name="video">וִידֵאוֹ </string>
+
+    <string name="creatingVideo">יצירת וידאו מתמונות </string>
+
+    <string name="createdVideo">וידאו חדש נוצר מתוך תמונות </string>
+
+    <string name="videoCreatedFromImages">סרטונים שנוצרו מתמונות </string>
+
+    <string name="loadingplzwait">טוען אנא המתן... </string>
+
+    <string name="noAudio">וידאו זה אין שמע. </string>
+    <string name="audiosaving">שמירת אודיו </string>
+
+    <string name="msgsavingtrimvideo">זמירה וידאו ... </string>
+
+    <string name="msgsavingconvaudio">המרת לאודיו ... </string>
+
+    <string name="trimmedvideosaved">וידאו זמירה הושלמה בהצלחה </string>
+
+    <string name="convertedaudiosaved">וידאו להמרה אודיו הושלמה בהצלחה </string>
+
+    <string name="ok">בסדר </string>
+
+    <string name="loadfailed">טעינה נכשלה </string>
+
+    <string name="loadfailedVideo">נכשל בטעות וידאו </string>
+
+    <string name="loadfailedAudio">נכשל לטעון אודיו </string>
+
+    <string name="trimingaudio">זמירה אודיו </string>
+
+    <string name="msgtrimmingAudio">זמירה אודיו ... </string>
+
+    <string name="trimmedAudiosucess">אודיו trimmed בהצלחה </string>
+
+    <string name="Loading">טעינת אודיו </string>
+
+    <string name="loadingmessage">טוען אודיו ... </string>
+    <string name="app_name">וידאו ל- MP3 ממיר </string>
+    <string name="start">הַתחָלָה </string>
+    <string name="ratiaonaleInstruction">אישור אחסון הוא חייב לאחסן את audios וקטעי וידאו באחסון. בחביבות לאפשר אישור זה מהגדרות של App </string>
+    <string name="allow">להתיר </string>
+    <string name="deny">לְהַכּחִישׁ </string>
+    <string name="importance">חֲשִׁיבוּת </string>
+    <string name="videocutter">וידאו cutter. </string>
+    <string name="audiocutter">אודיו חותך </string>
+    <string name="videotoaudio">וידאו לאודיו </string>
+    <string name="outputfolder">תיקיית פלט </string>
+    <string name="hintvideoname">וִידֵאוֹ </string>
+    <string name="covertedAudio">המרה אודיוס </string>
+    <string name="trimmedVideo">קטעי וידאו גזוז </string>
+    <string name="trimmedAudios">Audios trimmed </string>
+    <string name="trim">מְטוּפָּח </string>
+    <string name="lessthansec">פחות משנייה </string>
+    <string name="cancel">לְבַטֵל </string>
+    <string name="upload">העלה </string>
+    <string name="exit">יְצִיאָה </string>
+    <string name="exitmsg">האם אתה באמת רוצה לצאת? </string>
+    <string name="yes">כן </string>
+    <string name="no">לא </string>
+    <string name="allVideos">כל וידאו </string>
+    <string name="allAudios">כל אודיוס </string>
+    <string name="folder">תיקיות </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">תפוקות </string>
+    <string name="permissiontitle">נדרשת הרשאה! </string>
+    <string name="permissionMesssage">App דורש אישור אחסון לשמור AudiOS וסרטונים באחסון. בחביבות לאפשר אישור זה מהגדרות של App </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">מְלוּכלָך </string>
+
+    <string name="save">להציל </string>
+    <string name="Convert">להמיר </string>
+    <string name="Trim">חתוך וידאו </string>
+
+
+    <string name="hintSearch">לחפש... </string>
+    <string name="delete">לִמְחוֹק </string>
+    <string name="deletetxt">האם אתה באמת רוצה למחוק? </string>
+    <string name="settings">הגדרות </string>
+    <string name="selectLanguage">בחר שפה </string>
+    <string name="darkTheme">ערכת נושא כהה </string>
+    <string name="shareApp">שתף App. </string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.photo.recovery">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name="com.photo.recovery.utils.MyApplicationAAT"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RecycleBin">
+        <!--normal fb banner id 2-->
+        <activity
+            android:name="com.photo.recovery.activites.GeneralDocsAAT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.photo.recovery.activites.DocsActivityAAT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.photo.recovery.activites.GeneralChatsAAT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.photo.recovery.activites.GeneralProfileAAT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.photo.recovery.activites.ProfilesActivityAAT"
+            android:screenOrientation="portrait" />
+
+        <!--mediation fb id banner-->
+        <activity
+            android:name="com.photo.recovery.activites.GeneralMediaAAT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.photo.recovery.activites.MediaActivityAAT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.photo.recovery.activites.ShowImageAAT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.photo.recovery.activites.PlayAudioAAT"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.photo.recovery.activites.PlayVideoAAT" />
+
+        <activity
+            android:name="com.photo.recovery.activites.HomeScreenAAT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.photo.recovery.activites.MyIntroActivityAAT"
+            android:theme="@style/Theme.Intro" />
+        <activity
+            android:name="com.photo.recovery.activites.SplashScreenAAT"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <service
+            android:name="com.photo.recovery.service.MyNotificationListenerServiceAAT"
+            android:label="@string/notificationServiceLable"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.notification.default_filter_types"
+                android:value="1,2" />
+        </service>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.photo.recovery.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/appid" />
+
+    </application>
+
+</manifest>

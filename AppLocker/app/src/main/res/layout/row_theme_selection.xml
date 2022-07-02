@@ -1,0 +1,24 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/settings_row_card"
+    android:layout_width="@dimen/_90sdp"
+    android:layout_height="@dimen/_140sdp"
+    android:layout_margin="@dimen/_5sdp"
+    >
+
+    <ImageView
+        android:id="@+id/theme_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/selection_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/selection_overlay"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/theme_preview"
+        app:layout_constraintEnd_toEndOf="@id/theme_preview"
+        app:layout_constraintStart_toStartOf="@id/theme_preview"
+        app:layout_constraintTop_toTopOf="@id/theme_preview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

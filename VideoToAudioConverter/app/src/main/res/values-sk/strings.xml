@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+    <string name = "loadingVideo"> Načítava sa video ... </string>
+    <string name = "notAvailable"> Nedostupné </string>
+    <string name="videosaving">Ukladanie videa </string>
+    <string name="pleaseWait">Prosím čakajte... </string>
+
+    <string name="hintSettingTitle">Nastavenie titulu </string>
+
+    <string name="removeaudio">Odstráňte zvuk z videa </string>
+
+    <string name="addaudiotovideo">Pridajte zvuk na video </string>
+
+    <string name="createvideo">Vytvorte video z obrázkov </string>
+
+    <string name="removingAudio">Odstránenie zvuku z videa </string>
+
+    <string name="removedAudio">Zvuk bol úspešne odstránený </string>
+
+    <string name="audioRemoved">Zvuk odstránený </string>
+
+    <string name="removeAudioFolder">Zvukové odstránené videá </string>
+
+    <string name="audioaddedFolder">AUDIO Pridané do videa </string>
+
+    <string name="videoCreated">Vytvorené video z obrázkov </string>
+
+    <string name="audioName">Názov zvuku </string>
+
+    <string name="mixedVideoSaved">Nový zvuk pridaný do videa. </string>
+
+    <string name="mixingAudio">Pridanie zvuku do videa </string>
+
+    <string name="summingAudio">Opakujúce sa audios </string>
+
+    <string name="iteratingAudio">Opakovanie zvuku na video </string>
+
+    <string name="chaangeaudiovolume">Zmena hlasitosti zvuku </string>
+
+    <string name="chaangevideovolume">Zmena hlasitosti videa </string>
+
+    <string name="images">snímky </string>
+
+    <string name="allImages">Všetky obrázky </string>
+
+    <string name="addimagetocreate">Pridajte obrázky na vytvorenie </string>
+
+    <string name="videoFromImages">Video z obrázkov </string>
+
+    <string name="timeline">Časová os </string>
+
+    <string name="audio">Zvuk </string>
+
+    <string name="audioremove">Odstrániť zvuk </string>
+
+    <string name="addmusic">Pridať hudbu </string>
+
+    <string name="imagetovideo">Obrázok na video </string>
+
+    <string name="volumes">Objem </string>
+
+    <string name="system">Systém </string>
+
+    <string name="video">Video </string>
+
+    <string name="creatingVideo">Vytvorenie videa z obrázkov </string>
+
+    <string name="createdVideo">Nové video vytvorené z obrázkov </string>
+
+    <string name="videoCreatedFromImages">Videá vytvorené z obrázkov </string>
+
+    <string name="loadingplzwait">Načitáva sa, prosím čakajte... </string>
+
+    <string name="noAudio">Toto video nemá zvuk. </string>
+    <string name="audiosaving">Uloženie zvuku </string>
+
+    <string name="msgsavingtrimvideo">Orezanie videa ... </string>
+
+    <string name="msgsavingconvaudio">Prevod do zvuku ... </string>
+
+    <string name="trimmedvideosaved">Video orezávanie dokončené úspešne </string>
+
+    <string name="convertedaudiosaved">Video k audio konverzii dokončená úspešne </string>
+
+    <string name="ok">V poriadku </string>
+
+    <string name="loadfailed">Zaťaženie zlyhalo </string>
+
+    <string name="loadfailedVideo">Nepodarilo sa načítať video </string>
+
+    <string name="loadfailedAudio">Nepodarilo sa načítať zvuk </string>
+
+    <string name="trimingaudio">Orezávanie zvuku </string>
+
+    <string name="msgtrimmingAudio">Orezávanie zvuku ... </string>
+
+    <string name="trimmedAudiosucess">Audio úspešne zdobené </string>
+
+    <string name="Loading">Nakladanie zvuku </string>
+
+    <string name="loadingmessage">Načítavanie zvuku ... </string>
+    <string name="app_name">Video do MP3 Converter </string>
+    <string name="start">Spustiť </string>
+    <string name="ratiaonaleInstruction">Povolenie skladovania musí uložiť audios a videá v skladovaní. Láskavo umožnite toto povolenie od nastavení aplikácie </string>
+    <string name="allow">Povoliť </string>
+    <string name="deny">Poprieť </string>
+    <string name="importance">Význam </string>
+    <string name="videocutter">Video rezačka </string>
+    <string name="audiocutter">Audio rezač </string>
+    <string name="videotoaudio">Video na zvuk </string>
+    <string name="outputfolder">Výstupný priečinok </string>
+    <string name="hintvideoname">Video </string>
+    <string name="covertedAudio">Konvertované audios </string>
+    <string name="trimmedVideo">Orezané videá </string>
+    <string name="trimmedAudios">Orezané audios </string>
+    <string name="trim">Obloženie </string>
+    <string name="lessthansec">Menej ako druhý </string>
+    <string name="cancel">Zrušiť </string>
+    <string name="upload">Nahrať </string>
+    <string name="exit">Východ </string>
+    <string name="exitmsg">Naozaj chcete opustiť? </string>
+    <string name="yes">Áno </string>
+    <string name="no">Nie </string>
+    <string name="allVideos">Všetky videá </string>
+    <string name="allAudios">Všetky Audios </string>
+    <string name="folder">Priečinky </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">Výstupy </string>
+    <string name="permissiontitle">Povinné povolenie! </string>
+    <string name="permissionMesssage">App vyžaduje povolenie na ukladanie audios a videí v skladovaní. Láskavo umožnite toto povolenie od nastavení aplikácie </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">špinavý </string>
+
+    <string name="save">Uložiť </string>
+    <string name="Convert">Previesť </string>
+    <string name="Trim">Orezať video </string>
+
+
+    <string name="hintSearch">Vyhľadávanie... </string>
+    <string name="delete">Vymazať </string>
+    <string name="deletetxt">Naozaj chcete odstrániť? </string>
+    <string name="settings">nastavenie </string>
+    <string name="selectLanguage">Zvoľ jazyk </string>
+    <string name="darkTheme">Temná téma </string>
+    <string name="shareApp">Zdieľať </string>
+</resources>

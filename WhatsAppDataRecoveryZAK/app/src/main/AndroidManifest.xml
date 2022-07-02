@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.recovery.data.forwhatsapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+
+    <application
+
+        android:usesCleartextTraffic="true"
+        android:name="com.recovery.data.forwhatsapp.AppOKRA"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/WhatsAppDataRecoveryApp">
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityStatusMainOKRA"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivitySettingsOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityAudiosOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityVoiceNotesOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityDocumentsOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityStickersOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityGifsOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.Videos_ActivityOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityImagesOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityMessagesSingleOKRA"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityPlayAudioOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivitySplashScreenOKRA"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme.NoActionBar.">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityAllChatsProfilesOKRA"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.recovery.data.forwhatsapp.activities.MainActivityOKRA" >
+
+        </activity>
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivitySeeMoreImagesOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivitySeeMoreVideosOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityViewImageOKRA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.recovery.data.forwhatsapp.activities.ActivityViewVideoOKRA"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.recovery.data.forwhatsapp.MyNotificationListenerOKRA"
+            android:label="MyNotificationListener"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.notification.default_filter_types"
+                android:value="1,2"></meta-data>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.recovery.data.forwhatsapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+        <!-- Test app id ca-app-pub-3940256099942544~3347511713-->
+
+    </application>
+
+</manifest>

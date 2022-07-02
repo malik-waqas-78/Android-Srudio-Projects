@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#F486FC</color>
+    <color name="purple_500">#E600EE</color>
+    <color name="purple_700">#FF9A72F9</color>
+    <color name="teal_200">#E600EE</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="calenderandfilterstroke">#17295C</color>
+    <color name="appcolor">#DF57F3</color>
+
+    <color name="icremove">#040404</color>
+
+    <color name="audiocuttercolor">#ED6970</color>
+    <color name="videocuttercolor">#8569F9</color>
+    <color name="covertercolor">#FAA04D</color>
+    <color name="removeAudiocolor">#57D498</color>
+    <color name="addAudioColor">#39BCFD</color>
+    <color name="createVideocolor">#E067F9</color>
+
+    <color name="outputiconcolor">#1a1a1a</color>
+
+    <color name="outputfoldercolor">#39BCFD</color>
+    <color name="backfill">#7302CFFE</color>
+    <color name="transparentBlack">#4D000000</color>
+
+    <color name="colorBlue">#0e1f2f</color>
+    <color name="colorTextGray">#ADADAD</color>
+    <color name="colorBg">#3be3e3</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGridLine">#00ed1b24</color>
+    <color name="colorSelectionBorder">#9c41bc</color>
+    <color name="colorWaveformBg">#253571</color>
+    <color name="colorPlaybackIndicator">#b2253571</color>
+    <color name="colorTimeCode">#dd253571</color>
+    <color name="colorTimeCodeShadow">#aa253571</color>
+    <color name="waveformSelected">#adb5cc</color>
+    <color name="waveformUnselected">#adb5cc</color>
+    <color name="waveformUnselectedBackground">#e8e6e7</color>
+
+    <color name="textcolordark">#ffffff</color>
+    <color name="red">#FA392A</color>
+    <color name="appcolorpink">#C163F6</color>
+    <color name="gradientendcolor">#9A72F9</color>
+    <color name="gradientstartcolor">#DF57F3</color>
+    <color name="btnselectedcolor">#F0E5F1F7</color>
+
+
+    <color name="line_color">#DF57F3</color>
+    <color name="shadow_color">#FF000000</color>
+
+    <color name="TimeColorBack">#AF32C1</color>
+    <color name="editbgstrokevcolor">#000000</color>
+    <color name="linecolor">#000000</color>
+    <color name="VideoPlayerblack">#0E0E0E</color>
+    <color name="appcolorSetting">#DF57F3</color>
+    <color name="folderbackColor">#EFC929</color>
+    <color name="folderFrontColor">#EAA51B</color>
+    <color name="folderThirdColor">#F4B537</color>
+
+    <color name="musicIconColor">#4A017D</color>
+
+    <color name="wavebgcolor">#000000</color>
+    <color name="wavecolor">#ffffff</color>
+
+    <color name="musicPlayerg">#ffffff</color>
+    <color name="floatingButtonColor">#f2f2f2</color>
+    <color name="darkerGray">#919191</color>
+    <color name="transparentblackfifteen">#1E000000</color>
+</resources>

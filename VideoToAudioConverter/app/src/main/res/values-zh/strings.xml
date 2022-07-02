@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="loadingVideo">正在加载视频...</string>
+    <string name="notAvailable">不可用</string>
+    <string name="videosaving">保存视频 </string>
+    <string name="pleaseWait">请稍等... </string>
+
+    <string name="hintSettingTitle">设置标题 </string>
+
+    <string name="removeaudio">从视频中删除音频 </string>
+
+    <string name="addaudiotovideo">将音频添加到视频 </string>
+
+    <string name="createvideo">从图像创建视频 </string>
+
+    <string name="removingAudio">从视频中删除音频 </string>
+
+    <string name="removedAudio">录音成功删除了 </string>
+
+    <string name="audioRemoved">录制录音 </string>
+
+    <string name="removeAudioFolder">录音视频 </string>
+
+    <string name="audioaddedFolder">音频添加到视频 </string>
+
+    <string name="videoCreated">从图像创建视频 </string>
+
+    <string name="audioName">audio name </string>
+
+    <string name="mixedVideoSaved">新的音频添加到视频。 </string>
+
+    <string name="mixingAudio">将音频添加到视频 </string>
+
+    <string name="summingAudio">重复一个音频 </string>
+
+    <string name="iteratingAudio">重复音频到视频 </string>
+
+    <string name="chaangeaudiovolume">更改音频音量 </string>
+
+    <string name="chaangevideovolume">更改视频数量 </string>
+
+    <string name="images">图片 </string>
+
+    <string name="allImages">所有图像 </string>
+
+    <string name="addimagetocreate">添加图像以创建 </string>
+
+    <string name="videoFromImages">来自图像的视频 </string>
+
+    <string name="timeline">时间线 </string>
+
+    <string name="audio">声音的 </string>
+
+    <string name="audioremove">删除音频 </string>
+
+    <string name="addmusic">添加音乐 </string>
+
+    <string name="imagetovideo">图像到视频 </string>
+
+    <string name="volumes">卷 </string>
+
+    <string name="system">系统 </string>
+
+    <string name="video">视频 </string>
+
+    <string name="creatingVideo">从图像创建视频 </string>
+
+    <string name="createdVideo">从图像创建的新视频 </string>
+
+    <string name="videoCreatedFromImages">从图像创建的视频 </string>
+
+    <string name="loadingplzwait">加载请稍候... </string>
+
+    <string name="noAudio">此视频没有音频。 </string>
+    <string name="audiosaving">保存音频 </string>
+
+    <string name="msgsavingtrimvideo">修剪视频...... </string>
+
+    <string name="msgsavingconvaudio">转换为音频...... </string>
+
+    <string name="trimmedvideosaved">视频修剪成功完成 </string>
+
+    <string name="convertedaudiosaved">视频到音频转换成功完成 </string>
+
+    <string name="ok">好的 </string>
+
+    <string name="loadfailed">加载失败 </string>
+
+    <string name="loadfailedVideo">无法加载视频 </string>
+
+    <string name="loadfailedAudio">无法加载音频 </string>
+
+    <string name="trimingaudio">修剪音频 </string>
+
+    <string name="msgtrimmingAudio">修剪音频...... </string>
+
+    <string name="trimmedAudiosucess">音频成功修剪 </string>
+
+    <string name="Loading">加载音频 </string>
+
+    <string name="loadingmessage">加载音频...... </string>
+    <string name="app_name">视频到MP3转换器 </string>
+    <string name="start">开始 </string>
+    <string name="ratiaonaleInstruction">存储权限必须存储存储中的音频和视频。 请允许应用程序的设置权限 </string>
+    <string name="allow">允许 </string>
+    <string name="deny">否定 </string>
+    <string name="importance">重要性 </string>
+    <string name="videocutter">录像带 </string>
+    <string name="audiocutter">录音机 </string>
+    <string name="videotoaudio">视频到音频 </string>
+    <string name="outputfolder">导出目录 </string>
+    <string name="hintvideoname">视频 </string>
+    <string name="covertedAudio">转换了Audios. </string>
+    <string name="trimmedVideo">修剪视频 </string>
+    <string name="trimmedAudios">修剪的音频 </string>
+    <string name="trim">修剪 </string>
+    <string name="lessthansec">不到第二个 </string>
+    <string name="cancel">取消 </string>
+    <string name="upload">上传 </string>
+    <string name="exit">出口 </string>
+    <string name="exitmsg">你真的想退出吗？ </string>
+    <string name="yes">是的 </string>
+    <string name="no">不 </string>
+    <string name="allVideos">所有视频 </string>
+    <string name="allAudios">所有audios. </string>
+    <string name="folder">文件夹 </string>
+
+    <string name="privacy_text" translatable="false">Privacy Policy</string>
+    <string name="privacy_text1" translatable="false">These are the Terms of Service and Privacy Policy of This application. This application which provides you with Conversion of Videos to audios along with trimming of videos and audios. This privacy policy provides an overview about how we save users device by our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2" translatable="false">Our Privacy Commitment</string>
+    <string name="privacy_text3" translatable="false">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4" translatable="false">Information We Collect</string>
+    <string name="privacy_text5" translatable="false">Permissions in this Application are the Following</string>
+    <string name="privacy_text6" translatable="false">Read External Storage Permission \nWrite External Storage Permission </string>
+    <string name="privacy_text7" translatable="false">Changes to this Privacy Policy</string>
+    <string name="privacy_text8" translatable="false">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9" translatable="false">Third-party links</string>
+    <string name="privacy_text10" translatable="false">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11" translatable="false">Childrens Privacy</string>
+    <string name="privacy_text12" translatable="false">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13" translatable="false">Contact Us</string>
+    <string name="privacy_text14" translatable="false">If you have any questions about this Privacy Policy, please contact us:</string>
+
+    <string name="outputactivityname">输出 </string>
+    <string name="permissiontitle">需要许可！ </string>
+    <string name="permissionMesssage">应用程序需要存储允许在存储中保存Audios和Video。 请允许应用程序的设置权限 </string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">Urdu</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="serbian" translatable="false">Serbian</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="bengali" translatable="false">Bengali</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="indonesian" translatable="false">Indonesian</string>
+    <string name="italian" translatable="false">Italian</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="thai" translatable="false">Thai</string>
+    <string name="african" translatable="false">African</string>
+    <string name="armanian" translatable="false">Armanian</string>
+    <string name="azerbaijaan" translatable="false">Azerbaijaan</string>
+    <string name="balrusian" translatable="false">Balrusian</string>
+    <string name="bulgarian" translatable="false">Bulgarian</string>
+    <string name="krotian" translatable="false">Croatian</string>
+    <string name="dannish" translatable="false">Dannish</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="philipine" translatable="false">Philipine</string>
+    <string name="finissh" translatable="false">Fennish</string>
+    <string name="hibru" translatable="false">Hibru</string>
+    <string name="iceland" translatable="false">Ice Landic</string>
+    <string name="kzakistan" translatable="false">Kazakistani</string>
+    <string name="korean" translatable="false">korean</string>
+    <string name="malaysian" translatable="false">Malaysian</string>
+    <string name="norogwain" translatable="false">Norwagian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="slovak" translatable="false">Slovak</string>
+    <string name="swedish" translatable="false">Swedish</string>
+    <string name="uzbik" translatable="false">Uzbik</string>
+    <string name="vietnam" translatable="false">Vietnam</string>
+
+    <string name="short_seconds">肮脏的 </string>
+
+    <string name="save">节省 </string>
+    <string name="Convert">转变 </string>
+    <string name="Trim">修剪视频 </string>
+
+
+    <string name="hintSearch">搜索... </string>
+    <string name="delete">删除 </string>
+    <string name="deletetxt">你真的想删除吗？ </string>
+    <string name="settings">设置 </string>
+    <string name="selectLanguage">选择语言 </string>
+    <string name="darkTheme">黑暗主题 </string>
+    <string name="shareApp">分享应用程序 </string>
+</resources>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">What\'s Data Recovery</string>
+    <string name="splashTag">What\'s Data Recovery </string>
+    <string name="splashtag2">For Whatsapp</string>
+    <string name="notification_listener_service">WhatsApp data Recovery</string>
+
+    <string name="authority">com.recovery.data.forwhatsapp.fileprovider</string>
+    <string name="notification_listener_service_explanation">To Recover data app needs to have notificationListener service.
+        Kindly click yes to allow the service. </string>
+    <string name="removeservice">To Recover data app needs to have notificationListener service.
+        Are you sure you want to disallow it?. </string>
+    <string name="notification_text">Notification Listener Service is running!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="filesaved">File Saved</string>
+    <string name="file_deleted_text">File has been saved into your Device.</string>
+    <string name="title">Playing Audio File</string>
+    <string name="file_retrived">File Recovered</string>
+    <string name="file_text">Deleted file has been recovered.</string>
+    <string name="privacy_text">Privacy Policy</string>
+    <string name="privacy_text1">These are the Terms of Service and Privacy Policy of This application. This application which provides you with the WhatsApp Data Recovery. This privacy policy provides an overview about how we process personal data about users of our mobile applications we provide to you.We will not share your personal information anyone excepts as described in the privacy policy </string>
+    <string name="privacy_text2">Our Privacy Commitment</string>
+    <string name="privacy_text3">This application respects your right to privacy. Your ability to make informed choices about the use of your information is important to us. We collect several different types of information for various purposes to provide and improve our Services to you. </string>
+    <string name="privacy_text4">Information We Collect</string>
+    <string name="privacy_text5">Permissions in this Application are the Following</string>
+    <string name="privacy_text6">Write External Storage \nRead External Storage \nListen To Notifications</string>
+    <string name="privacy_text7">Changes to this Privacy Policy</string>
+    <string name="privacy_text8">We may change this privacy policy from time to time by posting the most current privacy policy and its effective date. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in this page.</string>
+    <string name="privacy_text9">Third-party links</string>
+    <string name="privacy_text10">We do not include or offer third-party products or services on our website.</string>
+    <string name="privacy_text11">Childrens Privacy</string>
+    <string name="privacy_text12">Our Service does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="privacy_text13">Contact Us</string>
+    <string name="privacy_text14">If you have any questions about this Privacy Policy, please feel free to contact us</string>
+
+
+    <string name="txt_bck_dialog_title">Did you like our app?</string>
+    <string name="txt_bck_dialog_msg">Kindly provide us with your valuable feedback</string>
+    <string name="txt_exit">Exit</string>
+    <string name="txt_rate_us">Rate us</string>
+    <string name="txt_no">No</string>
+    <string name="chattxt">Chats</string>
+    <string name="videotxt">Videos</string>
+    <string name="imagestxt">Images</string>
+    <string name="audiotxt">Audios</string>
+    <string name="stickertxt">Stickers</string>
+    <string name="gifstxt">Gifs</string>
+    <string name="voicenotetxt">Voice Notes</string>
+    <string name="documentstxt">Documents</string>
+    <string name="invitetxt">Invite Friends</string>
+    <string name="statustxt">Gifs</string>
+
+
+    <string name="wadr_main_folder_name">WhatsAppDataRecovery/</string>
+    <string name="wadr_audio_folder_name">WhatsApp Audio/</string>
+    <string name="wadr_voice_notes_folder_name">WhatsApp Audio/</string>
+    <string name="wadr_videos_folder_name">WhatsApp Audio/</string>
+    <string name="wadr_images_folder_name">WhatsApp Audio/</string>
+    <string name="wadr_stickers_folder_name">WhatsApp Audio/</string>
+    <string name="wadr_gifs_folder_name">WhatsApp Audio/</string>
+    <string name="wadr_documents_folder_name">WhatsApp Audio/</string>
+    <string name="wadr_status_folder_name">WhatsApp Audio/</string>
+
+    <dimen name="menu_btn_txt_size">@dimen/_10sdp</dimen>
+    <dimen name="menu_btn_icon_size">@dimen/_30sdp</dimen>
+    <dimen name="menu_btn_layout_size">@dimen/_30sdp</dimen>
+</resources>

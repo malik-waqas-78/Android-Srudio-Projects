@@ -1,4 +1,0 @@
-#Mon Aug 02 20:07:53 PKT 2021
-base.0=E\:\\Codesk\\Nisar\\HisaabBook\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

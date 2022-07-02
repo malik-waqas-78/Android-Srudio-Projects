@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name" translatable="false">Screen Mirroring</string>
+    <string name="privacy_policy">গোপনীয়তা নীতি </string>
+
+    <string name="privacy_text">গোপনীয়তা নীতি </string>
+    <string name="privacy_text1">এই এই অ্যাপ্লিকেশনের পরিষেবার পরিষেবার শর্তাবলী এবং গোপনীয়তা নীতি। এই অ্যাপ্লিকেশনটি আপনাকে স্ক্রীন কাস্টিং কার্যকারিতা সরবরাহ করে। এই গোপনীয়তা নীতিটি কীভাবে আমরা আমাদের ব্যবহারকারীদের ব্যক্তিগত তথ্য প্রক্রিয়া করি তার একটি সংক্ষিপ্ত বিবরণ প্রদান করে। আমরা এই গোপনীয়তা নীতিতে বর্ণিত ছাড়া অন্য কারো সাথে আপনার কোনও ব্যক্তিগত তথ্য ভাগ করব না। </string>
+    <string name="privacy_text2">আমাদের গোপনীয়তা প্রতিশ্রুতি </string>
+    <string name="privacy_text3">আমরা আপনার অধিকার এবং আপনার গোপনীয়তা সম্মান। আপনার তথ্য ব্যবহার সম্পর্কে জ্ঞাত বিকল্পগুলি আমাদের কাছে গুরুত্বপূর্ণ আমাদের কাছে গুরুত্বপূর্ণ। আমরা আপনাকে আরও উন্নত পরিষেবাগুলির জন্য বিভিন্ন উদ্দেশ্যে বিভিন্ন ধরণের তথ্য সংগ্রহ করি। </string>
+    <string name="privacy_text4">তথ্য আমরা সংগ্রহ </string>
+    <string name="privacy_text5">এই অ্যাপ্লিকেশন অনুমতি নিম্নলিখিত </string>
+    <string name="privacy_text6">• বহিরাগত স্টোরেজ লিখুন • বাহ্যিক স্টোরেজ পড়ুন </string>
+    <string name="privacy_text7">এই গোপনীয়তা নীতি পরিবর্তন </string>
+    <string name="privacy_text8">আমরা বেশিরভাগ বর্তমান গোপনীয়তা নীতি এবং তার কার্যকর তারিখ পোস্ট করে সময়-সময়ে এই গোপনীয়তা নীতিটি পরিবর্তন করতে পারি। যদি আমরা এই গোপনীয়তা নীতিটি উল্লেখযোগ্যভাবে পরিবর্তন করি, আমরা এই পৃষ্ঠায় স্পষ্ট বিজ্ঞপ্তি দ্বারা আপনার মনোযোগে এই ধরনের পরিবর্তন আনতে পারি। </string>
+    <string name="privacy_text9">তৃতীয় পক্ষের লিঙ্ক </string>
+    <string name="privacy_text10">আমরা আমাদের ওয়েবসাইটে তৃতীয় পক্ষের পণ্য বা সেবা অন্তর্ভুক্ত বা অফার না। </string>
+    <string name="privacy_text11">শিশু গোপনীয়তা </string>
+    <string name="privacy_text12">আমাদের সেবা 18 বছরের কম বয়সী কাউকে মোকাবেলা করে না। আমরা জানি না যে 18 বছরের কম বয়সী কারো কাছ থেকে কোনও ব্যক্তিগতভাবে সনাক্তকরণযোগ্য তথ্য সংগ্রহ করে না। আপনি যদি একজন পিতামাতা / অভিভাবক হন এবং আপনি সচেতন থাকেন যে আপনার সন্তানরা আমাদের ব্যক্তিগত তথ্য সরবরাহ করেছে, দয়া করে আমাদের সাথে যোগাযোগ করুন। আমরা যদি সচেতন থাকি যে আমরা পিতামাতার সম্মতি যাচাইয়ের মাধ্যমে শিশুদের কাছ থেকে ব্যক্তিগত তথ্য সংগ্রহ করেছি, আমরা আমাদের সার্ভার থেকে সেই তথ্যটি সরাতে পদক্ষেপ নেব। </string>
+    <string name="privacy_text13">যোগাযোগ করুন </string>
+    <string name="privacy_text14">এই গোপনীয়তা নীতি সম্পর্কে আপনার যদি কোন প্রশ্ন থাকে তবে দয়া করে আমাদের সাথে যোগাযোগ করুন। </string>
+    <string name="exit_dialog_desc">আপনি কি অ্যাপটি প্রস্থান করতে ভুলবেন না? </string>
+    <string name="yes">হ্যাঁ </string>
+    <string name="no">না </string>
+    <string name="location_dialog_title">অবস্থান অনুমতি </string>
+    <string name="location_dialog_desc">এই অ্যাপ্লিকেশনটি স্ক্রিন কাস্টিংয়ের জন্য কাছাকাছি ডিভাইসগুলি অনুসন্ধান করতে অবস্থান পরিষেবাগুলি ব্যবহার করার অনুমতি প্রয়োজন </string>
+    <string name="okay">ঠিক আছে </string>
+    <string name="casting">ঢালাই </string>
+    <string name="settings">সেটিংস </string>
+    <string name="images">ছবিগুলো </string>
+    <string name="videos">ভিডিও </string>
+    <string name="share">শেয়ার করুন </string>
+    <string name="help">ব্যবহারবিধি? </string>
+
+    <string name="initialText">আপনার বন্ধুদের এবং পরিবারের সাথে এই অবিশ্বাস্য অ্যাপ্লিকেশন শেয়ার করুন। </string>
+    <string name="share_subject">বন্ধুকে বলো </string>
+    <string name="device_not_supported">দুঃখিত, এই ডিভাইসটি সমর্থিত নয়। </string>
+    <string name="intro_slider_1_title">টিভি ও ফোন সংযোগ </string>
+    <string name="intro_slider_1_desc">স্ক্রীন কাস্টিং শুরু করতে আপনার ফোন এবং টিভিতে একই নেটওয়ার্কের সাথে যোগাযোগ করতে ভুলবেন না। </string>
+    <string name="intro_slider_2_title">আপনার পর্দা নিক্ষেপ </string>
+    <string name="intro_slider_2_desc">কাস্ট বোতামে ক্লিক করে আপনি কাস্টিংয়ের জন্য উপলব্ধ কাছাকাছি ডিভাইসগুলির একটি তালিকা পাবেন </string>
+    <string name="intro_slider_3_title">ডিভাইস নির্বাচন করুন </string>
+    <string name="intro_slider_3_desc">তালিকা থেকে আপনার ডিভাইসটি নির্বাচন করুন, স্ক্রীন কাস্টিং শুরু করুন এবং বড় পর্দায় উপভোগ করুন। </string>
+    <string name="connect_wifi">একটি বেতার নেটওয়ার্ক সংযোগ করুন </string>
+    <string name="language">ভাষা </string>
+    <string name="scanning">ডিভাইসের জন্য স্ক্যানিং </string>
+    <string name="waiting_text">সংযোগের জন্য অপেক্ষা করছে </string>
+    <string name="connect_wifi_text">ওয়াইফাই সংযোগ করুন </string>
+    <string name="enter_network_password">ওয়াইফাই পাসওয়ার্ড লিখুন </string>
+    <string name="connect">সংযোগ করুন </string>
+    <string name="english">ইংরেজি </string>
+    <string name="urdu">উর্দু </string>
+    <string name="arabic">আরবি </string>
+    <string name="chinese">চীনা </string>
+    <string name="serbian">সার্বিয়ান </string>
+    <string name="japanese">জাপানি </string>
+    <string name="turkish">তুর্কি </string>
+    <string name="bengali">বাংলা </string>
+    <string name="hindi">না। </string>
+    <string name="russian">রাশিয়ান </string>
+    <string name="indonesian">ইন্দোনেশিয়ান </string>
+    <string name="italian">ইতালীয় </string>
+    <string name="spanish">স্পেনীয় </string>
+    <string name="french">ফরাসি </string>
+    <string name="german">জার্মান </string>
+    <string name="portuguese">পর্তুগীজ </string>
+    <string name="thai">থাই </string>
+    <string name="allow">অনুমতি দিন </string>
+    <string name="deny">Deny. </string>
+    <string name="storage_permission_title">সংগ্রহস্থল অনুমতি প্রয়োজন </string>
+    <string name="storage_permission_desc">স্টোরেজ অনুমতি আপনার ডিভাইসে মিডিয়া ফাইলগুলি অ্যাক্সেস করতে হবে। </string>
+    <string name="storage_perm_denied_title">সংগ্রহস্থল অনুমতি অস্বীকার </string>
+    <string name="storage_perm_denied_desc">আপনি স্ক্রীন কাস্টিংয়ের জন্য আপনার মিডিয়া ফাইলগুলি অ্যাক্সেস করতে স্টোরেজ অনুমতি মঞ্জুর করতে হবে। </string>
+    <string name="grant_permissions">গ্রান্ট স্টোরেজ এক্সেস </string>
+    <string name="image_preview">চিত্র পূর্বরূপ </string>
+    <string name="error_message">ইমেজ প্রাকদর্শন ত্রুটি </string>
+    <string name="video_preview">ভিডিও প্রিভিউ </string>
+    <string name="feature_not_available">এই ভাষা ভবিষ্যতে আপডেট পাওয়া যাবে। </string>
+    <string name="start">শুরু করুন </string>
+    <string name="youtube">ইউটিউব </string>
+    <string name="view_all">View All</string>
+    <string name="ad_attribution">Ad</string>
+
+</resources>
